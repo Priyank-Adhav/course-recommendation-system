@@ -76,27 +76,39 @@ def get_questions(quiz_id):
     questions_list = [dict(q) for q in questions]
     return jsonify(questions_list)
 
-
 @quiz_service.route("/submit_answers", methods=["POST"])
 def submit_answers():
-    data = request.json
-    quiz_id = data.get("quiz_id")
-    answers = data.get("answers", {})  # {question_id: selected_option}
+    data = request.json or {}
 
-    if not quiz_id or not answers:
-        return jsonify({"error": "quiz_id and answers are required"}), 400
+    # Validate quiz_id
+    try:
+        quiz_id = int(data.get("quiz_id"))
+    except (TypeError, ValueError):
+        return jsonify({"error": "quiz_id must be an integer"}), 400
+
+    # Validate answers
+    answers = data.get("answers")
+    if not isinstance(answers, dict) or not answers:
+        return jsonify({"error": "answers must be a non-empty object"}), 400
+
+    # Get correct answers and guard None
+    correct_answers = models.get_correct_answers(quiz_id) or {}  # e.g. {question_id: "1"}
+    # Normalize to ints
+    try:
+        correct_answers = {int(qid): int(opt) for qid, opt in correct_answers.items()}
+    except Exception:
+        return jsonify({"error": "malformed correct answers in DB"}), 500
 
     score = 0
     total = 0
-    correct_answers = models.get_correct_answers(quiz_id)
-
-    for qid, user_ans in answers.items():
+    for qid_str, user_ans in answers.items():
+        try:
+            qid = int(qid_str)
+            user_opt = int(user_ans)
+        except (TypeError, ValueError):
+            continue
         total += 1
-        if correct_answers.get(int(qid)) == user_ans:
+        if correct_answers.get(qid) == user_opt:
             score += 1
 
-    return jsonify({
-        "score": score,
-        "total": total
-    }), 200
-
+    return jsonify({"score": score, "total": total}), 200
