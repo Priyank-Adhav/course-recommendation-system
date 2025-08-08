@@ -1,0 +1,67 @@
+# ==========================
+# Python / Flask backend
+# ==========================
+
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# SQLite database files (if generated locally)
+*.db
+*.sqlite3
+
+# Flask instance folder
+instance/
+
+# Test / coverage reports
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# ==========================
+# Node / React frontend
+# ==========================
+
+# Dependencies
+frontend/node_modules/
+
+# Production build
+frontend/build/
+frontend/dist/
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Local environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# ==========================
+# General OS / Editor files
+# ==========================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
