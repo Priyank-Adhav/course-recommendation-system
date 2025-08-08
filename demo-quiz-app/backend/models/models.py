@@ -76,4 +76,12 @@ def clear_all_data():
     conn.commit()
     conn.close()
 
-
+def get_correct_answers(quiz_id: int):
+    conn = get_db_connection()
+    rows = conn.execute(
+        "SELECT id, correct_option FROM questions WHERE quiz_id = ?",
+        (quiz_id,),
+    ).fetchall()
+    conn.close()
+    # assuming row access by column name; cast to int for consistent comparison
+    return {int(row["id"]): int(row["correct_option"])+1 for row in rows}
