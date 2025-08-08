@@ -75,3 +75,28 @@ def get_questions(quiz_id):
     questions = models.get_questions_for_quiz(quiz_id)
     questions_list = [dict(q) for q in questions]
     return jsonify(questions_list)
+
+
+@quiz_service.route("/submit_answers", methods=["POST"])
+def submit_answers():
+    data = request.json
+    quiz_id = data.get("quiz_id")
+    answers = data.get("answers", {})  # {question_id: selected_option}
+
+    if not quiz_id or not answers:
+        return jsonify({"error": "quiz_id and answers are required"}), 400
+
+    score = 0
+    total = 0
+    correct_answers = models.get_correct_answers(quiz_id)
+
+    for qid, user_ans in answers.items():
+        total += 1
+        if correct_answers.get(int(qid)) == user_ans:
+            score += 1
+
+    return jsonify({
+        "score": score,
+        "total": total
+    }), 200
+
