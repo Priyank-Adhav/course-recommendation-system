@@ -61,12 +61,19 @@ def get_scores_for_user(user_id):
     conn.close()
     return scores
 
-@staticmethod
 def clear_all_data():
     conn = get_db_connection()
     cursor = conn.cursor()
+
+    # Clear all quizzes and questions
     cursor.execute("DELETE FROM questions")
     cursor.execute("DELETE FROM quizzes")
+
+    # Reset auto-increment IDs for both tables
+    cursor.execute("DELETE FROM sqlite_sequence WHERE name='questions'")
+    cursor.execute("DELETE FROM sqlite_sequence WHERE name='quizzes'")
+
     conn.commit()
     conn.close()
+
 
