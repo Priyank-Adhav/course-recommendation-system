@@ -2,6 +2,9 @@
 from models import models
 
 def seed_quizzes():
+    # Safety: clear all existing quizzes before seeding
+    models.clear_all_data()  # Make sure your models.py has this implemented
+
     quizzes = [
         {
             "title": "Basic Math Quiz",
@@ -56,11 +59,9 @@ def seed_quizzes():
     ]
 
     for quiz in quizzes:
-        # Create quiz
         models.create_quiz(quiz["title"])
         quiz_id = models.get_all_quizzes()[-1]["id"]
 
-        # Add questions
         for q_text, options, correct in quiz["questions"]:
             models.add_question(
                 quiz_id,
@@ -69,7 +70,7 @@ def seed_quizzes():
                 correct
             )
 
-    print("✅ Seeding complete: 5 quizzes with 5 questions each.")
+    print("✅ Database cleared & reseeded: 5 quizzes with 5 questions each.")
 
 
 if __name__ == "__main__":
