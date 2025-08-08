@@ -60,3 +60,13 @@ def get_scores_for_user(user_id):
     scores = conn.execute("SELECT * FROM scores WHERE user_id = ?", (user_id,)).fetchall()
     conn.close()
     return scores
+
+@staticmethod
+def clear_all_data():
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("DELETE FROM questions")
+    cursor.execute("DELETE FROM quizzes")
+    conn.commit()
+    conn.close()
+
