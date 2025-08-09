@@ -9,35 +9,8 @@ import QuizList from './components/QuizList';
 import Quiz from './components/Quiz';
 import ResultsPage from './pages/ResultsPage';
 import UserResults from './pages/UserResults';
-
-// Navigation component
-function Navigation() {
-  return (
-    <nav className="main-nav">
-      <div className="nav-container">
-        <Link to="/" className="nav-brand">
-          <h2>🎓 QuizMaster</h2>
-        </Link>
-        <div className="nav-links">
-          <Link to="/" className="nav-link">Home</Link>
-          <Link to="/quizzes" className="nav-link">Quizzes</Link>
-          <Link to="/my-results" className="nav-link">My Results</Link>
-        </div>
-      </div>
-    </nav>
-  );
-}
-
-// Footer component
-function Footer() {
-  return (
-    <footer className="main-footer">
-      <div className="footer-container">
-        <p>&copy; 2025 QuizMaster. Built with React & Flask.</p>
-      </div>
-    </footer>
-  );
-}
+import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 
 function App() {
   return (
