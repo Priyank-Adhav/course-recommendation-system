@@ -2,13 +2,38 @@ from flask import Flask
 from flask_cors import CORS
 from routes.quiz_service import quiz_service
 from routes.user_service import user_service
+import database
 
-app = Flask(__name__)
-CORS(app)  # allow frontend to call backend from another port (e.g., React on 3000)
+def create_app():
+    app = Flask(__name__)
+    CORS(app)  # Enable CORS for all routes
+    
+    # Initialize database
+    database.init_db()
+    
+    # Register blueprint
+    app.register_blueprint(quiz_service)
+    app.register_blueprint(user_service)
+    
+    return app
 
-# Register blueprints
-app.register_blueprint(quiz_service, url_prefix="/quiz")
-app.register_blueprint(user_service, url_prefix="/user")
-
-if __name__ == "__main__":
-    app.run(debug=True)
+if __name__ == '__main__':
+    app = create_app()
+    print("🚀 Starting Flask Quiz Application...")
+    print("📍 Server running at: http://localhost:5000")
+    print("🔗 Available endpoints:")
+    print("   POST /users - Create user")
+    print("   POST /categories - Create category") 
+    print("   GET  /categories - List categories")
+    print("   POST /quizzes - Create quiz")
+    print("   GET  /quizzes - List quizzes")
+    print("   POST /questions - Add questions")
+    print("   GET  /questions/<quiz_id> - Get questions")
+    print("   POST /submit - Submit quiz answers")
+    print("   GET  /results/<user_id> - Get user results")
+    print("   GET  /result_details/<result_id> - Get result details")
+    print("   POST /clear_all - Clear all data")
+    print("\n💡 Run 'python seed_data.py' in another terminal to populate with test data")
+    print("=" * 60)
+    
+    app.run(debug=True, host='0.0.0.0', port=5000)
