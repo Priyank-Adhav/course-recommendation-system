@@ -6,11 +6,6 @@ export const fetchQuizzes = async () => {
     return res.json();
 };
 
-export const fetchQuestions = async (quizId) => {
-    const res = await fetch(`${API_BASE}/quiz/questions/${quizId}`);
-    return res.json();
-};
-
 export const submitAnswers = async (quizId, answers) => {
     const res = await fetch(`${API_BASE}/quiz/submit_answers`, {
         method: "POST",
