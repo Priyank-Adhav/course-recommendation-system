@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: quiz-backend
+    rootDir: demo-quiz-app/backend
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn "app:create_app()" --bind 0.0.0.0:$PORT
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DB_PATH
+        value: /var/data/quiz_system.db
+    disk:
+      name: data
+      mountPath: /var/data
+      sizeGB: 1
+
+  - type: static
+    name: quiz-frontend
+    rootDir: demo-quiz-app/frontend-vite
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_BASE
+        # set this after backend first deploy (e.g., https://quiz-backend.onrender.com)
+        value: https://YOUR-BACKEND-URL
