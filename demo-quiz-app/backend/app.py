@@ -29,24 +29,27 @@ def create_app():
     app.register_blueprint(user_service, url_prefix="/api")
     app.register_blueprint(auth_service, url_prefix="/api/auth")
 
-    @app.route('/')
-    def index():
-        print("Serving / -> index.html")
-        return send_from_directory(app.static_folder, 'index.html')
-
+    @app.route('/', defaults={'path': ''})
     @app.route('/<path:path>')
     def serve_frontend(path):
         print(f"Requested path: {path}")
-        if path.startswith('api/') or path.startswith('auth/'):
-            print("API or Auth path detected; returning 404")
+
+        # Exclude API routes
+        if path.startswith('api/'):
+            print("API path detected; returning 404")
             return "Not Found", 404
 
+        # Build full file path
         file_path = os.path.join(app.static_folder, path)
+
         print(f"Checking file path: {file_path}")
-        if os.path.exists(file_path):
+
+        # If path exists as a file, serve it
+        if path != "" and os.path.isfile(file_path):
             print(f"Serving file: {path}")
             return send_from_directory(app.static_folder, path)
 
+        # Otherwise, serve index.html (SPA fallback)
         print("Serving fallback index.html")
         return send_from_directory(app.static_folder, 'index.html')
 
