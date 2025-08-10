@@ -6,6 +6,8 @@ import QuizList from "@/pages/QuizList"
 import Quiz from "@/pages/Quiz"
 import ResultsPage from "@/pages/ResultsPage"
 import UserResults from "@/pages/UserResults"
+import Login from "@/pages/Login"
+import Register from "@/pages/Register"
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
             <Route path="/quiz/:quizId" element={<Quiz />} />
             <Route path="/results/:resultId" element={<ResultsPage />} />
             <Route path="/my-results" element={<UserResults />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
           </Routes>
         </main>
         <Footer />
