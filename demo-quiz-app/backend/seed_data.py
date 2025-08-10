@@ -1,11 +1,13 @@
 import requests
+import os
 import json
 import random
 import time
 from datetime import datetime
 
 # Base URL for your Flask application
-BASE_URL = "http://localhost:5000"  # Adjust this to match your Flask app's URL
+PORT = int(os.environ.get("PORT", "5000"))
+BASE_URL = f"http://localhost:{PORT}"
 
 def check_server():
     """Check if the Flask server is running"""
