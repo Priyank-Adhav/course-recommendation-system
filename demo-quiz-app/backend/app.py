@@ -9,7 +9,7 @@ from routes.auth_service import auth_service
 def create_app():
     app = Flask(
         __name__,
-        static_folder='../frontend-vite/dist',
+        static_folder='frontend-vite/dist',
         static_url_path=''
     )
 
