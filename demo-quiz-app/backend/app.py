@@ -7,12 +7,11 @@ from routes.auth_service import auth_service
 
 
 def create_app():
-    
     static_folder_path = os.path.join(os.path.dirname(__file__), 'frontend-vite', 'dist')
     print(f"Static folder path: {static_folder_path}")
     app = Flask(
         __name__,
-        static_folder='frontend-vite/dist',
+        static_folder=static_folder_path,
         static_url_path=''
     )
 
