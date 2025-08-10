@@ -106,6 +106,15 @@ def reset_db():
     init_db()
     print("🆕 Fresh database created")
 
+# add near init_db()
+def ensure_password_column():
+    conn = get_db_connection()
+    cols = [r["name"] for r in conn.execute("PRAGMA table_info(users)")]
+    if "password_hash" not in cols:
+        conn.execute("ALTER TABLE users ADD COLUMN password_hash TEXT")
+        conn.commit()
+    conn.close()
+
 if __name__ == '__main__':
     # Option to reset database
     import sys
