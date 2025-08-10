@@ -1,15 +1,30 @@
 from database import get_db_connection
+from werkzeug.security import generate_password_hash, check_password_hash
 
 # ---------------- Users ----------------
-def create_user(name, email):
+def get_user_by_id(user_id):
+    conn = get_db_connection()
+    cur = conn.cursor()
+    cur.execute("SELECT * FROM users WHERE id = ?", (user_id,))
+    user = cur.fetchone()
+    conn.close()
+    return user
+
+def create_user_secure(name, email, password):
     conn = get_db_connection()
     cur = conn.cursor()
     cur.execute("""
-        INSERT INTO users (name, email)
-        VALUES (?, ?)
-    """, (name, email))
+        INSERT INTO users (name, email, password_hash) VALUES (?, ?, ?)
+    """, (name, email, generate_password_hash(password)))
     conn.commit()
     conn.close()
+
+def verify_user_credentials(email, password):
+    user = get_user_by_email(email)
+    if not user:
+        return None
+    ok = check_password_hash(user["password_hash"], password) if user["password_hash"] else False
+    return user if ok else None
 
 def get_user_by_email(email):
     conn = get_db_connection()
@@ -139,6 +154,7 @@ def clear_all_data():
     cursor.execute("DELETE FROM questions")
     cursor.execute("DELETE FROM quizzes")
     cursor.execute("DELETE FROM categories")
+    cursor.execute("DELETE FROM users")  # add this
     cursor.execute("DELETE FROM sqlite_sequence")
     conn.commit()
     conn.close()
