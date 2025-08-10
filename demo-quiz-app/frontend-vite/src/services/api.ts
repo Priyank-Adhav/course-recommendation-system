@@ -1,4 +1,5 @@
 const API_BASE = import.meta.env.VITE_API_BASE ?? "http://localhost:5000"
+import { authHeader, getUser } from "./auth"
 
 async function handleResponse<T>(res: Response): Promise<T> {
   if (!res.ok) {
@@ -68,23 +69,25 @@ export async function getQuestions(quizId: number | string): Promise<Question[]>
 // Submit
 export async function submitAnswers(opts: {
   quizId: number | string
-  userId: number
   answers: Record<number, number>
   times?: Record<number, number>
   timeTotal?: number
-}): Promise<SubmitResult> {
+}) {
+  const user = getUser()
+  if (!user) throw new Error("Not authenticated")
   const res = await fetch(`${API_BASE}/submit`, {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: { "Content-Type": "application/json", ...authHeader() },
     body: JSON.stringify({
       quiz_id: Number(opts.quizId),
-      user_id: Number(opts.userId),
+      user_id: user.id,
       answers: opts.answers,
       times: opts.times ?? {},
       time_taken: opts.timeTotal ?? 0,
     }),
   })
-  return handleResponse(res)
+  if (!res.ok) throw new Error((await res.json()).error || `HTTP ${res.status}`)
+  return res.json()
 }
 
 // Results
@@ -93,7 +96,11 @@ export async function getResultDetails(resultId: number | string): Promise<Resul
   return handleResponse(res)
 }
 
-export async function getUserResults(userId: number | string): Promise<UserResultSummary[]> {
-  const res = await fetch(`${API_BASE}/results/${userId}`)
-  return handleResponse(res)
+export async function getUserResults(userId?: number | string) {
+  const user = getUser()
+  const id = userId ?? user?.id
+  if (!id) throw new Error("Not authenticated")
+  const res = await fetch(`${API_BASE}/results/${id}`, { headers: { ...authHeader() } })
+  if (!res.ok) throw new Error((await res.json()).error || `HTTP ${res.status}`)
+  return res.json()
 }
