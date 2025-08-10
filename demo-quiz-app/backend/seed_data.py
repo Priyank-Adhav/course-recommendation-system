@@ -45,9 +45,8 @@ def seed_data():
             print("⚠️ Warning: Could not clear existing data")
     except requests.exceptions.RequestException as e:
         print(f"⚠️ Warning: Could not connect to clear data: {e}")
-    
-    # 1. Create Users
-    print("\n👥 Creating users...")
+
+    # Users (students + teachers)# Users (students + teachers)
     users_data = [
         {"name": "Alice Johnson", "email": "alice.johnson@email.com"},
         {"name": "Bob Smith", "email": "bob.smith@email.com"},
@@ -65,18 +64,45 @@ def seed_data():
         {"name": "Ms. Jennifer White", "email": "jennifer.white@school.edu"},
     ]
     
-    for user in users_data:
+# 1. Create Users (via /auth/register)
+    print("\n👥 Registering users...")
+    uids: dict[str, int] = {}
+
+    def register_user(name: str, email: str, password: str = "password123") -> int | None:
         try:
-            response = requests.post(f"{BASE_URL}/users", json=user, timeout=10)
-            if response.status_code == 201:
-                print(f"✅ Created user: {user['name']}")
+            r = requests.post(f"{BASE_URL}/auth/register",
+                            json={"name": name, "email": email, "password": password},
+                            timeout=10)
+            if r.status_code in (200, 201):
+                data = r.json()
+                print(f"✅ Registered user: {name}")
+                return int(data["user"]["id"])
             else:
-                print(f"❌ Failed to create user: {user['name']} - Status: {response.status_code}")
-                if response.text:
-                    print(f"   Response: {response.text}")
+                print(f"❌ Failed to register {name}: {r.status_code} {r.text}")
+                return None
         except requests.exceptions.RequestException as e:
-            print(f"❌ Error creating user {user['name']}: {e}")
-            return False
+            print(f"❌ Error registering {name}: {e}")
+            return None
+
+    for user in users_data:
+        uid = register_user(user["name"], user["email"])
+        if uid:
+            uids[user["email"]] = uid
+
+    print(f"👥 Total registered: {len(uids)}")
+
+    # Teacher IDs (from registered users)
+    T_SARAH = uids.get("sarah.martinez@school.edu")
+    T_MICHAEL = uids.get("michael.thompson@school.edu")
+    T_JENNIFER = uids.get("jennifer.white@school.edu")
+
+    # Convenience user IDs for sample results
+    U_ALICE = uids.get("alice.johnson@email.com")
+    U_BOB = uids.get("bob.smith@email.com")
+    U_CAROL = uids.get("carol.davis@email.com")
+    U_DAVID = uids.get("david.wilson@email.com")
+    U_EMMA = uids.get("emma.brown@email.com")
+    U_FRANK = uids.get("frank.miller@email.com")
     
     # 2. Create Categories
     print("\n📚 Creating categories...")
@@ -145,7 +171,7 @@ def seed_data():
             "question_text": "What is the value of x in the equation: 2x + 5 = 15?",
             "options": ["5", "7", "10", "3"],
             "correct_option": 0,
-            "teacher_id": 11,
+            "teacher_id": T_SARAH,
             "label_id": "ALG001",
             "unique_id": "Q001"
         },
@@ -154,7 +180,7 @@ def seed_data():
             "question_text": "Simplify: 3x + 2x - 4x",
             "options": ["x", "5x", "9x", "-x"],
             "correct_option": 0,
-            "teacher_id": 11,
+            "teacher_id": T_SARAH,
             "label_id": "ALG002",
             "unique_id": "Q002"
         },
@@ -163,7 +189,7 @@ def seed_data():
             "question_text": "If y = 2x + 3, what is y when x = 4?",
             "options": ["11", "9", "8", "10"],
             "correct_option": 0,
-            "teacher_id": 11,
+            "teacher_id": T_SARAH,
             "label_id": "ALG003",
             "unique_id": "Q003"
         },
@@ -174,7 +200,7 @@ def seed_data():
             "question_text": "What is the area of a rectangle with length 8 and width 5?",
             "options": ["40", "26", "13", "32"],
             "correct_option": 0,
-            "teacher_id": 11,
+            "teacher_id": T_SARAH,
             "label_id": "GEO001",
             "unique_id": "Q004"
         },
@@ -183,7 +209,7 @@ def seed_data():
             "question_text": "How many degrees are in a triangle?",
             "options": ["180", "90", "360", "270"],
             "correct_option": 0,
-            "teacher_id": 11,
+            "teacher_id": T_SARAH,
             "label_id": "GEO002",
             "unique_id": "Q005"
         },
@@ -194,7 +220,7 @@ def seed_data():
             "question_text": "What is the chemical symbol for water?",
             "options": ["H2O", "CO2", "NaCl", "O2"],
             "correct_option": 0,
-            "teacher_id": 12,
+            "teacher_id": T_MICHAEL,
             "label_id": "CHEM001",
             "unique_id": "Q006"
         },
@@ -203,7 +229,7 @@ def seed_data():
             "question_text": "What is the atomic number of carbon?",
             "options": ["6", "12", "8", "14"],
             "correct_option": 0,
-            "teacher_id": 12,
+            "teacher_id": T_MICHAEL,
             "label_id": "CHEM002",
             "unique_id": "Q007"
         },
@@ -212,7 +238,7 @@ def seed_data():
             "question_text": "Which gas makes up approximately 78% of Earth's atmosphere?",
             "options": ["Nitrogen", "Oxygen", "Carbon Dioxide", "Argon"],
             "correct_option": 0,
-            "teacher_id": 12,
+            "teacher_id": T_MICHAEL,
             "label_id": "CHEM003",
             "unique_id": "Q008"
         },
@@ -223,7 +249,7 @@ def seed_data():
             "question_text": "What is the symbol for gold?",
             "options": ["Au", "Ag", "Go", "Gd"],
             "correct_option": 0,
-            "teacher_id": 12,
+            "teacher_id": T_MICHAEL,
             "label_id": "CHEM004",
             "unique_id": "Q009"
         },
@@ -232,7 +258,7 @@ def seed_data():
             "question_text": "Which element has the atomic number 1?",
             "options": ["Hydrogen", "Helium", "Lithium", "Carbon"],
             "correct_option": 0,
-            "teacher_id": 12,
+            "teacher_id": T_MICHAEL,
             "label_id": "CHEM005",
             "unique_id": "Q010"
         },
@@ -243,7 +269,7 @@ def seed_data():
             "question_text": "In which year did World War II end?",
             "options": ["1945", "1944", "1946", "1943"],
             "correct_option": 0,
-            "teacher_id": 13,
+            "teacher_id": T_JENNIFER,
             "label_id": "HIST001",
             "unique_id": "Q011"
         },
@@ -252,7 +278,7 @@ def seed_data():
             "question_text": "Which event brought the United States into World War II?",
             "options": ["Pearl Harbor attack", "D-Day invasion", "Battle of Britain", "Fall of France"],
             "correct_option": 0,
-            "teacher_id": 13,
+            "teacher_id": T_JENNIFER,
             "label_id": "HIST002",
             "unique_id": "Q012"
         },
@@ -263,7 +289,7 @@ def seed_data():
             "question_text": "Which of the following is used to define a function in Python?",
             "options": ["def", "function", "func", "define"],
             "correct_option": 0,
-            "teacher_id": 11,
+            "teacher_id": T_SARAH,
             "label_id": "PROG001",
             "unique_id": "Q013"
         },
@@ -272,7 +298,7 @@ def seed_data():
             "question_text": "What is the output of: print(2 ** 3)?",
             "options": ["8", "6", "9", "23"],
             "correct_option": 0,
-            "teacher_id": 11,
+            "teacher_id": T_SARAH,
             "label_id": "PROG002",
             "unique_id": "Q014"
         },
@@ -281,7 +307,7 @@ def seed_data():
             "question_text": "Which data type is used to store text in Python?",
             "options": ["str", "string", "text", "char"],
             "correct_option": 0,
-            "teacher_id": 11,
+            "teacher_id": T_SARAH,
             "label_id": "PROG003",
             "unique_id": "Q015"
         },
@@ -292,7 +318,7 @@ def seed_data():
             "question_text": "What is a class in object-oriented programming?",
             "options": ["A blueprint for creating objects", "A type of loop", "A conditional statement", "A variable type"],
             "correct_option": 0,
-            "teacher_id": 11,
+            "teacher_id": T_SARAH,
             "label_id": "PROG004",
             "unique_id": "Q016"
         },
@@ -301,7 +327,7 @@ def seed_data():
             "question_text": "What is inheritance in OOP?",
             "options": ["A class can inherit properties from another class", "A way to hide data", "A type of polymorphism", "A method to create objects"],
             "correct_option": 0,
-            "teacher_id": 11,
+            "teacher_id": T_SARAH,
             "label_id": "PROG005",
             "unique_id": "Q017"
         },
@@ -312,7 +338,7 @@ def seed_data():
             "question_text": "What is the powerhouse of the cell?",
             "options": ["Mitochondria", "Nucleus", "Ribosome", "Chloroplast"],
             "correct_option": 0,
-            "teacher_id": 12,
+            "teacher_id": T_MICHAEL,
             "label_id": "BIO001",
             "unique_id": "Q018"
         },
@@ -321,7 +347,7 @@ def seed_data():
             "question_text": "What contains the genetic material of a cell?",
             "options": ["Nucleus", "Cytoplasm", "Cell membrane", "Vacuole"],
             "correct_option": 0,
-            "teacher_id": 12,
+            "teacher_id": T_MICHAEL,
             "label_id": "BIO002",
             "unique_id": "Q019"
         },
@@ -332,7 +358,7 @@ def seed_data():
             "question_text": "What is the acceleration due to gravity on Earth?",
             "options": ["9.8 m/s²", "10 m/s²", "9.6 m/s²", "8.9 m/s²"],
             "correct_option": 0,
-            "teacher_id": 12,
+            "teacher_id": T_MICHAEL,
             "label_id": "PHYS001",
             "unique_id": "Q020"
         },
@@ -341,7 +367,7 @@ def seed_data():
             "question_text": "What is the unit of force?",
             "options": ["Newton", "Joule", "Watt", "Pascal"],
             "correct_option": 0,
-            "teacher_id": 12,
+            "teacher_id": T_MICHAEL,
             "label_id": "PHYS002",
             "unique_id": "Q021"
         },
@@ -365,7 +391,7 @@ def seed_data():
         # Alice takes Basic Algebra quiz
         {
             "quiz_id": 1,
-            "user_id": 1,
+            "user_id": U_ALICE,
             "answers": {"1": 0, "2": 0, "3": 0},  # All correct
             "times": {"1": 45, "2": 30, "3": 25},
             "time_taken": 100
@@ -373,7 +399,7 @@ def seed_data():
         # Bob takes Basic Algebra quiz
         {
             "quiz_id": 1,
-            "user_id": 2,
+            "user_id": U_BOB,
             "answers": {"1": 0, "2": 1, "3": 0},  # 2 out of 3 correct
             "times": {"1": 60, "2": 40, "3": 35},
             "time_taken": 135
@@ -381,7 +407,7 @@ def seed_data():
         # Carol takes Chemistry quiz
         {
             "quiz_id": 3,
-            "user_id": 3,
+            "user_id": U_CAROL,
             "answers": {"6": 0, "7": 0, "8": 0},  # All correct
             "times": {"6": 30, "7": 25, "8": 40},
             "time_taken": 95
@@ -389,7 +415,7 @@ def seed_data():
         # David takes Python Basics quiz
         {
             "quiz_id": 7,
-            "user_id": 4,
+            "user_id": U_DAVID,
             "answers": {"13": 0, "14": 0, "15": 0},  # All correct
             "times": {"13": 20, "14": 15, "15": 25},
             "time_taken": 60
@@ -397,7 +423,7 @@ def seed_data():
         # Emma takes Geometry quiz
         {
             "quiz_id": 2,
-            "user_id": 5,
+            "user_id": U_EMMA,
             "answers": {"4": 0, "5": 0},  # All correct
             "times": {"4": 35, "5": 20},
             "time_taken": 55
@@ -405,7 +431,7 @@ def seed_data():
         # Frank takes Chemistry quiz with some wrong answers
         {
             "quiz_id": 3,
-            "user_id": 6,
+            "user_id": U_FRANK,
             "answers": {"6": 0, "7": 1, "8": 0},  # 2 out of 3 correct
             "times": {"6": 25, "7": 45, "8": 30},
             "time_taken": 100
