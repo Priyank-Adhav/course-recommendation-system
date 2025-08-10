@@ -25,41 +25,50 @@ def create_app():
     except Exception:
         pass
 
+    # Register API blueprints FIRST
     app.register_blueprint(quiz_service, url_prefix="/api")
     app.register_blueprint(user_service, url_prefix="/api")
     app.register_blueprint(auth_service, url_prefix="/api/auth")
 
-    @app.route('/', defaults={'path': ''})
-    @app.route('/<path:path>')
-    def serve_frontend(path):
-        print(f"Requested path: {path}")
-
-        # Exclude API routes
-        if path.startswith('api/'):
-            print("API path detected; returning 404")
-            return "Not Found", 404
-
-        # Build full file path
-        file_path = os.path.join(app.static_folder, path)
-
-        print(f"Checking file path: {file_path}")
-
-        # If path exists as a file, serve it
-        if path != "" and os.path.isfile(file_path):
-            print(f"Serving file: {path}")
-            return send_from_directory(app.static_folder, path)
-
-        # Otherwise, serve index.html (SPA fallback)
-        print("Serving fallback index.html")
-        return send_from_directory(app.static_folder, 'index.html')
-
     @app.get("/health")
     def health():
         return jsonify({"ok": True})
+
+    # SPA 404 handler - this is the key fix!
+    @app.errorhandler(404)
+    def not_found(e):
+        """
+        Handle 404 errors by serving the React app's index.html for SPA routing
+        This allows client-side routing to work properly on page refresh
+        """
+        print(f"404 handler triggered for: {e}")
+        return send_from_directory(app.static_folder, 'index.html')
+
+    # Optional: Catch-all route (you can remove this since we have the 404 handler)
+    @app.route('/', defaults={'path': ''})
+    @app.route('/<path:path>')
+    def serve_frontend(path):
+        print(f"Catch-all route - Requested path: {path}")
+
+        # API routes should never reach here due to blueprints
+        if path.startswith('api/'):
+            print("API path in catch-all; this shouldn't happen")
+            return jsonify({"error": "API endpoint not found"}), 404
+
+        # Try to serve static files first
+        if path:
+            file_path = os.path.join(app.static_folder, path)
+            if os.path.isfile(file_path):
+                print(f"Serving static file: {path}")
+                return send_from_directory(app.static_folder, path)
+
+        # Fallback to index.html for SPA routes
+        print("Serving index.html from catch-all")
+        return send_from_directory(app.static_folder, 'index.html')
 
     return app
 
 
 if __name__ == "__main__":
     app = create_app()
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", "5000")))
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", "5000")), debug=True)
