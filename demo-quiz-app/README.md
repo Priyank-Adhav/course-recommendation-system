@@ -1,203 +1,187 @@
-## Demo Quiz App
+# 🎯 **Demo Quiz App**  
 
-A modern quiz platform with a Flask + SQLite backend and a Vite + React + TypeScript frontend using Tailwind CSS and shadcn/ui. Dark mode, polished UI, and one-command startup.
-
-### Badges
-- **Frontend**: React 19 · TypeScript · Vite · Tailwind 3 · shadcn/ui · Radix · Lucide
-- **Backend**: Flask · SQLite
-- **Dev**: Node 18+ · Python 3.10+
+A sleek, modern quiz platform with a **Flask + SQLite** backend and a **Vite + React + TypeScript** frontend, styled using **Tailwind CSS** and **shadcn/ui**.  
+Includes **Dark Mode**, a **polished UI**, and a **one-command startup** for instant development.
 
 ---
 
-## Table of Contents
-- [Highlights](#highlights)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Quick Start](#quick-start)
-- [Environment](#environment)
-- [API Overview](#api-overview)
-- [Frontend Details](#frontend-details)
-- [Development Scripts](#development-scripts)
-- [Seeding](#seeding)
-- [Troubleshooting](#troubleshooting)
-- [Screenshots](#screenshots)
-- [Roadmap](#roadmap)
-- [License](#license)
+## 🏅 **Badges**
+**Frontend:** React 19 · TypeScript · Vite · Tailwind 3 · shadcn/ui · Radix · Lucide  
+**Backend:** Flask · SQLite  
+**Dev:** Node 18+ · Python 3.10+
 
 ---
 
-### Highlights
-- **Clean UX**: gradient hero, card grid, filters/search/sort, sticky progress, review & submit dialogs
-- **Dark mode**: class-based theme; accessible focus states
-- **One command**: start frontend + backend and auto-seed on first run
-
-### Tech Stack
-- **Frontend**: React 19, TypeScript, Vite, Tailwind CSS 3, shadcn/ui (Radix), Lucide icons
-- **Backend**: Flask (Python 3), SQLite (file DB)
-- **Misc**: CORS enabled, simple local storage for demo user
+## 📜 **Table of Contents**
+1. [✨ Highlights](#-highlights)
+2. [🛠 Tech Stack](#-tech-stack)
+3. [📂 Project Structure](#-project-structure)
+4. [⚡ Quick Start](#-quick-start)
+5. [🌍 Environment](#-environment)
+6. [📡 API Overview](#-api-overview)
+7. [🎨 Frontend Details](#-frontend-details)
+8. [📜 Development Scripts](#-development-scripts)
+9. [🌱 Seeding](#-seeding)
+10. [🐞 Troubleshooting](#-troubleshooting)
 
 ---
 
-## Project Structure
+## ✨ **Highlights**
+- 🎯 **Clean UX** — Gradient hero, card grid, filters/search/sort, sticky progress bar, review & submit dialogs  
+- 🌙 **Dark Mode** — Class-based theme with accessible focus states  
+- 🚀 **One-Command Dev** — Start both frontend & backend and auto-seed DB on first run  
+
+---
+
+## 🛠 **Tech Stack**
+- **Frontend:** React 19, TypeScript, Vite, Tailwind CSS 3, shadcn/ui (Radix), Lucide icons  
+- **Backend:** Flask (Python 3), SQLite (file-based DB)  
+- **Misc:** CORS enabled, LocalStorage for demo user  
+
+---
+
+## 📂 **Project Structure**
 ```
 demo-quiz-app/
-├── backend/                      # Flask API + SQLite
-│   ├── app.py                    # Entry point
-│   ├── database.py               # DB init (SQLite file)
-│   ├── routes/                   # API routes
-│   │   ├── quiz_service.py
-│   │   └── user_service.py
-│   ├── models/
-│   │   └── models.py
-│   ├── seed_data.py              # Seed script (first run)
-│   ├── requirements.txt
-│   └── tests/
-│       ├── test_quiz.py
-│       └── test_user.py
-├── frontend/                     # Legacy CRA (kept for reference)
-├── frontend-vite/                # New Vite + React + TS frontend
-│   ├── src/
-│   │   ├── components/
-│   │   │   └── ui/               # shadcn-style primitives
-│   │   ├── pages/
-│   │   ├── services/
-│   │   └── lib/
-│   │       └── utils.ts
-│   ├── index.html
+├── backend/                  # Flask API + SQLite
+│   ├── app.py                 # Entry point
+│   ├── database.py            # DB initialization
+│   ├── routes/                # API routes
+│   ├── models/                # ORM models
+│   ├── seed_data.py           # DB seeding script
+│   └── tests/                 # Unit tests
+├── frontend/                  # Legacy CRA (reference only)
+├── frontend-vite/             # New Vite + React + TS frontend
+│   ├── src/                   # Components, pages, services
 │   ├── vite.config.ts
 │   ├── tailwind.config.js
 │   └── postcss.config.js
-├── dev.sh                        # Linux/macOS: start backend+frontend, auto-seed first run
-├── .gitignore
-└── README.md                     # This file
+├── dev.sh                     # Start both servers, auto-seed
+└── README.md                  # Documentation
 ```
+
 ---
 
-## Quick Start
+## ⚡ **Quick Start**
 
-### Prerequisites
-- Python 3.10+
-- Node.js 18+
+### **Prerequisites**
+- Python **3.10+**
+- Node.js **18+**
 - npm
 
-### Option A — One command (recommended)
-- Linux/macOS:
-  - Make executable once:
-    - `chmod +x ./dev.sh`
-  - Start both servers:
-    - `./dev.sh`
-  - First run auto-seeds via `backend/seed_data.py`
-- Windows (PowerShell):
-  - Create `dev.ps1` (see snippet in Troubleshooting if needed)
-  - Run:
-    - `.\dev.ps1`
+**Option A — One Command (Recommended)**  
+```bash
+chmod +x ./dev.sh
+./dev.sh
+```
+- **Frontend:** http://localhost:5173  
+- **Backend:** http://localhost:5000  
 
-- Frontend: `http://localhost:5173`
-- Backend:  `http://localhost:5000`
-
-### Option B — Manual
-
-- Backend
-  - Create venv and install:
-    - `cd backend`
-    - `python3 -m venv .venv`
-    - `source .venv/bin/activate` (Windows: `.\.venv\Scripts\activate`)
-    - `pip install -r requirements.txt`
-  - Seed (first time):
-    - `python seed_data.py`
-  - Run:
-    - `python app.py`
-
-- Frontend (Vite)
-  - `cd ../frontend-vite`
-  - `npm install`
-  - optional: `echo "VITE_API_BASE=http://localhost:5000" > .env`
-  - `npm run dev`
+**Option B — Manual Setup**  
+_Backend:_  
+```bash
+cd backend
+python3 -m venv .venv
+source .venv/bin/activate   # Windows: .\.venv\Scripts\activate
+pip install -r requirements.txt
+python seed_data.py
+python app.py
+```
+_Frontend:_  
+```bash
+cd ../frontend-vite
+npm install
+echo "VITE_API_BASE=http://localhost:5000" > .env
+npm run dev
+```
 
 ---
 
-## Environment
-- Frontend (`frontend-vite/.env`)
-  - **VITE_API_BASE**: Flask API base URL
-    ```
-    VITE_API_BASE=http://localhost:5000
-    ```
-- Backend
-  - SQLite DB: `backend/quiz_system.db` (configured in `backend/database.py`)
+## 🌍 **Environment Variables**
+**Frontend (`frontend-vite/.env`)**  
+```
+VITE_API_BASE=http://localhost:5000
+```
+**Backend:**  
+- SQLite DB Path: `backend/quiz_system.db` (configured in `database.py`)
 
 ---
 
-## API Overview
-Base URL: `http://localhost:5000`
+## 📡 **API Overview**
+**Base URL:** `http://localhost:5000`  
 
-- **Users**
-  - POST `/register` — Register user
-  - POST `/users` — Create user (simple)
-- **Categories**
-  - GET `/categories` — List
-  - POST `/categories` — Create
-- **Quizzes**
-  - GET `/quizzes` — List
-  - POST `/quizzes` — Create
-- **Questions**
-  - GET `/questions/:quiz_id` — Get questions
-  - POST `/questions` — Add (single or array)
-- **Submit/Results**
-  - POST `/submit` — Submit answers
-  - GET `/results/:user_id` — User results
-  - GET `/result_details/:result_id` — Per-question details
-- **Utility**
-  - POST `/clear_all` — Clear all data (danger)
-
-Response shapes align with `frontend-vite/src/services/api.ts`.
-
----
-
-## Frontend Details
-- **Styling**: Tailwind utilities + shadcn/ui primitives in `src/components/ui/`
-- **Brand**: cyan–blue palette via CSS variables in `src/index.css`
-- **Dark mode**: toggles `dark` class on `<html>`
-- **Pages**:
-  - Home: aurora gradient hero, stats, highlights, steps
-  - Quiz List: search, category chips with counts, sort, animated cards
-  - Quiz: sticky progress, “radio cards”, review panel, submit dialog, keyboard shortcuts (←/→, 1–4)
-  - Results: score hero (color tiers), detailed breakdown with badges
-  - My Results: summary cards, recent results with score chips
+**Endpoints:**  
+- **Users:**  
+  - `POST /register` — Register user  
+  - `POST /users` — Create user  
+- **Categories:**  
+  - `GET /categories` — List  
+  - `POST /categories` — Create  
+- **Quizzes:**  
+  - `GET /quizzes` — List  
+  - `POST /quizzes` — Create  
+- **Questions:**  
+  - `GET /questions/:quiz_id` — Get questions  
+  - `POST /questions` — Add question(s)  
+- **Submit/Results:**  
+  - `POST /submit` — Submit answers  
+  - `GET /results/:user_id` — User results  
+  - `GET /result_details/:result_id` — Per-question details  
+- **Utility:**  
+  - `POST /clear_all` — Clear all data (dangerous)  
 
 ---
 
-## Development Scripts
-- Backend:
-  - `pip install -r requirements.txt`
-  - `python app.py`
-  - `python seed_data.py`
-- Frontend:
-  - `npm install`
-  - `npm run dev`
-  - `npm run build`
-  - `npm run preview`
-  - `npm run lint`
+## 🎨 **Frontend Details**
+- **Styling:** Tailwind utilities + shadcn/ui primitives  
+- **Theme:** Cyan–blue palette via CSS variables  
+- **Dark Mode:** Toggles `dark` class on `<html>`  
+- **Pages:**  
+  - Home — Aurora gradient hero, stats, highlights  
+  - Quiz List — Search, category chips, sort, animated cards  
+  - Quiz — Sticky progress, “radio cards”, review panel, submit dialog  
+  - Results — Score hero, detailed breakdown  
+  - My Results — Summary cards, recent results
 
 ---
 
-## Seeding
-- Automatic with `./dev.sh` on first run (checks `backend/quiz_system.db`)
-- Manual:
-  - `cd backend && python seed_data.py`
+## 📜 **Development Scripts**
+**Backend:**  
+```bash
+pip install -r requirements.txt
+python app.py
+python seed_data.py
+```
+**Frontend:**  
+```bash
+npm install
+npm run dev
+npm run build
+npm run preview
+npm run lint
+```
 
 ---
 
-## Troubleshooting
-- Node path types error in `vite.config.ts`:
-  - `npm i -D @types/node`
-  - Use URL API:
-    ```
-    import { fileURLToPath, URL } from 'node:url'
-    resolve: { alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) } }
-    ```
-- Ports in use:
-  - Backend port: change in `backend/app.py`
-  - Frontend port: `npm run dev -- --port 5174`
-- CORS: enabled in `backend/app.py` via `flask_cors.CORS(app)`
+## 🌱 **Seeding**
+- **Automatic:** `./dev.sh` (checks if `quiz_system.db` exists)  
+- **Manual:**  
+```bash
+cd backend && python seed_data.py
+```
 
 ---
+
+## 🐞 **Troubleshooting**
+- **Vite Node types error:**  
+```bash
+npm i -D @types/node
+```
+- **Port conflicts:**  
+  - Backend: Change in `app.py`  
+  - Frontend: `npm run dev -- --port 5174`  
+- **CORS Issues:** Already enabled in `backend/app.py`
+
+---
+
+**🚀 Ready to build your next interactive quiz experience!**
