@@ -5,10 +5,12 @@ from routes.quiz_service import quiz_service
 from routes.user_service import user_service
 from routes.auth_service import auth_service
 
-
 def create_app():
-    static_folder_path = os.path.join(os.path.dirname(__file__), 'frontend-vite', 'dist')
-    print(f"Static folder path: {static_folder_path}")
+    # Hardcode the absolute path to frontend build folder
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    static_folder_path = os.path.join(BASE_DIR, 'frontend-vite', 'dist')
+    print(f"Using static folder: {static_folder_path}")
+
     app = Flask(
         __name__,
         static_folder=static_folder_path,
@@ -16,7 +18,7 @@ def create_app():
     )
 
     app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY", "dev-secret-change-me")
-    CORS(app)  # or CORS(app, resources={r"/*": {"origins": os.environ.get("CORS_ORIGIN", "*")}})
+    CORS(app)
 
     import database
     database.init_db()
@@ -30,23 +32,23 @@ def create_app():
     app.register_blueprint(user_service, url_prefix="/api")
     app.register_blueprint(auth_service, url_prefix="/api/auth")
 
-    # Serve frontend for all non-API routes
-    @app.route('/', defaults={'path': ''})
+    # Explicit root route
+    @app.route('/')
+    def index():
+        return send_from_directory(static_folder_path, 'index.html')
+
+    # Catch-all route for SPA paths, except API/Auth
     @app.route('/<path:path>')
     def serve_frontend(path):
-        # Let Flask handle API/auth routes
         if path.startswith('api/') or path.startswith('auth/'):
-            return "Not Found", 404  # allows blueprints to catch it
+            return "Not Found", 404
 
-        # Try to serve static file
-        file_path = os.path.join(app.static_folder, path)
-        if os.path.exists(file_path):
-            return send_from_directory(app.static_folder, path)
+        full_path = os.path.join(static_folder_path, path)
+        if os.path.exists(full_path):
+            return send_from_directory(static_folder_path, path)
+        else:
+            return send_from_directory(static_folder_path, 'index.html')
 
-        # Fallback to index.html for SPA routing
-        return send_from_directory(app.static_folder, 'index.html')
-
-    # Health check
     @app.get("/health")
     def health():
         return jsonify({"ok": True})
