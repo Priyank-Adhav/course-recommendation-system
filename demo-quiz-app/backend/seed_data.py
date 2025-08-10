@@ -7,7 +7,9 @@ from datetime import datetime
 
 # Base URL for your Flask application
 PORT = int(os.environ.get("PORT", "5000"))
-BASE_URL = f"http://localhost:{PORT}"
+
+# Use VITE_API_BASE if present, otherwise default to localhost
+BASE_URL = os.environ.get("VITE_API_BASE", f"http://localhost:{PORT}")
 
 def check_server():
     """Check if the Flask server is running"""
