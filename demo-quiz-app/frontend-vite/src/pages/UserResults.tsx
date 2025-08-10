@@ -1,22 +1,30 @@
 import { useEffect, useMemo, useState } from "react"
 import { Link } from "react-router-dom"
-import { getCurrentUser, getUserResults, type UserResultSummary } from "@/services/api"
+import { getUserResults, type UserResultSummary } from "@/services/api"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Skeleton } from "@/components/ui/skeleton"
+import { getUser } from "@/services/auth"
 
 export default function UserResults() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [results, setResults] = useState<UserResultSummary[]>([])
-  const userId = getCurrentUser()
+  const user = getUser()
 
   useEffect(() => {
     ;(async () => {
       try {
         setLoading(true)
-        const rs = await getUserResults(userId)
-        rs.sort((a, b) => new Date(b.completed_at || 0).getTime() - new Date(a.completed_at || 0).getTime())
+        if (!user) {
+          setResults([])
+          setError(null)
+          return
+        }
+        const rs = await getUserResults(user.id)
+        rs.sort((a: UserResultSummary, b: UserResultSummary) =>
+          new Date(b.completed_at || 0).getTime() - new Date(a.completed_at || 0).getTime()
+        )
         setResults(rs)
         setError(null)
       } catch (e: any) {
@@ -25,7 +33,22 @@ export default function UserResults() {
         setLoading(false)
       }
     })()
-  }, [userId])
+  }, [user?.id])
+  if (!user) {
+    return (
+      <div className="mx-auto max-w-6xl px-4">
+        <div className="mt-8 rounded-lg border p-10 text-center">
+          <h3 className="text-lg font-semibold">You are not signed in</h3>
+          <p className="text-muted-foreground">Sign in to view and track your quiz results.</p>
+          <div className="mt-4 flex justify-center gap-2">
+            <Link to="/login"><Button variant="outline">Sign in</Button></Link>
+            <Link to="/register"><Button>Register</Button></Link>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
 
   const stats = useMemo(() => {
     if (!results.length) return { count: 0, avg: 0, best: 0 }
