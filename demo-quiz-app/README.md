@@ -183,5 +183,3 @@ npm i -D @types/node
 - **CORS Issues:** Already enabled in `backend/app.py`
 
 ---
-
-**🚀 Ready to build your next interactive quiz experience!**
