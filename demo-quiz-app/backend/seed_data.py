@@ -9,7 +9,7 @@ from datetime import datetime
 PORT = int(os.environ.get("PORT", "5000"))
 
 # Use VITE_API_BASE if present, otherwise default to localhost
-BASE_URL = os.environ.get("VITE_API_BASE", f"http://localhost:{PORT}")
+BASE_URL = os.environ.get("VITE_API_BASE/api", f"http://localhost:{PORT}")
 
 def check_server():
     """Check if the Flask server is running"""
