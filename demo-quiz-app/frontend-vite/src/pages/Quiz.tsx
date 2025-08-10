@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
-import { getQuestions, submitAnswers, getCurrentUser, type Question } from "@/services/api"
+import { getQuestions, submitAnswers, type Question } from "@/services/api"
 import { Progress } from "@/components/ui/progress"
 import { Button } from "@/components/ui/button"
 import { RadioGroup, RadioCard } from "@/components/ui/radio-group"
@@ -88,7 +88,6 @@ export default function Quiz() {
       const total = Math.floor((Date.now() - startTime) / 1000)
       const res = await submitAnswers({
         quizId: Number(quizId),
-        userId: getCurrentUser(),
         answers,
         times: finalTimes,
         timeTotal: total,
