@@ -13,7 +13,7 @@ def create_user():
     if not name or not email:
         return jsonify({"error": "name and email are required"}), 400
 
-    models.create_user(name, email)
+    models.create_user_secure(name, email)
     return jsonify({"message": "User created successfully"}), 201
 
 
