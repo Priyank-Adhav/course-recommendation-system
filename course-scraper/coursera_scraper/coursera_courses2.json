@@ -1,0 +1,1544 @@
+[
+  {
+    "data": {
+      "SearchResult": {
+        "search": [
+          {
+            "elements": [
+              {
+                "id": "s12n~kr43OcbTEeqeNBKhfgCLyw",
+                "name": "Google Data Analytics",
+                "url": "/professional-certificates/google-data-analytics",
+                "partners": [
+                  "Google"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "Data Storytelling",
+                  "Rmarkdown",
+                  "Data Literacy",
+                  "Data Visualization",
+                  "Data Presentation",
+                  "Data Ethics",
+                  "Data Cleansing",
+                  "Interactive Data Visualization",
+                  "Data Validation",
+                  "Ggplot2",
+                  "Tableau Software",
+                  "Sampling (Statistics)",
+                  "Presentations",
+                  "Spreadsheet Software",
+                  "Data Analysis",
+                  "Data Visualization Software",
+                  "Stakeholder Communications",
+                  "Data Processing",
+                  "Interviewing Skills",
+                  "Applicant Tracking Systems"
+                ]
+              },
+              {
+                "id": "s12n~fq9UWMbTEeqpthJ2RmWGow",
+                "name": "Google Project Management:",
+                "url": "/professional-certificates/google-project-management",
+                "partners": [
+                  "Google"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "Quality Management",
+                  "Project Management Life Cycle",
+                  "Requirements Analysis",
+                  "Project Scoping",
+                  "Project Closure",
+                  "Project Management",
+                  "Project Planning",
+                  "Agile Project Management",
+                  "Continuous Improvement Process",
+                  "Project Controls",
+                  "Backlogs",
+                  "Stakeholder Communications",
+                  "Milestones (Project Management)",
+                  "Quality Assessment",
+                  "Team Management",
+                  "Agile Methodology",
+                  "Project Documentation",
+                  "Change Management",
+                  "Interviewing Skills",
+                  "Applicant Tracking Systems"
+                ]
+              },
+              {
+                "id": "s12n~Dy6K-2UKEe2PIRJn6nL9pQ",
+                "name": "Google Cybersecurity",
+                "url": "/professional-certificates/google-cybersecurity",
+                "partners": [
+                  "Google"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "Threat Modeling",
+                  "Network Security",
+                  "Incident Response",
+                  "Vulnerability Management",
+                  "Computer Security Incident Management",
+                  "Hardening",
+                  "Intrusion Detection and Prevention",
+                  "Cyber Threat Intelligence",
+                  "Threat Management",
+                  "Cyber Attacks",
+                  "Cybersecurity",
+                  "Network Protocols",
+                  "Cloud Security",
+                  "Vulnerability Assessments",
+                  "Bash (Scripting Language)",
+                  "Debugging",
+                  "Linux",
+                  "Interviewing Skills",
+                  "Python Programming",
+                  "SQL"
+                ]
+              },
+              {
+                "id": "s12n~3tzIujTqTk-YdcEFZ9r3sQ",
+                "name": "Google AI Essentials",
+                "url": "/specializations/ai-essentials-google",
+                "partners": [
+                  "Google"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "Prompt Engineering",
+                  "Generative AI",
+                  "Artificial Intelligence and Machine Learning (AI/ML)",
+                  "Large Language Modeling",
+                  "Process Optimization",
+                  "Productivity Software",
+                  "Workforce Development",
+                  "Digital Transformation",
+                  "Innovation",
+                  "Technical Writing",
+                  "Emerging Technologies",
+                  "Operational Efficiency",
+                  "Business Solutions",
+                  "Machine Learning Software",
+                  "Data Security",
+                  "Critical Thinking",
+                  "Analysis",
+                  "Data Quality"
+                ]
+              },
+              {
+                "id": "s12n~aYYrIEl-EeyCjQ5Y8Mzdsw",
+                "name": "Google Digital Marketing & E-commerce",
+                "url": "/professional-certificates/google-digital-marketing-ecommerce",
+                "partners": [
+                  "Google"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "Data Storytelling",
+                  "Search Engine Marketing",
+                  "Media Planning",
+                  "Social Media Marketing",
+                  "Google Ads",
+                  "Email Marketing",
+                  "Social Media Strategy",
+                  "Search Engine Optimization",
+                  "Order Fulfillment",
+                  "Social Media Management",
+                  "Performance Measurement",
+                  "Spreadsheet Software",
+                  "A/B Testing",
+                  "Customer Relationship Management",
+                  "E-Commerce",
+                  "Campaign Management",
+                  "Loyalty Programs",
+                  "Marketing",
+                  "Interviewing Skills",
+                  "Applicant Tracking Systems"
+                ]
+              },
+              {
+                "id": "s12n~7lHCSlFIEeeffRIHljDI_g",
+                "name": "Google IT Support",
+                "url": "/professional-certificates/google-it-support",
+                "partners": [
+                  "Google"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "Computer Networking",
+                  "Package and Software Management",
+                  "Network Troubleshooting",
+                  "Systems Administration",
+                  "Cloud Infrastructure",
+                  "IT Infrastructure",
+                  "Information Systems Security",
+                  "TCP/IP",
+                  "Network Security",
+                  "File Systems",
+                  "Microsoft Windows",
+                  "Computer Security",
+                  "Network Architecture",
+                  "Application Security",
+                  "Desktop Support",
+                  "Computer Hardware",
+                  "Technical Support",
+                  "Interviewing Skills",
+                  "Applicant Tracking Systems",
+                  "Professional Development"
+                ]
+              },
+              {
+                "id": "s12n~Z-5wCcbTEeqeNBKhfgCLyw",
+                "name": "Google UX Design",
+                "url": "/professional-certificates/google-ux-design",
+                "partners": [
+                  "Google"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "Responsive Web Design",
+                  "Storyboarding",
+                  "Wireframing",
+                  "User Experience Design",
+                  "UI/UX Research",
+                  "Usability Testing",
+                  "Information Architecture",
+                  "Presentations",
+                  "User Research",
+                  "Figma (Design Software)",
+                  "Design Reviews",
+                  "Persona (User Experience)",
+                  "Web Content Accessibility Guidelines",
+                  "Mobile Development",
+                  "User Story",
+                  "Cross Platform Development",
+                  "Data Ethics",
+                  "Usability",
+                  "Interviewing Skills",
+                  "Applicant Tracking Systems"
+                ]
+              },
+              {
+                "id": "s12n~nOOfCDWeEeuiZgo2K4rorQ",
+                "name": "Machine Learning",
+                "url": "/specializations/machine-learning-introduction",
+                "partners": [
+                  "DeepLearning.AI",
+                  "Stanford University"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "Unsupervised Learning",
+                  "Supervised Learning",
+                  "Machine Learning Methods",
+                  "Classification And Regression Tree (CART)",
+                  "Artificial Intelligence and Machine Learning (AI/ML)",
+                  "Applied Machine Learning",
+                  "Machine Learning Algorithms",
+                  "Machine Learning",
+                  "Jupyter",
+                  "Data Ethics",
+                  "Decision Tree Learning",
+                  "Tensorflow",
+                  "Scikit Learn (Machine Learning Library)",
+                  "Artificial Intelligence",
+                  "NumPy",
+                  "Predictive Modeling",
+                  "Deep Learning",
+                  "Reinforcement Learning",
+                  "Random Forest Algorithm",
+                  "Feature Engineering"
+                ]
+              },
+              {
+                "id": "s12n~1a_Qa92eQkOSjt6VLZ6lsg",
+                "name": "Google Prompting Essentials",
+                "url": "/specializations/prompting-essentials-google",
+                "partners": [
+                  "Google"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "Data Visualization",
+                  "Prompt Engineering",
+                  "Data Presentation",
+                  "Graphing",
+                  "Generative AI Agents",
+                  "ChatGPT",
+                  "AI Personalization",
+                  "Generative AI",
+                  "Timelines",
+                  "Data Analysis",
+                  "Taking Meeting Minutes",
+                  "Artificial Intelligence",
+                  "Complex Problem Solving",
+                  "Ideation",
+                  "Business Correspondence",
+                  "Report Writing",
+                  "Solution Design",
+                  "Critical Thinking",
+                  "Document Management",
+                  "Machine Learning"
+                ]
+              },
+              {
+                "id": "course~daG-a-O1EeijKBISCWxf6g",
+                "name": "AI For Everyone",
+                "url": "/learn/ai-for-everyone",
+                "partners": [
+                  "DeepLearning.AI"
+                ],
+                "productType": "COURSE",
+                "skills": [
+                  "Data Ethics",
+                  "Market Opportunities",
+                  "Artificial Intelligence and Machine Learning (AI/ML)",
+                  "Artificial Intelligence",
+                  "Team Building",
+                  "Machine Learning",
+                  "Strategic Thinking",
+                  "Data Science",
+                  "Needs Assessment",
+                  "Deep Learning",
+                  "Business Ethics",
+                  "Artificial Neural Networks",
+                  "Engineering Management"
+                ]
+              },
+              {
+                "id": "s12n~FKdStbCPR16Ga6G64hBdFg",
+                "name": "IBM Generative AI Engineering",
+                "url": "/professional-certificates/ibm-generative-ai-engineering",
+                "partners": [
+                  "IBM"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "Prompt Engineering",
+                  "Large Language Modeling",
+                  "Predictive Modeling",
+                  "Unsupervised Learning",
+                  "PyTorch (Machine Learning Library)",
+                  "Generative AI",
+                  "ChatGPT",
+                  "Supervised Learning",
+                  "Keras (Neural Network Library)",
+                  "Flask (Web Framework)",
+                  "Exploratory Data Analysis",
+                  "Feature Engineering",
+                  "Data Wrangling",
+                  "Unit Testing",
+                  "Deep Learning",
+                  "Data Analysis",
+                  "Jupyter",
+                  "Generative AI Agents",
+                  "Data Import/Export",
+                  "Applied Machine Learning"
+                ]
+              },
+              {
+                "id": "s12n~7qRy6fOWEeqIvgrCa-MVgQ",
+                "name": "IBM Data Analyst",
+                "url": "/professional-certificates/ibm-data-analyst",
+                "partners": [
+                  "IBM"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "Data Storytelling",
+                  "Dashboard",
+                  "Data Visualization Software",
+                  "Plotly",
+                  "Data Visualization",
+                  "Predictive Modeling",
+                  "Generative AI",
+                  "SQL",
+                  "Interactive Data Visualization",
+                  "Exploratory Data Analysis",
+                  "Data Wrangling",
+                  "Data Analysis",
+                  "Jupyter",
+                  "Big Data",
+                  "Matplotlib",
+                  "IBM Cognos Analytics",
+                  "Excel Formulas",
+                  "Python Programming",
+                  "Professional Networking",
+                  "Microsoft Excel"
+                ]
+              },
+              {
+                "id": "s12n~kx6DXkl-EeyQ6Qp2PlG9FQ",
+                "name": "Google Advanced Data Analytics",
+                "url": "/professional-certificates/google-advanced-data-analytics",
+                "partners": [
+                  "Google"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "Data Storytelling",
+                  "Data Visualization",
+                  "Data Ethics",
+                  "Exploratory Data Analysis",
+                  "Sampling (Statistics)",
+                  "Data Presentation",
+                  "Data Visualization Software",
+                  "Feature Engineering",
+                  "Regression Analysis",
+                  "Descriptive Statistics",
+                  "Statistical Hypothesis Testing",
+                  "Advanced Analytics",
+                  "Data Analysis",
+                  "Data Science",
+                  "Tableau Software",
+                  "Statistical Analysis",
+                  "Machine Learning",
+                  "Object Oriented Programming (OOP)",
+                  "Interviewing Skills",
+                  "Python Programming"
+                ]
+              },
+              {
+                "id": "s12n~dwzq23ZLEei12goo904QNg",
+                "name": "IBM Data Science",
+                "url": "/professional-certificates/ibm-data-science",
+                "partners": [
+                  "IBM"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "Dashboard",
+                  "Data Visualization Software",
+                  "Data Visualization",
+                  "Predictive Modeling",
+                  "SQL",
+                  "Unsupervised Learning",
+                  "Plotly",
+                  "Interactive Data Visualization",
+                  "Supervised Learning",
+                  "Exploratory Data Analysis",
+                  "Feature Engineering",
+                  "Jupyter",
+                  "Data Wrangling",
+                  "Data Literacy",
+                  "Data Analysis",
+                  "Data Mining",
+                  "Matplotlib",
+                  "Generative AI",
+                  "Pandas (Python Package)",
+                  "Professional Networking"
+                ]
+              },
+              {
+                "id": "s12n~WvWoOoMoEembCA7TjU2XTA",
+                "name": "IBM AI Developer",
+                "url": "/professional-certificates/applied-artifical-intelligence-ibm-watson-ai",
+                "partners": [
+                  "IBM"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "Prompt Engineering",
+                  "Software Development Life Cycle",
+                  "Software Architecture",
+                  "Large Language Modeling",
+                  "Responsive Web Design",
+                  "ChatGPT",
+                  "Flask (Web Framework)",
+                  "Generative AI",
+                  "Cascading Style Sheets (CSS)",
+                  "Unit Testing",
+                  "Software Design",
+                  "Jupyter",
+                  "Web Design and Development",
+                  "Software Development Methodologies",
+                  "Software Design Patterns",
+                  "Web Development",
+                  "Python Programming",
+                  "Engineering Software",
+                  "Machine Learning",
+                  "Data Science"
+                ]
+              },
+              {
+                "id": "s12n~7_nEU3iaEeiVXgoT1iWlYg",
+                "name": "Google IT Automation with Python",
+                "url": "/professional-certificates/google-it-automation",
+                "partners": [
+                  "Google"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "Git (Version Control System)",
+                  "GitHub",
+                  "Version Control",
+                  "Cloud Services",
+                  "Debugging",
+                  "Puppet (Configuration Management Tool)",
+                  "Infrastructure as Code (IaC)",
+                  "Bash (Scripting Language)",
+                  "CI/CD",
+                  "Cloud Computing",
+                  "Technical Communication",
+                  "Unit Testing",
+                  "Web Services",
+                  "Configuration Management",
+                  "Scripting",
+                  "Automation",
+                  "Python Programming",
+                  "Interviewing Skills",
+                  "Applicant Tracking Systems",
+                  "Programming Principles"
+                ]
+              },
+              {
+                "id": "s12n~W62RsyrdEeeFQQqyuQaohA",
+                "name": "Deep Learning",
+                "url": "/specializations/deep-learning",
+                "partners": [
+                  "DeepLearning.AI"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "Computer Vision",
+                  "Deep Learning",
+                  "Image Analysis",
+                  "Natural Language Processing",
+                  "Artificial Neural Networks",
+                  "Tensorflow",
+                  "Supervised Learning",
+                  "Large Language Modeling",
+                  "Artificial Intelligence and Machine Learning (AI/ML)",
+                  "Keras (Neural Network Library)",
+                  "Artificial Intelligence",
+                  "Applied Machine Learning",
+                  "PyTorch (Machine Learning Library)",
+                  "Machine Learning",
+                  "Debugging",
+                  "Performance Tuning",
+                  "Python Programming",
+                  "Machine Learning Algorithms",
+                  "Linear Algebra",
+                  "Analysis"
+                ]
+              },
+              {
+                "id": "s12n~68fXxAJgEeqJHxKP6A-i8w",
+                "name": "AI in Healthcare",
+                "url": "/specializations/ai-healthcare",
+                "partners": [
+                  "Stanford University"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "Feature Engineering",
+                  "Healthcare Ethics",
+                  "Pharmaceuticals",
+                  "Data Ethics",
+                  "Clinical Research",
+                  "Health Systems",
+                  "Healthcare Industry Knowledge",
+                  "Medical Records",
+                  "Unstructured Data",
+                  "Health Care",
+                  "Patient Evaluation",
+                  "Health Informatics",
+                  "Data Mining",
+                  "Clinical Data Management",
+                  "Statistical Machine Learning",
+                  "Applied Machine Learning",
+                  "Electronic Medical Record",
+                  "Machine Learning",
+                  "Artificial Intelligence",
+                  "Health Technology"
+                ]
+              },
+              {
+                "id": "s12n~elzGL0l-EeyHXRKqb0U9Hw",
+                "name": "Google Business Intelligence",
+                "url": "/professional-certificates/google-business-intelligence",
+                "partners": [
+                  "Google"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "Data Modeling",
+                  "Stakeholder Engagement",
+                  "Database Design",
+                  "Dashboard",
+                  "Business Intelligence",
+                  "Extract, Transform, Load",
+                  "Tableau Software",
+                  "Data Warehousing",
+                  "Stakeholder Communications",
+                  "Data Pipelines",
+                  "Interactive Data Visualization",
+                  "Data Integrity",
+                  "Data Visualization",
+                  "Interviewing Skills",
+                  "Applicant Tracking Systems",
+                  "Business Process",
+                  "Business Analysis",
+                  "Professional Development",
+                  "Data Analysis",
+                  "SQL"
+                ]
+              },
+              {
+                "id": "s12n~dVxvpVBzSI2qpyGsH77oMQ",
+                "name": "IBM AI Product Manager",
+                "url": "/professional-certificates/ibm-ai-product-manager",
+                "partners": [
+                  "IBM",
+                  "SkillUp"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "Prompt Engineering",
+                  "Generative AI",
+                  "New Product Development",
+                  "Product Management",
+                  "Product Lifecycle Management",
+                  "Product Development",
+                  "Innovation",
+                  "Product Roadmaps",
+                  "ChatGPT",
+                  "Product Planning",
+                  "Commercialization",
+                  "Artificial Intelligence",
+                  "Product Strategy",
+                  "Project Management Life Cycle",
+                  "OpenAI",
+                  "Stakeholder Engagement",
+                  "Stakeholder Management",
+                  "Competitive Analysis",
+                  "Product Testing",
+                  "Business Development"
+                ]
+              },
+              {
+                "id": "s12n~peHrosLQQY6iMw-W3HCQzg",
+                "name": "Data Science Foundations",
+                "url": "/specializations/data-science-foundations",
+                "partners": [
+                  "University of London",
+                  "IBM",
+                  "IBM"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "Dashboard",
+                  "Pseudocode",
+                  "Jupyter",
+                  "Algorithms",
+                  "Data Literacy",
+                  "Data Mining",
+                  "Pandas (Python Package)",
+                  "Data Visualization Software",
+                  "Correlation Analysis",
+                  "Web Scraping",
+                  "NumPy",
+                  "Python Programming",
+                  "Probability & Statistics",
+                  "Predictive Modeling",
+                  "Computer Programming Tools",
+                  "Data Science",
+                  "Machine Learning Algorithms",
+                  "Unsupervised Learning",
+                  "Machine Learning",
+                  "Project Management"
+                ]
+              },
+              {
+                "id": "s12n~nF9rQ0oBQhy5Bfv-kRFZjg",
+                "name": "Microsoft Power BI Data Analyst",
+                "url": "/professional-certificates/microsoft-power-bi-data-analyst",
+                "partners": [
+                  "Microsoft"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "Power BI",
+                  "Microsoft Excel",
+                  "Data Analysis",
+                  "Data Visualization",
+                  "Data Storage",
+                  "Data Collection",
+                  "Data Quality",
+                  "Business Intelligence",
+                  "Timelines",
+                  "Microsoft Power Platform",
+                  "Advanced Analytics",
+                  "Database Design",
+                  "Statistical Reporting",
+                  "Statistical Visualization",
+                  "Analytical Skills",
+                  "Data Integration",
+                  "Data Storage Technologies",
+                  "SQL",
+                  "Data Manipulation",
+                  "Microsoft SQL Servers"
+                ]
+              },
+              {
+                "id": "s12n~PaymLStoEeuBuBIWkmAWww",
+                "name": "IBM Full Stack Software Developer",
+                "url": "/professional-certificates/ibm-full-stack-cloud-developer",
+                "partners": [
+                  "IBM"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "Prompt Engineering",
+                  "Istio",
+                  "Software Development Life Cycle",
+                  "Node.JS",
+                  "Software Architecture",
+                  "Cloud Computing Architecture",
+                  "Server Side",
+                  "Application Deployment",
+                  "React Redux",
+                  "Kubernetes",
+                  "Cloud Services",
+                  "Responsive Web Design",
+                  "Django (Web Framework)",
+                  "Object-Relational Mapping",
+                  "Git (Version Control System)",
+                  "Flask (Web Framework)",
+                  "Full-Stack Web Development",
+                  "Cloud Computing",
+                  "Jupyter",
+                  "Engineering Software"
+                ]
+              },
+              {
+                "id": "s12n~kxXLY1kfEey5Tg6Gr7s2bQ",
+                "name": "IBM DevOps and Software Engineering",
+                "url": "/professional-certificates/devops-and-software-engineering",
+                "partners": [
+                  "IBM"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "CI/CD",
+                  "Istio",
+                  "Software Development Life Cycle",
+                  "Open Web Application Security Project (OWASP)",
+                  "Continuous Integration",
+                  "Linux Commands",
+                  "Software Architecture",
+                  "Agile Software Development",
+                  "Cloud Computing Architecture",
+                  "Application Deployment",
+                  "Test Driven Development (TDD)",
+                  "Gherkin (Scripting Language)",
+                  "Jenkins",
+                  "Git (Version Control System)",
+                  "Flask (Web Framework)",
+                  "DevOps",
+                  "Jupyter",
+                  "Grafana",
+                  "Software Engineering",
+                  "Application Development"
+                ]
+              },
+              {
+                "id": "s12n~kuGzQBrlEeuKTA7v2iL8uQ",
+                "name": "Data Science Fundamentals with Python and SQL",
+                "url": "/specializations/data-science-fundamentals-python-sql",
+                "partners": [
+                  "IBM"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "Dashboard",
+                  "SQL",
+                  "Descriptive Statistics",
+                  "Jupyter",
+                  "Statistical Analysis",
+                  "Data Analysis",
+                  "Probability Distribution",
+                  "Pandas (Python Package)",
+                  "Data Visualization Software",
+                  "Statistics",
+                  "Data Visualization",
+                  "Statistical Hypothesis Testing",
+                  "Regression Analysis",
+                  "Relational Databases",
+                  "Stored Procedure",
+                  "Python Programming",
+                  "Data Science",
+                  "Data Structures",
+                  "Computer Programming Tools",
+                  "Data Analysis Software"
+                ]
+              },
+              {
+                "id": "s12n~5w9v9Jd_EemkYApdOSqZTg",
+                "name": "AI Foundations for Everyone",
+                "url": "/specializations/ai-foundations-for-everyone",
+                "partners": [
+                  "IBM"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "Prompt Engineering",
+                  "ChatGPT",
+                  "Generative AI",
+                  "OpenAI",
+                  "Workflow Management",
+                  "Machine Learning",
+                  "Self Service Technologies",
+                  "Application Deployment",
+                  "Large Language Modeling",
+                  "Artificial Intelligence",
+                  "Program Development",
+                  "Natural Language Processing",
+                  "Deep Learning",
+                  "Business Process Automation",
+                  "Customer Service",
+                  "Personalized Service",
+                  "Operational Efficiency",
+                  "Market Opportunities",
+                  "IBM Cloud",
+                  "Data Science"
+                ]
+              },
+              {
+                "id": "s12n~QQGg65luEeugtw5wj3v7iQ",
+                "name": "IBM Data Analytics with Excel and R",
+                "url": "/professional-certificates/ibm-data-analyst-r-excel",
+                "partners": [
+                  "IBM"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "Data Storytelling",
+                  "Interactive Data Visualization",
+                  "Data Visualization Software",
+                  "Data Visualization",
+                  "Shiny (R Package)",
+                  "Data Wrangling",
+                  "Exploratory Data Analysis",
+                  "Relational Databases",
+                  "Big Data",
+                  "Ggplot2",
+                  "Database Design",
+                  "Data Analysis",
+                  "IBM Cognos Analytics",
+                  "Data Presentation",
+                  "Data Mining",
+                  "Dashboard",
+                  "Excel Formulas",
+                  "Data Manipulation",
+                  "Web Scraping",
+                  "Microsoft Excel"
+                ]
+              },
+              {
+                "id": "s12n~zjWaXRMhEeudwgrn4wF8EQ",
+                "name": "Data Analysis and Visualization Foundations",
+                "url": "/specializations/data-analysis-visualization-foundations",
+                "partners": [
+                  "IBM"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "Data Storytelling",
+                  "Data Visualization",
+                  "Big Data",
+                  "Data Visualization Software",
+                  "Data Analysis",
+                  "Dashboard",
+                  "IBM Cognos Analytics",
+                  "Statistical Analysis",
+                  "Data Mining",
+                  "Apache Hadoop",
+                  "Tree Maps",
+                  "Excel Formulas",
+                  "Data Wrangling",
+                  "Apache Hive",
+                  "Data Collection",
+                  "Data Mart",
+                  "Data Science",
+                  "Microsoft Excel",
+                  "Data Quality",
+                  "Data Cleansing"
+                ]
+              },
+              {
+                "id": "s12n~gw6NIUimEeiedgp7b7p1Ig",
+                "name": "Applied Data Science",
+                "url": "/specializations/applied-data-science",
+                "partners": [
+                  "IBM"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "Dashboard",
+                  "Data Visualization Software",
+                  "Plotly",
+                  "Data Visualization",
+                  "Predictive Modeling",
+                  "Interactive Data Visualization",
+                  "Exploratory Data Analysis",
+                  "Data Wrangling",
+                  "Data Analysis",
+                  "Jupyter",
+                  "Matplotlib",
+                  "Pandas (Python Package)",
+                  "Seaborn",
+                  "Data Presentation",
+                  "Data Import/Export",
+                  "Web Scraping",
+                  "Data Science",
+                  "Python Programming",
+                  "Data Structures",
+                  "Machine Learning"
+                ]
+              },
+              {
+                "id": "s12n~lEbibxe6EemaCA6FO7suWg",
+                "name": "IBM & Darden Digital Strategy",
+                "url": "/specializations/digital-strategy",
+                "partners": [
+                  "University of Virginia Darden School Foundation",
+                  "IBM"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "Strategic Thinking",
+                  "Digital Transformation",
+                  "Business Strategy",
+                  "Cloud Computing Architecture",
+                  "Competitive Analysis",
+                  "Cloud Services",
+                  "Business Transformation",
+                  "Cloud Security",
+                  "Cloud Technologies",
+                  "Cloud Infrastructure",
+                  "Big Data",
+                  "Cloud Platforms",
+                  "Data Analysis",
+                  "Statistical Analysis",
+                  "Cloud Hosting",
+                  "Cloud Engineering",
+                  "Cloud Computing",
+                  "Generative AI",
+                  "ChatGPT",
+                  "Data Science"
+                ]
+              },
+              {
+                "id": "s12n~4ZGJDStjEeupVg7HH9ybXQ",
+                "name": "IBM Data Engineering",
+                "url": "/professional-certificates/ibm-data-engineer",
+                "partners": [
+                  "IBM"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "NoSQL",
+                  "Data Warehousing",
+                  "Apache Hadoop",
+                  "Extract, Transform, Load",
+                  "Apache Airflow",
+                  "Web Scraping",
+                  "Linux Commands",
+                  "Database Design",
+                  "SQL",
+                  "IBM Cognos Analytics",
+                  "MySQL",
+                  "Apache Spark",
+                  "Database Administration",
+                  "Data Store",
+                  "Jupyter",
+                  "Generative AI",
+                  "Professional Networking",
+                  "Python Programming",
+                  "Data Analysis",
+                  "Data Science"
+                ]
+              },
+              {
+                "id": "s12n~AQ719YHLEeWWVhJkLv2LYQ",
+                "name": "Business Foundations",
+                "url": "/specializations/wharton-business-foundations",
+                "partners": [
+                  "University of Pennsylvania"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "Operations Management",
+                  "Return On Investment",
+                  "Operational Efficiency",
+                  "Financial Statements",
+                  "Financial Statement Analysis",
+                  "Finance",
+                  "Human Capital",
+                  "Go To Market Strategy",
+                  "Process Analysis",
+                  "Branding",
+                  "Process Management",
+                  "People Management",
+                  "Financial Reporting",
+                  "Capital Budgeting",
+                  "Financial Accounting",
+                  "Financial Modeling",
+                  "Marketing",
+                  "Marketing Planning",
+                  "Peer Review",
+                  "Corporate Finance"
+                ]
+              },
+              {
+                "id": "s12n~PfbRUmwSEe25uA4dnx38NQ",
+                "name": "IBM Back-End Development",
+                "url": "/professional-certificates/ibm-backend-development",
+                "partners": [
+                  "IBM"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "Istio",
+                  "Software Development Life Cycle",
+                  "Open Web Application Security Project (OWASP)",
+                  "Linux Commands",
+                  "Software Architecture",
+                  "Application Deployment",
+                  "NoSQL",
+                  "Kubernetes",
+                  "Bash (Scripting Language)",
+                  "MongoDB",
+                  "Shell Script",
+                  "Django (Web Framework)",
+                  "Object-Relational Mapping",
+                  "OpenShift",
+                  "Git (Version Control System)",
+                  "Flask (Web Framework)",
+                  "Jupyter",
+                  "Grafana",
+                  "Microservices",
+                  "Python Programming"
+                ]
+              },
+              {
+                "id": "s12n~_Fk2Gi3cEeiHghIydZ_0lA",
+                "name": "Introduction to Data Science",
+                "url": "/specializations/introduction-data-science",
+                "partners": [
+                  "IBM"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "SQL",
+                  "Jupyter",
+                  "Data Literacy",
+                  "Data Mining",
+                  "Peer Review",
+                  "Data Modeling",
+                  "Relational Databases",
+                  "Stored Procedure",
+                  "Databases",
+                  "Data Science",
+                  "Big Data",
+                  "Computer Programming Tools",
+                  "Query Languages",
+                  "Data Analysis Software",
+                  "Software Development Tools",
+                  "GitHub",
+                  "Business Analysis",
+                  "Data Manipulation",
+                  "Cloud Computing",
+                  "Python Programming"
+                ]
+              },
+              {
+                "id": "s12n~9gaPvqSpRneGVu4pg_048w",
+                "name": "IBM Relational Database Administrator",
+                "url": "/professional-certificates/ibm-relational-database-administrator",
+                "partners": [
+                  "IBM"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "Data Engineering",
+                  "Data Warehousing",
+                  "Extract, Transform, Load",
+                  "Apache Airflow",
+                  "Web Scraping",
+                  "Linux Commands",
+                  "Database Design",
+                  "SQL",
+                  "Database Administration",
+                  "MySQL",
+                  "Data Pipelines",
+                  "Apache Kafka",
+                  "Database Management",
+                  "Bash (Scripting Language)",
+                  "Shell Script",
+                  "Database Architecture and Administration",
+                  "Data Store",
+                  "Jupyter",
+                  "Generative AI",
+                  "Data Security"
+                ]
+              },
+              {
+                "id": "s12n~7ERwSQnXEe23EhLnQryuGw",
+                "name": "Applied Software Engineering Fundamentals",
+                "url": "/specializations/software-engineering-fundamentals",
+                "partners": [
+                  "IBM"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "Software Development Life Cycle",
+                  "Linux Commands",
+                  "Software Architecture",
+                  "Bash (Scripting Language)",
+                  "Shell Script",
+                  "Git (Version Control System)",
+                  "GitHub",
+                  "Flask (Web Framework)",
+                  "Unit Testing",
+                  "Software Design",
+                  "Version Control",
+                  "File Management",
+                  "Jupyter",
+                  "Unix Shell",
+                  "Web Design and Development",
+                  "Linux",
+                  "Software Development Methodologies",
+                  "Application Deployment",
+                  "Python Programming",
+                  "Data Structures"
+                ]
+              },
+              {
+                "id": "s12n~Wh6nmdkOEeuYJQ5ZkEJmKQ",
+                "name": "AI For Business",
+                "url": "/specializations/ai-for-business-wharton",
+                "partners": [
+                  "University of Pennsylvania"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "AI Personalization",
+                  "Generative AI",
+                  "Data Ethics",
+                  "HR Tech",
+                  "Data Governance",
+                  "Big Data",
+                  "Machine Learning",
+                  "Personally Identifiable Information",
+                  "Data Security",
+                  "Governance",
+                  "Business Strategy",
+                  "Human Resources",
+                  "Organizational Strategy",
+                  "Customer Data Management",
+                  "Credit Risk",
+                  "Business Transformation",
+                  "Artificial Intelligence",
+                  "Risk Management",
+                  "Data-Driven Decision-Making",
+                  "Analytics"
+                ]
+              },
+              {
+                "id": "s12n~mF13zqpxEeqDdgqb325wdw",
+                "name": "Key Technologies for Business",
+                "url": "/specializations/key-technologies-for-business",
+                "partners": [
+                  "IBM"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "Cloud Computing Architecture",
+                  "Cloud Services",
+                  "Cloud Security",
+                  "Cloud Technologies",
+                  "Data Literacy",
+                  "Cloud Infrastructure",
+                  "Data Mining",
+                  "Cloud Platforms",
+                  "Cloud Hosting",
+                  "Cloud Engineering",
+                  "Cloud Solutions",
+                  "Cloud Computing",
+                  "Generative AI",
+                  "Big Data",
+                  "Data Analysis",
+                  "Data Science",
+                  "ChatGPT",
+                  "Natural Language Processing",
+                  "Market Opportunities",
+                  "Business"
+                ]
+              },
+              {
+                "id": "course~T7hf5jWeEeuGCBL8_hyTUQ",
+                "name": "Supervised Machine Learning: Regression and Classification ",
+                "url": "/learn/machine-learning",
+                "partners": [
+                  "DeepLearning.AI",
+                  "Stanford University"
+                ],
+                "productType": "COURSE",
+                "skills": [
+                  "Supervised Learning",
+                  "Jupyter",
+                  "Scikit Learn (Machine Learning Library)",
+                  "Machine Learning",
+                  "NumPy",
+                  "Predictive Modeling",
+                  "Feature Engineering",
+                  "Artificial Intelligence",
+                  "Classification And Regression Tree (CART)",
+                  "Python Programming",
+                  "Regression Analysis",
+                  "Unsupervised Learning",
+                  "Statistical Modeling"
+                ]
+              },
+              {
+                "id": "s12n~aDZV7StjEeu8FgroulzDIw",
+                "name": "Data Engineering Foundations",
+                "url": "/specializations/data-engineering-foundations",
+                "partners": [
+                  "IBM"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "Web Scraping",
+                  "Database Design",
+                  "SQL",
+                  "MySQL",
+                  "Data Transformation",
+                  "Data Store",
+                  "IBM DB2",
+                  "Extract, Transform, Load",
+                  "Jupyter",
+                  "Data Architecture",
+                  "Data Pipelines",
+                  "Big Data",
+                  "Databases",
+                  "Data Warehousing",
+                  "Data Governance",
+                  "Database Management Systems",
+                  "Relational Databases",
+                  "Stored Procedure",
+                  "Python Programming",
+                  "Data Structures"
+                ]
+              },
+              {
+                "id": "course~Rr-BeG1UEe6ZoQ5WeLvw3w",
+                "name": "Generative AI for Everyone",
+                "url": "/learn/generative-ai-for-everyone",
+                "partners": [
+                  "DeepLearning.AI"
+                ],
+                "productType": "COURSE",
+                "skills": [
+                  "Prompt Engineering",
+                  "Generative AI",
+                  "Large Language Modeling",
+                  "OpenAI",
+                  "ChatGPT",
+                  "Artificial Intelligence",
+                  "Artificial Intelligence and Machine Learning (AI/ML)",
+                  "Business Process Automation",
+                  "Automation",
+                  "Ethical Standards And Conduct",
+                  "Cloud Applications"
+                ]
+              },
+              {
+                "id": "course~fxgoIcbTEeqZOA5eKDHL-w",
+                "name": "Foundations of Project Management",
+                "url": "/learn/project-management-foundations",
+                "partners": [
+                  "Google"
+                ],
+                "productType": "COURSE",
+                "skills": [
+                  "Project Management Life Cycle",
+                  "Change Management",
+                  "Organizational Structure",
+                  "Project Management",
+                  "Organizational Change",
+                  "Program Management",
+                  "Project Closure",
+                  "Agile Methodology",
+                  "Project Planning",
+                  "Waterfall Methodology",
+                  "Strategic Thinking"
+                ]
+              },
+              {
+                "id": "s12n~zn_b0Y_lEeqE2Q5NANyNFw",
+                "name": "IBM AI Foundations for Business",
+                "url": "/specializations/ibm-ai-foundations-for-business",
+                "partners": [
+                  "IBM",
+                  "IBM"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "Data Literacy",
+                  "Data Mining",
+                  "Generative AI",
+                  "Big Data",
+                  "Information Architecture",
+                  "Strategic Decision-Making",
+                  "Enterprise Architecture",
+                  "Cloud Computing",
+                  "Data Analysis",
+                  "Data Science",
+                  "ChatGPT",
+                  "Digital Transformation",
+                  "Data Strategy",
+                  "Data-Driven Decision-Making",
+                  "Business Strategy",
+                  "Business Process Automation",
+                  "Data Architecture",
+                  "Natural Language Processing",
+                  "Market Opportunities",
+                  "Leadership"
+                ]
+              },
+              {
+                "id": "s12n~F-h1g0w7EeWeOApO_l5R1w",
+                "name": "Python for Everybody",
+                "url": "/specializations/python",
+                "partners": [
+                  "University of Michigan"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "Web Scraping",
+                  "Data Processing",
+                  "Relational Databases",
+                  "Data Visualization",
+                  "JSON",
+                  "Database Design",
+                  "SQL",
+                  "Network Protocols",
+                  "Databases",
+                  "Web Services",
+                  "Restful API",
+                  "Data Modeling",
+                  "Programming Principles",
+                  "Application Programming Interface (API)",
+                  "Database Systems",
+                  "Database Management",
+                  "Data Structures",
+                  "Data Collection",
+                  "Computer Programming",
+                  "Python Programming"
+                ]
+              },
+              {
+                "id": "s12n~XvFLWP2uEeqmKw5GnbMYDw",
+                "name": "Introduction to Finance and Accounting",
+                "url": "/specializations/finance-accounting",
+                "partners": [
+                  "University of Pennsylvania"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "Financial Statements",
+                  "Return On Investment",
+                  "Financial Statement Analysis",
+                  "Financial Reporting",
+                  "Capital Budgeting",
+                  "Financial Accounting",
+                  "Financial Modeling",
+                  "Working Capital",
+                  "Balance Sheet",
+                  "Accrual Accounting",
+                  "Accounting",
+                  "Cash Flows",
+                  "Income Statement",
+                  "Finance",
+                  "Financial Analysis",
+                  "Tax Planning",
+                  "Equities",
+                  "Financial Planning",
+                  "Corporate Finance",
+                  "Business Valuation"
+                ]
+              },
+              {
+                "id": "s12n~npjdd85-EemphArdzWLJyg",
+                "name": "IBM AI Engineering",
+                "url": "/professional-certificates/ai-engineer",
+                "partners": [
+                  "IBM"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "Prompt Engineering",
+                  "Large Language Modeling",
+                  "PyTorch (Machine Learning Library)",
+                  "Unsupervised Learning",
+                  "Generative AI",
+                  "Supervised Learning",
+                  "Keras (Neural Network Library)",
+                  "Feature Engineering",
+                  "Deep Learning",
+                  "Reinforcement Learning",
+                  "Generative AI Agents",
+                  "Applied Machine Learning",
+                  "Natural Language Processing",
+                  "Tensorflow",
+                  "Artificial Neural Networks",
+                  "OpenAI",
+                  "Artificial Intelligence and Machine Learning (AI/ML)",
+                  "Machine Learning",
+                  "Python Programming",
+                  "Data Science"
+                ]
+              },
+              {
+                "id": "course~unfSix6kEfC5wQ7Ux-t3bw",
+                "name": "Introduction to AI",
+                "url": "/learn/google-introduction-to-ai",
+                "partners": [
+                  "Google"
+                ],
+                "productType": "COURSE",
+                "skills": [
+                  "Generative AI",
+                  "Artificial Intelligence and Machine Learning (AI/ML)",
+                  "Machine Learning Software",
+                  "Machine Learning",
+                  "Innovation",
+                  "Data Quality",
+                  "Critical Thinking"
+                ]
+              },
+              {
+                "id": "s12n~0ze2VRAEQL-hrMmGeKPGsw",
+                "name": "Generative AI for Data Scientists",
+                "url": "/specializations/generative-ai-for-data-scientists",
+                "partners": [
+                  "IBM"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "Prompt Engineering",
+                  "ChatGPT",
+                  "Generative AI",
+                  "Exploratory Data Analysis",
+                  "Data Ethics",
+                  "OpenAI",
+                  "Feature Engineering",
+                  "Predictive Modeling",
+                  "Large Language Modeling",
+                  "Artificial Intelligence",
+                  "Data Storytelling",
+                  "Program Development",
+                  "Data Modeling",
+                  "Data Presentation",
+                  "Predictive Analytics",
+                  "Data Science",
+                  "Data Synthesis",
+                  "Data Analysis",
+                  "IBM Cloud",
+                  "Machine Learning"
+                ]
+              },
+              {
+                "id": "s12n~S78b9n86Soahj5JwJ7Pl9w",
+                "name": "Generative AI for Data Analysts",
+                "url": "/specializations/generative-ai-for-data-analysts",
+                "partners": [
+                  "IBM"
+                ],
+                "productType": "SPECIALIZATION",
+                "skills": [
+                  "Prompt Engineering",
+                  "Generative AI",
+                  "ChatGPT",
+                  "Data Storytelling",
+                  "OpenAI",
+                  "Analytics",
+                  "Data Analysis",
+                  "Artificial Intelligence and Machine Learning (AI/ML)",
+                  "Dashboard",
+                  "Large Language Modeling",
+                  "Data Ethics",
+                  "Artificial Intelligence",
+                  "Program Development",
+                  "Data Visualization Software",
+                  "SQL",
+                  "Python Programming",
+                  "Query Languages",
+                  "Content Creation",
+                  "IBM Cloud",
+                  "Image Analysis"
+                ]
+              },
+              {
+                "id": "s12n~QQ5c1Vt_TuSo7yidEbTkPw",
+                "name": "IBM Data Management",
+                "url": "/professional-certificates/ibm-data-manager",
+                "partners": [
+                  "IBM",
+                  "SkillUp"
+                ],
+                "productType": "PROFESSIONAL_CERTIFICATE",
+                "skills": [
+                  "Dashboard",
+                  "Data Storytelling",
+                  "Data Warehousing",
+                  "SQL",
+                  "Data Visualization",
+                  "Data Security",
+                  "Data Migration",
+                  "Database Design",
+                  "Data Governance",
+                  "MySQL",
+                  "Descriptive Statistics",
+                  "Extract, Transform, Load",
+                  "Data Store",
+                  "Data Management",
+                  "Relational Databases",
+                  "Databases",
+                  "Exploratory Data Analysis",
+                  "Data Architecture",
+                  "Excel Formulas",
+                  "Business Intelligence"
+                ]
+              }
+            ],
+            "pagination": {
+              "cursor": "1",
+              "totalElements": 10000
+            }
+          },
+          {
+            "elements": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "pagination": {
+              "cursor": "1",
+              "totalElements": 10000
+            }
+          }
+        ]
+      }
+    }
+  }
+]

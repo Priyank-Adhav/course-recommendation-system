@@ -1,0 +1,1612 @@
+2025-08-28 13:16:11,840 INFO [coursera_scraper] TEST MODE: Running one query: computer science (domain_filter=False)
+2025-08-28 13:16:12,681 INFO [coursera_scraper] Fetched 50 items on page 0 for query=computer science (next_cursor=1)
+2025-08-28 13:16:12,681 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:16:12,681 INFO [coursera_scraper] TEST MODE fetched 50 items for query=computer science
+2025-08-28 13:16:12,682 INFO [coursera_scraper] DB now has 50 courses (total). Showing up to 10 most recent:
+2025-08-28 13:16:12,682 INFO [coursera_scraper]  - course~7A1yFTaREeWWBQrVFXqd1w | Programming for Everybody (Getting Started with Python) | /learn/python
+2025-08-28 13:16:12,682 INFO [coursera_scraper]  - s12n~ZtbS2tDqEemmzBL13JFZTg | Data Science: Foundations using R | /specializations/data-science-foundations-r
+2025-08-28 13:16:12,682 INFO [coursera_scraper]  - s12n~RBLtOqjrEeWKzg6na9raqQ | Genomic Data Science | /specializations/genomic-data-science
+2025-08-28 13:16:12,682 INFO [coursera_scraper]  - course~k2oyG0l-Eeyq9Q4Bl6meLw | Foundations of Data Science | /learn/foundations-of-data-science
+2025-08-28 13:16:12,682 INFO [coursera_scraper]  - s12n~e3wiTwXMEeim8hI7AVpI6A | Mathematics for Machine Learning | /specializations/mathematics-machine-learning
+2025-08-28 13:16:12,682 INFO [coursera_scraper]  - s12n~peHrosLQQY6iMw-W3HCQzg | Data Science Foundations | /specializations/data-science-foundations
+2025-08-28 13:16:12,682 INFO [coursera_scraper]  - s12n~kuGzQBrlEeuKTA7v2iL8uQ | Data Science Fundamentals with Python and SQL | /specializations/data-science-fundamentals-python-sql
+2025-08-28 13:16:12,682 INFO [coursera_scraper]  - s12n~gw6NIUimEeiedgp7b7p1Ig | Applied Data Science | /specializations/applied-data-science
+2025-08-28 13:16:12,682 INFO [coursera_scraper]  - s12n~zn_b0Y_lEeqE2Q5NANyNFw | IBM AI Foundations for Business | /specializations/ibm-ai-foundations-for-business
+2025-08-28 13:16:12,682 INFO [coursera_scraper]  - s12n~pt09TwifTE6SVpZBZB8ozQ | Statistical Methods for Computer Science | /specializations/statistical-methods-for-computer-science
+2025-08-28 13:17:35,730 INFO [coursera_scraper] TEST MODE: Running one query: business (domain_filter=False)
+2025-08-28 13:17:36,165 INFO [coursera_scraper] Fetched 50 items on page 0 for query=business (next_cursor=1)
+2025-08-28 13:17:36,166 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:17:36,166 INFO [coursera_scraper] TEST MODE fetched 50 items for query=business
+2025-08-28 13:17:36,167 INFO [coursera_scraper] DB now has 99 courses (total). Showing up to 10 most recent:
+2025-08-28 13:17:36,167 INFO [coursera_scraper]  - s12n~lVVof_cuEeqt4xJsfbvkVw | European Business Law | /specializations/european-business-law
+2025-08-28 13:17:36,167 INFO [coursera_scraper]  - course~zPU_kmRfEe-e0g4kKcdYJQ | Introduction to Business Analysis | /learn/introduction-to-business-analysis
+2025-08-28 13:17:36,167 INFO [coursera_scraper]  - course~_uJaK-gwEeaksw4f8WaZLg | Excel Skills for Business: Essentials | /learn/excel-essentials
+2025-08-28 13:17:36,167 INFO [coursera_scraper]  - course~x7hOmBaFEe6AlBLLiwBpXw | Fundamentals of Business Analysis  | /learn/fundamentals-of-business-analysis
+2025-08-28 13:17:36,167 INFO [coursera_scraper]  - course~lxietFy_EeW9BBKT5ztNhQ | International Business II | /learn/international-business-2
+2025-08-28 13:17:36,168 INFO [coursera_scraper]  - s12n~GE62Qjo4Eea9vQqeg-LyDQ | Advanced Business Analytics | /specializations/data-analytics-business
+2025-08-28 13:17:36,168 INFO [coursera_scraper]  - course~Ecsy7Wd4Ee6vIRJJdXRzxQ | Business Intelligence (BI) Essentials | /learn/business-intelligence-essentials
+2025-08-28 13:17:36,168 INFO [coursera_scraper]  - s12n~ynEcDwHkTVKDqjC3KNJspA | Business Finance and Data Analysis Fundamentals | /specializations/pre-mba-quantitative-skills
+2025-08-28 13:17:36,168 INFO [coursera_scraper]  - course~46b4tHEkEeWbbw5cIAKQrw | Business English: Networking | /learn/business-english-intro
+2025-08-28 13:17:36,168 INFO [coursera_scraper]  - course~k8B9WjxkEeW7GArkqhNhJw | Music Business Foundations | /learn/music-business-foundations
+2025-08-28 13:36:17,860 INFO [coursera_scraper] TEST MODE: Running one query: business (domain_filter=False)
+2025-08-28 13:36:18,364 INFO [coursera_scraper] Fetched 50 items on page 0 for query=business (next_cursor=1)
+2025-08-28 13:36:18,364 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:36:18,365 INFO [coursera_scraper] TEST MODE fetched 50 items for query=business
+2025-08-28 13:36:18,365 INFO [coursera_scraper] DB now has 111 courses (total). Showing up to 10 most recent:
+2025-08-28 13:36:18,365 INFO [coursera_scraper]  - s12n~TKHDQVp8SeC9MvH7Ure8-w | Generative AI for Business Intelligence (BI) Analysts | /specializations/generative-ai-for-business-intelligence-analysts
+2025-08-28 13:36:18,365 INFO [coursera_scraper]  - course~46b4tHEkEeWbbw5cIAKQrw | Business English: Networking | /learn/business-english-intro
+2025-08-28 13:36:18,365 INFO [coursera_scraper]  - course~6-AmfoyrEeWbIxKn7M-nSQ | Business Writing | /learn/writing-for-business
+2025-08-28 13:36:18,365 INFO [coursera_scraper]  - course~iT8ZZhdqEe6zbwpCknIlAw | Digital Business Strategy | /learn/uva-darden-digital-business-strategy
+2025-08-28 13:36:18,365 INFO [coursera_scraper]  - course~lxietFy_EeW9BBKT5ztNhQ | International Business II | /learn/international-business-2
+2025-08-28 13:36:18,365 INFO [coursera_scraper]  - course~y3yZ_YteEey6SRK0kB7ieQ | Fundamentals of International Business | /learn/fundamentals-of-international-business
+2025-08-28 13:36:18,366 INFO [coursera_scraper]  - s12n~ynEcDwHkTVKDqjC3KNJspA | Business Finance and Data Analysis Fundamentals | /specializations/pre-mba-quantitative-skills
+2025-08-28 13:36:18,366 INFO [coursera_scraper]  - course~oZwETNccEeSV9iIAC0wBBw | High-Impact Business Writing | /learn/business-writing
+2025-08-28 13:36:18,366 INFO [coursera_scraper]  - course~EV92yeSvEeq6ywpLJlAd5w | Introduction to Business Analysis Using Spreadsheets: Basics | /projects/business-analysis-using-spreadsheets
+2025-08-28 13:36:18,366 INFO [coursera_scraper]  - s12n~b4BrUoyoEea0qwrbCYNHtQ | Business English | /specializations/english-for-business
+2025-08-28 13:39:57,581 INFO [coursera_scraper] TEST MODE: Running one query: business (domain_filter=True)
+2025-08-28 13:39:58,136 INFO [coursera_scraper] Fetched 50 items on page 0 for query=business (next_cursor=1)
+2025-08-28 13:39:58,136 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:39:58,136 INFO [coursera_scraper] TEST MODE fetched 50 items for query=business
+2025-08-28 13:39:58,137 INFO [coursera_scraper] DB now has 142 courses (total). Showing up to 10 most recent:
+2025-08-28 13:39:58,137 INFO [coursera_scraper]  - s12n~QQ5c1Vt_TuSo7yidEbTkPw | IBM Data Management | /professional-certificates/ibm-data-manager
+2025-08-28 13:39:58,137 INFO [coursera_scraper]  - s12n~S78b9n86Soahj5JwJ7Pl9w | Generative AI for Data Analysts | /specializations/generative-ai-for-data-analysts
+2025-08-28 13:39:58,137 INFO [coursera_scraper]  - s12n~0ze2VRAEQL-hrMmGeKPGsw | Generative AI for Data Scientists | /specializations/generative-ai-for-data-scientists
+2025-08-28 13:39:58,137 INFO [coursera_scraper]  - course~unfSix6kEfC5wQ7Ux-t3bw | Introduction to AI | /learn/google-introduction-to-ai
+2025-08-28 13:39:58,137 INFO [coursera_scraper]  - s12n~npjdd85-EemphArdzWLJyg | IBM AI Engineering | /professional-certificates/ai-engineer
+2025-08-28 13:39:58,137 INFO [coursera_scraper]  - s12n~XvFLWP2uEeqmKw5GnbMYDw | Introduction to Finance and Accounting | /specializations/finance-accounting
+2025-08-28 13:39:58,137 INFO [coursera_scraper]  - s12n~F-h1g0w7EeWeOApO_l5R1w | Python for Everybody | /specializations/python
+2025-08-28 13:39:58,137 INFO [coursera_scraper]  - s12n~zn_b0Y_lEeqE2Q5NANyNFw | IBM AI Foundations for Business | /specializations/ibm-ai-foundations-for-business
+2025-08-28 13:39:58,137 INFO [coursera_scraper]  - course~fxgoIcbTEeqZOA5eKDHL-w | Foundations of Project Management | /learn/project-management-foundations
+2025-08-28 13:39:58,137 INFO [coursera_scraper]  - course~Rr-BeG1UEe6ZoQ5WeLvw3w | Generative AI for Everyone | /learn/generative-ai-for-everyone
+2025-08-28 13:40:10,137 INFO [coursera_scraper] TEST MODE: Running one query: business (domain_filter=True)
+2025-08-28 13:40:10,654 INFO [coursera_scraper] Fetched 50 items on page 0 for query=business (next_cursor=1)
+2025-08-28 13:40:10,654 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:40:10,654 INFO [coursera_scraper] TEST MODE fetched 50 items for query=business
+2025-08-28 13:40:10,655 INFO [coursera_scraper] DB now has 142 courses (total). Showing up to 10 most recent:
+2025-08-28 13:40:10,655 INFO [coursera_scraper]  - s12n~QQ5c1Vt_TuSo7yidEbTkPw | IBM Data Management | /professional-certificates/ibm-data-manager
+2025-08-28 13:40:10,655 INFO [coursera_scraper]  - s12n~S78b9n86Soahj5JwJ7Pl9w | Generative AI for Data Analysts | /specializations/generative-ai-for-data-analysts
+2025-08-28 13:40:10,655 INFO [coursera_scraper]  - s12n~0ze2VRAEQL-hrMmGeKPGsw | Generative AI for Data Scientists | /specializations/generative-ai-for-data-scientists
+2025-08-28 13:40:10,655 INFO [coursera_scraper]  - course~unfSix6kEfC5wQ7Ux-t3bw | Introduction to AI | /learn/google-introduction-to-ai
+2025-08-28 13:40:10,655 INFO [coursera_scraper]  - s12n~npjdd85-EemphArdzWLJyg | IBM AI Engineering | /professional-certificates/ai-engineer
+2025-08-28 13:40:10,655 INFO [coursera_scraper]  - s12n~XvFLWP2uEeqmKw5GnbMYDw | Introduction to Finance and Accounting | /specializations/finance-accounting
+2025-08-28 13:40:10,655 INFO [coursera_scraper]  - s12n~F-h1g0w7EeWeOApO_l5R1w | Python for Everybody | /specializations/python
+2025-08-28 13:40:10,655 INFO [coursera_scraper]  - s12n~zn_b0Y_lEeqE2Q5NANyNFw | IBM AI Foundations for Business | /specializations/ibm-ai-foundations-for-business
+2025-08-28 13:40:10,655 INFO [coursera_scraper]  - course~fxgoIcbTEeqZOA5eKDHL-w | Foundations of Project Management | /learn/project-management-foundations
+2025-08-28 13:40:10,655 INFO [coursera_scraper]  - course~Rr-BeG1UEe6ZoQ5WeLvw3w | Generative AI for Everyone | /learn/generative-ai-for-everyone
+2025-08-28 13:48:05,917 INFO [coursera_scraper] TEST MODE: Running one query: computer-science (domain_filter=True)
+2025-08-28 13:48:08,127 INFO [coursera_scraper] Fetched 500 items on page 0 for query=computer-science (next_cursor=1)
+2025-08-28 13:48:08,128 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:48:08,129 INFO [coursera_scraper] TEST MODE fetched 500 items for query=computer-science
+2025-08-28 13:48:08,129 INFO [coursera_scraper] DB now has 563 courses (total). Showing up to 10 most recent:
+2025-08-28 13:48:08,130 INFO [coursera_scraper]  - s12n~bk4QvR_5TD-gB9IwJgv6oQ | Financial Management | /specializations/business-financial-management
+2025-08-28 13:48:08,130 INFO [coursera_scraper]  - s12n~DhiZkjN0TIiyaf7skG_ULA | Business Analyst (ECBA) Certificate Preparation  | /specializations/business-analyst-ecba-certification-preparation
+2025-08-28 13:48:08,130 INFO [coursera_scraper]  - course~PI-xSbH_Ee2d3wo_DItpEw | Narrative Economics | /learn/narrative-economics
+2025-08-28 13:48:08,130 INFO [coursera_scraper]  - course~Exn6t_SUEe2OqwqhrYNGhQ | Introduction to Large Language Models | /learn/introduction-to-large-language-models
+2025-08-28 13:48:08,130 INFO [coursera_scraper]  - course~-TDPq2UJEe2piwrmyBNtEQ | Put It to Work: Prepare for Cybersecurity Jobs | /learn/prepare-for-cybersecurity-jobs
+2025-08-28 13:48:08,130 INFO [coursera_scraper]  - course~dZEaNbNjEeurEQ7HpnWdKw | AI Strategy and Governance | /learn/wharton-ai-strategy-governance
+2025-08-28 13:48:08,130 INFO [coursera_scraper]  - course~_u6gQDK6EeycGBKEuRb8CQ | Calculus for Machine Learning and Data Science | /learn/machine-learning-calculus
+2025-08-28 13:48:08,130 INFO [coursera_scraper]  - course~r0GnHOZaEees-Q6jQMxlrg | What is Data Science?  | /learn/what-is-datascience
+2025-08-28 13:48:08,130 INFO [coursera_scraper]  - course~YZB4KwRgEemMVw7xXzWiVg | Reducing Gun Violence in America: Evidence for Change | /learn/gun-violence
+2025-08-28 13:48:08,130 INFO [coursera_scraper]  - s12n~qq9MIGMFEeayMBJXAbQCnw | Dynamic Public Speaking | /specializations/public-speaking
+2025-08-28 13:48:10,287 INFO [coursera_scraper] TEST MODE: Running one query: business (domain_filter=True)
+2025-08-28 13:48:11,982 INFO [coursera_scraper] Fetched 500 items on page 0 for query=business (next_cursor=1)
+2025-08-28 13:48:11,983 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:48:11,984 INFO [coursera_scraper] TEST MODE fetched 500 items for query=business
+2025-08-28 13:48:11,985 INFO [coursera_scraper] DB now has 563 courses (total). Showing up to 10 most recent:
+2025-08-28 13:48:11,985 INFO [coursera_scraper]  - s12n~bk4QvR_5TD-gB9IwJgv6oQ | Financial Management | /specializations/business-financial-management
+2025-08-28 13:48:11,985 INFO [coursera_scraper]  - s12n~DhiZkjN0TIiyaf7skG_ULA | Business Analyst (ECBA) Certificate Preparation  | /specializations/business-analyst-ecba-certification-preparation
+2025-08-28 13:48:11,985 INFO [coursera_scraper]  - course~PI-xSbH_Ee2d3wo_DItpEw | Narrative Economics | /learn/narrative-economics
+2025-08-28 13:48:11,985 INFO [coursera_scraper]  - course~Exn6t_SUEe2OqwqhrYNGhQ | Introduction to Large Language Models | /learn/introduction-to-large-language-models
+2025-08-28 13:48:11,985 INFO [coursera_scraper]  - course~-TDPq2UJEe2piwrmyBNtEQ | Put It to Work: Prepare for Cybersecurity Jobs | /learn/prepare-for-cybersecurity-jobs
+2025-08-28 13:48:11,985 INFO [coursera_scraper]  - course~dZEaNbNjEeurEQ7HpnWdKw | AI Strategy and Governance | /learn/wharton-ai-strategy-governance
+2025-08-28 13:48:11,985 INFO [coursera_scraper]  - course~_u6gQDK6EeycGBKEuRb8CQ | Calculus for Machine Learning and Data Science | /learn/machine-learning-calculus
+2025-08-28 13:48:11,985 INFO [coursera_scraper]  - course~r0GnHOZaEees-Q6jQMxlrg | What is Data Science?  | /learn/what-is-datascience
+2025-08-28 13:48:11,985 INFO [coursera_scraper]  - course~YZB4KwRgEemMVw7xXzWiVg | Reducing Gun Violence in America: Evidence for Change | /learn/gun-violence
+2025-08-28 13:48:11,985 INFO [coursera_scraper]  - s12n~qq9MIGMFEeayMBJXAbQCnw | Dynamic Public Speaking | /specializations/public-speaking
+2025-08-28 13:48:14,086 INFO [coursera_scraper] TEST MODE: Running one query: data-science (domain_filter=True)
+2025-08-28 13:48:15,766 INFO [coursera_scraper] Fetched 500 items on page 0 for query=data-science (next_cursor=1)
+2025-08-28 13:48:15,767 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:48:15,767 INFO [coursera_scraper] TEST MODE fetched 500 items for query=data-science
+2025-08-28 13:48:15,768 INFO [coursera_scraper] DB now has 563 courses (total). Showing up to 10 most recent:
+2025-08-28 13:48:15,768 INFO [coursera_scraper]  - s12n~bk4QvR_5TD-gB9IwJgv6oQ | Financial Management | /specializations/business-financial-management
+2025-08-28 13:48:15,768 INFO [coursera_scraper]  - s12n~DhiZkjN0TIiyaf7skG_ULA | Business Analyst (ECBA) Certificate Preparation  | /specializations/business-analyst-ecba-certification-preparation
+2025-08-28 13:48:15,768 INFO [coursera_scraper]  - course~PI-xSbH_Ee2d3wo_DItpEw | Narrative Economics | /learn/narrative-economics
+2025-08-28 13:48:15,768 INFO [coursera_scraper]  - course~Exn6t_SUEe2OqwqhrYNGhQ | Introduction to Large Language Models | /learn/introduction-to-large-language-models
+2025-08-28 13:48:15,768 INFO [coursera_scraper]  - course~-TDPq2UJEe2piwrmyBNtEQ | Put It to Work: Prepare for Cybersecurity Jobs | /learn/prepare-for-cybersecurity-jobs
+2025-08-28 13:48:15,768 INFO [coursera_scraper]  - course~dZEaNbNjEeurEQ7HpnWdKw | AI Strategy and Governance | /learn/wharton-ai-strategy-governance
+2025-08-28 13:48:15,768 INFO [coursera_scraper]  - course~_u6gQDK6EeycGBKEuRb8CQ | Calculus for Machine Learning and Data Science | /learn/machine-learning-calculus
+2025-08-28 13:48:15,768 INFO [coursera_scraper]  - course~r0GnHOZaEees-Q6jQMxlrg | What is Data Science?  | /learn/what-is-datascience
+2025-08-28 13:48:15,768 INFO [coursera_scraper]  - course~YZB4KwRgEemMVw7xXzWiVg | Reducing Gun Violence in America: Evidence for Change | /learn/gun-violence
+2025-08-28 13:48:15,768 INFO [coursera_scraper]  - s12n~qq9MIGMFEeayMBJXAbQCnw | Dynamic Public Speaking | /specializations/public-speaking
+2025-08-28 13:48:17,863 INFO [coursera_scraper] TEST MODE: Running one query: information-technology (domain_filter=True)
+2025-08-28 13:48:19,597 INFO [coursera_scraper] Fetched 500 items on page 0 for query=information-technology (next_cursor=1)
+2025-08-28 13:48:19,597 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:48:19,598 INFO [coursera_scraper] TEST MODE fetched 500 items for query=information-technology
+2025-08-28 13:48:19,599 INFO [coursera_scraper] DB now has 563 courses (total). Showing up to 10 most recent:
+2025-08-28 13:48:19,599 INFO [coursera_scraper]  - s12n~bk4QvR_5TD-gB9IwJgv6oQ | Financial Management | /specializations/business-financial-management
+2025-08-28 13:48:19,599 INFO [coursera_scraper]  - s12n~DhiZkjN0TIiyaf7skG_ULA | Business Analyst (ECBA) Certificate Preparation  | /specializations/business-analyst-ecba-certification-preparation
+2025-08-28 13:48:19,599 INFO [coursera_scraper]  - course~PI-xSbH_Ee2d3wo_DItpEw | Narrative Economics | /learn/narrative-economics
+2025-08-28 13:48:19,599 INFO [coursera_scraper]  - course~Exn6t_SUEe2OqwqhrYNGhQ | Introduction to Large Language Models | /learn/introduction-to-large-language-models
+2025-08-28 13:48:19,599 INFO [coursera_scraper]  - course~-TDPq2UJEe2piwrmyBNtEQ | Put It to Work: Prepare for Cybersecurity Jobs | /learn/prepare-for-cybersecurity-jobs
+2025-08-28 13:48:19,599 INFO [coursera_scraper]  - course~dZEaNbNjEeurEQ7HpnWdKw | AI Strategy and Governance | /learn/wharton-ai-strategy-governance
+2025-08-28 13:48:19,599 INFO [coursera_scraper]  - course~_u6gQDK6EeycGBKEuRb8CQ | Calculus for Machine Learning and Data Science | /learn/machine-learning-calculus
+2025-08-28 13:48:19,599 INFO [coursera_scraper]  - course~r0GnHOZaEees-Q6jQMxlrg | What is Data Science?  | /learn/what-is-datascience
+2025-08-28 13:48:19,599 INFO [coursera_scraper]  - course~YZB4KwRgEemMVw7xXzWiVg | Reducing Gun Violence in America: Evidence for Change | /learn/gun-violence
+2025-08-28 13:48:19,599 INFO [coursera_scraper]  - s12n~qq9MIGMFEeayMBJXAbQCnw | Dynamic Public Speaking | /specializations/public-speaking
+2025-08-28 13:48:21,762 INFO [coursera_scraper] TEST MODE: Running one query: arts-and-humanities (domain_filter=True)
+2025-08-28 13:48:23,380 INFO [coursera_scraper] Fetched 500 items on page 0 for query=arts-and-humanities (next_cursor=1)
+2025-08-28 13:48:23,380 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:48:23,381 INFO [coursera_scraper] TEST MODE fetched 500 items for query=arts-and-humanities
+2025-08-28 13:48:23,382 INFO [coursera_scraper] DB now has 563 courses (total). Showing up to 10 most recent:
+2025-08-28 13:48:23,382 INFO [coursera_scraper]  - s12n~bk4QvR_5TD-gB9IwJgv6oQ | Financial Management | /specializations/business-financial-management
+2025-08-28 13:48:23,382 INFO [coursera_scraper]  - s12n~DhiZkjN0TIiyaf7skG_ULA | Business Analyst (ECBA) Certificate Preparation  | /specializations/business-analyst-ecba-certification-preparation
+2025-08-28 13:48:23,382 INFO [coursera_scraper]  - course~PI-xSbH_Ee2d3wo_DItpEw | Narrative Economics | /learn/narrative-economics
+2025-08-28 13:48:23,382 INFO [coursera_scraper]  - course~Exn6t_SUEe2OqwqhrYNGhQ | Introduction to Large Language Models | /learn/introduction-to-large-language-models
+2025-08-28 13:48:23,382 INFO [coursera_scraper]  - course~-TDPq2UJEe2piwrmyBNtEQ | Put It to Work: Prepare for Cybersecurity Jobs | /learn/prepare-for-cybersecurity-jobs
+2025-08-28 13:48:23,382 INFO [coursera_scraper]  - course~dZEaNbNjEeurEQ7HpnWdKw | AI Strategy and Governance | /learn/wharton-ai-strategy-governance
+2025-08-28 13:48:23,382 INFO [coursera_scraper]  - course~_u6gQDK6EeycGBKEuRb8CQ | Calculus for Machine Learning and Data Science | /learn/machine-learning-calculus
+2025-08-28 13:48:23,382 INFO [coursera_scraper]  - course~r0GnHOZaEees-Q6jQMxlrg | What is Data Science?  | /learn/what-is-datascience
+2025-08-28 13:48:23,382 INFO [coursera_scraper]  - course~YZB4KwRgEemMVw7xXzWiVg | Reducing Gun Violence in America: Evidence for Change | /learn/gun-violence
+2025-08-28 13:48:23,382 INFO [coursera_scraper]  - s12n~qq9MIGMFEeayMBJXAbQCnw | Dynamic Public Speaking | /specializations/public-speaking
+2025-08-28 13:48:25,481 INFO [coursera_scraper] TEST MODE: Running one query: health (domain_filter=True)
+2025-08-28 13:48:27,125 INFO [coursera_scraper] Fetched 500 items on page 0 for query=health (next_cursor=1)
+2025-08-28 13:48:27,125 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:48:27,126 INFO [coursera_scraper] TEST MODE fetched 500 items for query=health
+2025-08-28 13:48:27,127 INFO [coursera_scraper] DB now has 563 courses (total). Showing up to 10 most recent:
+2025-08-28 13:48:27,127 INFO [coursera_scraper]  - s12n~bk4QvR_5TD-gB9IwJgv6oQ | Financial Management | /specializations/business-financial-management
+2025-08-28 13:48:27,127 INFO [coursera_scraper]  - s12n~DhiZkjN0TIiyaf7skG_ULA | Business Analyst (ECBA) Certificate Preparation  | /specializations/business-analyst-ecba-certification-preparation
+2025-08-28 13:48:27,127 INFO [coursera_scraper]  - course~PI-xSbH_Ee2d3wo_DItpEw | Narrative Economics | /learn/narrative-economics
+2025-08-28 13:48:27,127 INFO [coursera_scraper]  - course~Exn6t_SUEe2OqwqhrYNGhQ | Introduction to Large Language Models | /learn/introduction-to-large-language-models
+2025-08-28 13:48:27,127 INFO [coursera_scraper]  - course~-TDPq2UJEe2piwrmyBNtEQ | Put It to Work: Prepare for Cybersecurity Jobs | /learn/prepare-for-cybersecurity-jobs
+2025-08-28 13:48:27,127 INFO [coursera_scraper]  - course~dZEaNbNjEeurEQ7HpnWdKw | AI Strategy and Governance | /learn/wharton-ai-strategy-governance
+2025-08-28 13:48:27,127 INFO [coursera_scraper]  - course~_u6gQDK6EeycGBKEuRb8CQ | Calculus for Machine Learning and Data Science | /learn/machine-learning-calculus
+2025-08-28 13:48:27,127 INFO [coursera_scraper]  - course~r0GnHOZaEees-Q6jQMxlrg | What is Data Science?  | /learn/what-is-datascience
+2025-08-28 13:48:27,127 INFO [coursera_scraper]  - course~YZB4KwRgEemMVw7xXzWiVg | Reducing Gun Violence in America: Evidence for Change | /learn/gun-violence
+2025-08-28 13:48:27,127 INFO [coursera_scraper]  - s12n~qq9MIGMFEeayMBJXAbQCnw | Dynamic Public Speaking | /specializations/public-speaking
+2025-08-28 13:48:29,288 INFO [coursera_scraper] TEST MODE: Running one query: math-and-logic (domain_filter=True)
+2025-08-28 13:49:01,123 INFO [coursera_scraper] Fetched 500 items on page 0 for query=math-and-logic (next_cursor=1)
+2025-08-28 13:49:01,123 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:49:01,123 INFO [coursera_scraper] TEST MODE fetched 500 items for query=math-and-logic
+2025-08-28 13:49:01,124 INFO [coursera_scraper] DB now has 563 courses (total). Showing up to 10 most recent:
+2025-08-28 13:49:01,124 INFO [coursera_scraper]  - s12n~bk4QvR_5TD-gB9IwJgv6oQ | Financial Management | /specializations/business-financial-management
+2025-08-28 13:49:01,124 INFO [coursera_scraper]  - s12n~DhiZkjN0TIiyaf7skG_ULA | Business Analyst (ECBA) Certificate Preparation  | /specializations/business-analyst-ecba-certification-preparation
+2025-08-28 13:49:01,124 INFO [coursera_scraper]  - course~PI-xSbH_Ee2d3wo_DItpEw | Narrative Economics | /learn/narrative-economics
+2025-08-28 13:49:01,124 INFO [coursera_scraper]  - course~Exn6t_SUEe2OqwqhrYNGhQ | Introduction to Large Language Models | /learn/introduction-to-large-language-models
+2025-08-28 13:49:01,125 INFO [coursera_scraper]  - course~-TDPq2UJEe2piwrmyBNtEQ | Put It to Work: Prepare for Cybersecurity Jobs | /learn/prepare-for-cybersecurity-jobs
+2025-08-28 13:49:01,125 INFO [coursera_scraper]  - course~dZEaNbNjEeurEQ7HpnWdKw | AI Strategy and Governance | /learn/wharton-ai-strategy-governance
+2025-08-28 13:49:01,125 INFO [coursera_scraper]  - course~_u6gQDK6EeycGBKEuRb8CQ | Calculus for Machine Learning and Data Science | /learn/machine-learning-calculus
+2025-08-28 13:49:01,125 INFO [coursera_scraper]  - course~r0GnHOZaEees-Q6jQMxlrg | What is Data Science?  | /learn/what-is-datascience
+2025-08-28 13:49:01,125 INFO [coursera_scraper]  - course~YZB4KwRgEemMVw7xXzWiVg | Reducing Gun Violence in America: Evidence for Change | /learn/gun-violence
+2025-08-28 13:49:01,125 INFO [coursera_scraper]  - s12n~qq9MIGMFEeayMBJXAbQCnw | Dynamic Public Speaking | /specializations/public-speaking
+2025-08-28 13:49:03,225 INFO [coursera_scraper] TEST MODE: Running one query: personal-development (domain_filter=True)
+2025-08-28 13:49:05,422 INFO [coursera_scraper] Fetched 500 items on page 0 for query=personal-development (next_cursor=1)
+2025-08-28 13:49:05,422 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:49:05,423 INFO [coursera_scraper] TEST MODE fetched 500 items for query=personal-development
+2025-08-28 13:49:05,423 INFO [coursera_scraper] DB now has 563 courses (total). Showing up to 10 most recent:
+2025-08-28 13:49:05,423 INFO [coursera_scraper]  - s12n~bk4QvR_5TD-gB9IwJgv6oQ | Financial Management | /specializations/business-financial-management
+2025-08-28 13:49:05,423 INFO [coursera_scraper]  - s12n~DhiZkjN0TIiyaf7skG_ULA | Business Analyst (ECBA) Certificate Preparation  | /specializations/business-analyst-ecba-certification-preparation
+2025-08-28 13:49:05,423 INFO [coursera_scraper]  - course~PI-xSbH_Ee2d3wo_DItpEw | Narrative Economics | /learn/narrative-economics
+2025-08-28 13:49:05,423 INFO [coursera_scraper]  - course~Exn6t_SUEe2OqwqhrYNGhQ | Introduction to Large Language Models | /learn/introduction-to-large-language-models
+2025-08-28 13:49:05,423 INFO [coursera_scraper]  - course~-TDPq2UJEe2piwrmyBNtEQ | Put It to Work: Prepare for Cybersecurity Jobs | /learn/prepare-for-cybersecurity-jobs
+2025-08-28 13:49:05,423 INFO [coursera_scraper]  - course~dZEaNbNjEeurEQ7HpnWdKw | AI Strategy and Governance | /learn/wharton-ai-strategy-governance
+2025-08-28 13:49:05,423 INFO [coursera_scraper]  - course~_u6gQDK6EeycGBKEuRb8CQ | Calculus for Machine Learning and Data Science | /learn/machine-learning-calculus
+2025-08-28 13:49:05,424 INFO [coursera_scraper]  - course~r0GnHOZaEees-Q6jQMxlrg | What is Data Science?  | /learn/what-is-datascience
+2025-08-28 13:49:05,424 INFO [coursera_scraper]  - course~YZB4KwRgEemMVw7xXzWiVg | Reducing Gun Violence in America: Evidence for Change | /learn/gun-violence
+2025-08-28 13:49:05,424 INFO [coursera_scraper]  - s12n~qq9MIGMFEeayMBJXAbQCnw | Dynamic Public Speaking | /specializations/public-speaking
+2025-08-28 13:49:07,535 INFO [coursera_scraper] TEST MODE: Running one query: physical-science-and-engineering (domain_filter=True)
+2025-08-28 13:49:09,534 INFO [coursera_scraper] Fetched 500 items on page 0 for query=physical-science-and-engineering (next_cursor=1)
+2025-08-28 13:49:09,534 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:49:09,535 INFO [coursera_scraper] TEST MODE fetched 500 items for query=physical-science-and-engineering
+2025-08-28 13:49:09,536 INFO [coursera_scraper] DB now has 563 courses (total). Showing up to 10 most recent:
+2025-08-28 13:49:09,536 INFO [coursera_scraper]  - s12n~bk4QvR_5TD-gB9IwJgv6oQ | Financial Management | /specializations/business-financial-management
+2025-08-28 13:49:09,536 INFO [coursera_scraper]  - s12n~DhiZkjN0TIiyaf7skG_ULA | Business Analyst (ECBA) Certificate Preparation  | /specializations/business-analyst-ecba-certification-preparation
+2025-08-28 13:49:09,536 INFO [coursera_scraper]  - course~PI-xSbH_Ee2d3wo_DItpEw | Narrative Economics | /learn/narrative-economics
+2025-08-28 13:49:09,536 INFO [coursera_scraper]  - course~Exn6t_SUEe2OqwqhrYNGhQ | Introduction to Large Language Models | /learn/introduction-to-large-language-models
+2025-08-28 13:49:09,536 INFO [coursera_scraper]  - course~-TDPq2UJEe2piwrmyBNtEQ | Put It to Work: Prepare for Cybersecurity Jobs | /learn/prepare-for-cybersecurity-jobs
+2025-08-28 13:49:09,536 INFO [coursera_scraper]  - course~dZEaNbNjEeurEQ7HpnWdKw | AI Strategy and Governance | /learn/wharton-ai-strategy-governance
+2025-08-28 13:49:09,536 INFO [coursera_scraper]  - course~_u6gQDK6EeycGBKEuRb8CQ | Calculus for Machine Learning and Data Science | /learn/machine-learning-calculus
+2025-08-28 13:49:09,536 INFO [coursera_scraper]  - course~r0GnHOZaEees-Q6jQMxlrg | What is Data Science?  | /learn/what-is-datascience
+2025-08-28 13:49:09,536 INFO [coursera_scraper]  - course~YZB4KwRgEemMVw7xXzWiVg | Reducing Gun Violence in America: Evidence for Change | /learn/gun-violence
+2025-08-28 13:49:09,536 INFO [coursera_scraper]  - s12n~qq9MIGMFEeayMBJXAbQCnw | Dynamic Public Speaking | /specializations/public-speaking
+2025-08-28 13:49:11,631 INFO [coursera_scraper] TEST MODE: Running one query: social-sciences (domain_filter=True)
+2025-08-28 13:49:13,315 INFO [coursera_scraper] Fetched 500 items on page 0 for query=social-sciences (next_cursor=1)
+2025-08-28 13:49:13,315 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:49:13,316 INFO [coursera_scraper] TEST MODE fetched 500 items for query=social-sciences
+2025-08-28 13:49:13,318 INFO [coursera_scraper] DB now has 563 courses (total). Showing up to 10 most recent:
+2025-08-28 13:49:13,318 INFO [coursera_scraper]  - s12n~bk4QvR_5TD-gB9IwJgv6oQ | Financial Management | /specializations/business-financial-management
+2025-08-28 13:49:13,318 INFO [coursera_scraper]  - s12n~DhiZkjN0TIiyaf7skG_ULA | Business Analyst (ECBA) Certificate Preparation  | /specializations/business-analyst-ecba-certification-preparation
+2025-08-28 13:49:13,318 INFO [coursera_scraper]  - course~PI-xSbH_Ee2d3wo_DItpEw | Narrative Economics | /learn/narrative-economics
+2025-08-28 13:49:13,318 INFO [coursera_scraper]  - course~Exn6t_SUEe2OqwqhrYNGhQ | Introduction to Large Language Models | /learn/introduction-to-large-language-models
+2025-08-28 13:49:13,318 INFO [coursera_scraper]  - course~-TDPq2UJEe2piwrmyBNtEQ | Put It to Work: Prepare for Cybersecurity Jobs | /learn/prepare-for-cybersecurity-jobs
+2025-08-28 13:49:13,318 INFO [coursera_scraper]  - course~dZEaNbNjEeurEQ7HpnWdKw | AI Strategy and Governance | /learn/wharton-ai-strategy-governance
+2025-08-28 13:49:13,318 INFO [coursera_scraper]  - course~_u6gQDK6EeycGBKEuRb8CQ | Calculus for Machine Learning and Data Science | /learn/machine-learning-calculus
+2025-08-28 13:49:13,318 INFO [coursera_scraper]  - course~r0GnHOZaEees-Q6jQMxlrg | What is Data Science?  | /learn/what-is-datascience
+2025-08-28 13:49:13,318 INFO [coursera_scraper]  - course~YZB4KwRgEemMVw7xXzWiVg | Reducing Gun Violence in America: Evidence for Change | /learn/gun-violence
+2025-08-28 13:49:13,319 INFO [coursera_scraper]  - s12n~qq9MIGMFEeayMBJXAbQCnw | Dynamic Public Speaking | /specializations/public-speaking
+2025-08-28 13:49:15,486 INFO [coursera_scraper] TEST MODE: Running one query: language-learning (domain_filter=True)
+2025-08-28 13:49:17,425 INFO [coursera_scraper] Fetched 500 items on page 0 for query=language-learning (next_cursor=1)
+2025-08-28 13:49:17,425 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:49:17,426 INFO [coursera_scraper] TEST MODE fetched 500 items for query=language-learning
+2025-08-28 13:49:17,427 INFO [coursera_scraper] DB now has 563 courses (total). Showing up to 10 most recent:
+2025-08-28 13:49:17,427 INFO [coursera_scraper]  - s12n~bk4QvR_5TD-gB9IwJgv6oQ | Financial Management | /specializations/business-financial-management
+2025-08-28 13:49:17,427 INFO [coursera_scraper]  - s12n~DhiZkjN0TIiyaf7skG_ULA | Business Analyst (ECBA) Certificate Preparation  | /specializations/business-analyst-ecba-certification-preparation
+2025-08-28 13:49:17,427 INFO [coursera_scraper]  - course~PI-xSbH_Ee2d3wo_DItpEw | Narrative Economics | /learn/narrative-economics
+2025-08-28 13:49:17,427 INFO [coursera_scraper]  - course~Exn6t_SUEe2OqwqhrYNGhQ | Introduction to Large Language Models | /learn/introduction-to-large-language-models
+2025-08-28 13:49:17,427 INFO [coursera_scraper]  - course~-TDPq2UJEe2piwrmyBNtEQ | Put It to Work: Prepare for Cybersecurity Jobs | /learn/prepare-for-cybersecurity-jobs
+2025-08-28 13:49:17,427 INFO [coursera_scraper]  - course~dZEaNbNjEeurEQ7HpnWdKw | AI Strategy and Governance | /learn/wharton-ai-strategy-governance
+2025-08-28 13:49:17,427 INFO [coursera_scraper]  - course~_u6gQDK6EeycGBKEuRb8CQ | Calculus for Machine Learning and Data Science | /learn/machine-learning-calculus
+2025-08-28 13:49:17,427 INFO [coursera_scraper]  - course~r0GnHOZaEees-Q6jQMxlrg | What is Data Science?  | /learn/what-is-datascience
+2025-08-28 13:49:17,427 INFO [coursera_scraper]  - course~YZB4KwRgEemMVw7xXzWiVg | Reducing Gun Violence in America: Evidence for Change | /learn/gun-violence
+2025-08-28 13:49:17,427 INFO [coursera_scraper]  - s12n~qq9MIGMFEeayMBJXAbQCnw | Dynamic Public Speaking | /specializations/public-speaking
+2025-08-28 13:51:46,777 INFO [coursera_scraper] TEST MODE: Running one query: computer-science (domain_filter=False)
+2025-08-28 13:51:49,368 INFO [coursera_scraper] Fetched 500 items on page 0 for query=computer-science (next_cursor=1)
+2025-08-28 13:51:49,368 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:51:49,369 INFO [coursera_scraper] TEST MODE fetched 500 items for query=computer-science
+2025-08-28 13:51:49,369 INFO [coursera_scraper] DB now has 1011 courses (total). Showing up to 10 most recent:
+2025-08-28 13:51:49,369 INFO [coursera_scraper]  - course~Yv0LMhL1EeuABgpVBjPnkw | Advanced Computer Vision with TensorFlow | /learn/advanced-computer-vision-with-tensorflow
+2025-08-28 13:51:49,370 INFO [coursera_scraper]  - course~FjD-ZB8oEeScWCIACnuVZQ | Epidemiology: The Basic Science of Public Health | /learn/epidemiology
+2025-08-28 13:51:49,370 INFO [coursera_scraper]  - course~Cl0UjUcKEeymwhKfXK5sCw | The Structured Query Language (SQL) | /learn/the-structured-query-language-sql
+2025-08-28 13:51:49,370 INFO [coursera_scraper]  - course~ndiiEbXdEeiHyRJCn2jdYg | Computational Thinking for K-12 Educators Capstone | /learn/computational-thinking-k12-educators-capstone
+2025-08-28 13:51:49,370 INFO [coursera_scraper]  - s12n~2QsAhLmDEeaZcw7VWEVHsg | Computer Security and Systems Management | /specializations/computer-security-systems-management
+2025-08-28 13:51:49,370 INFO [coursera_scraper]  - course~-K16jDj9Eei4VApI1GZAgg | Teaching Impacts of Technology: Global Society | /learn/teach-impacts-technology-global-society
+2025-08-28 13:51:49,370 INFO [coursera_scraper]  - course~eUkpLqmwEe6oQA6J-7B2nw | Introduction to Cosmetic and Skincare Science | /learn/introduction-to-cosmetic-and-skin-care-science
+2025-08-28 13:51:49,370 INFO [coursera_scraper]  - course~E3dfUi_PEe6mDAo3fVlzHw | Variable Selection, Model Validation, Nonlinear Regression | /learn/illinois-tech-variable-selection-model-validation-and-nonlinear-regression
+2025-08-28 13:51:49,370 INFO [coursera_scraper]  - course~Qx-vkAocEeWAYyIACmGIdw | Interactive Computer Graphics | /learn/interactive-computer-graphics
+2025-08-28 13:51:49,370 INFO [coursera_scraper]  - s12n~a7l9DoviEeukIBKbkcXp2w | Programming in C++: A Hands-on Introduction | /specializations/hands-on-cpp
+2025-08-28 13:51:51,465 INFO [coursera_scraper] TEST MODE: Running one query: business (domain_filter=False)
+2025-08-28 13:51:53,569 INFO [coursera_scraper] Fetched 500 items on page 0 for query=business (next_cursor=1)
+2025-08-28 13:51:53,569 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:51:53,570 INFO [coursera_scraper] TEST MODE fetched 500 items for query=business
+2025-08-28 13:51:53,571 INFO [coursera_scraper] DB now has 1330 courses (total). Showing up to 10 most recent:
+2025-08-28 13:51:53,571 INFO [coursera_scraper]  - course~QEXoJRBmEeWhsgqB1eduww | A Life of Happiness and Fulfillment | /learn/happiness
+2025-08-28 13:51:53,571 INFO [coursera_scraper]  - course~m7C0YyIQEeiscg7BUd3TjA | L'excellence opérationnelle en pratique  | /learn/excellence-operationnelle
+2025-08-28 13:51:53,571 INFO [coursera_scraper]  - course~xy43mSbyEe68bBLHU5PBpw | Introduction to Digital Transformation: Change & Disruption | /learn/introduction-to-digital-transformation-change-and-disruption
+2025-08-28 13:51:53,571 INFO [coursera_scraper]  - course~H4BoRfZ6EeW_Fg5kRHBRWw | Marketing Strategy Capstone Project | /learn/marketing-project
+2025-08-28 13:51:53,571 INFO [coursera_scraper]  - course~EfgRxJnSEeWjfxIrc5BW9Q | L'investissement à impact : les fondamentaux | /learn/investing-fondamentaux
+2025-08-28 13:51:53,571 INFO [coursera_scraper]  - s12n~AZXQuTGlTza_J0vyskqnlA | Design Thinking | /specializations/design-thinking
+2025-08-28 13:51:53,571 INFO [coursera_scraper]  - course~84pGjiPgEeWKeQ6ae81EbQ | Private Equity and Venture Capital | /learn/private-equity
+2025-08-28 13:51:53,571 INFO [coursera_scraper]  - course~uFdYfrMiEeWoKQ4rUD57pQ | Wharton Business and Financial Modeling Capstone | /learn/wharton-business-financial-modeling-capstone
+2025-08-28 13:51:53,571 INFO [coursera_scraper]  - course~x6nFXzpyEfC3HAr_0KfBDw | DeepSeek R1 for AI Marketing and Business Strategy | /learn/deepseek-r1-for-ai-marketing-and-business-strategy
+2025-08-28 13:51:53,571 INFO [coursera_scraper]  - course~_HtpP_VIEe2OqwqhrYNGhQ | Financial Planning | /learn/financial-planning-course-isb
+2025-08-28 13:51:55,763 INFO [coursera_scraper] TEST MODE: Running one query: data-science (domain_filter=False)
+2025-08-28 13:51:58,163 INFO [coursera_scraper] Fetched 500 items on page 0 for query=data-science (next_cursor=1)
+2025-08-28 13:51:58,163 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:51:58,165 INFO [coursera_scraper] TEST MODE fetched 500 items for query=data-science
+2025-08-28 13:51:58,166 INFO [coursera_scraper] DB now has 1659 courses (total). Showing up to 10 most recent:
+2025-08-28 13:51:58,167 INFO [coursera_scraper]  - course~Bkx-PB00Eea0YQ7Ij7lJXw | Applied Text Mining in Python | /learn/python-text-mining
+2025-08-28 13:51:58,167 INFO [coursera_scraper]  - course~-XDgQSfIEe2GwRLfSI7mvQ | The Nuts and Bolts of Machine Learning | /learn/the-nuts-and-bolts-of-machine-learning
+2025-08-28 13:51:58,167 INFO [coursera_scraper]  - course~Cl0UjUcKEeymwhKfXK5sCw | The Structured Query Language (SQL) | /learn/the-structured-query-language-sql
+2025-08-28 13:51:58,167 INFO [coursera_scraper]  - s12n~2edxa3fmSMKzbG7W2DaXJg | Mathematical Foundations for Data Science and Analytics | /specializations/mathematical-foundations-for-data-science-and-analysis
+2025-08-28 13:51:58,167 INFO [coursera_scraper]  - course~sqidvKg1EeuVEg4YNPWkHQ | Preparing for AI-900: Microsoft Azure AI Fundamentals exam | /learn/microsoft-ai-900-exam-prep
+2025-08-28 13:51:58,167 INFO [coursera_scraper]  - degree~wj7wYOfKSoe-8GDnyvqHoQ | Master of Science in Computer Science | /degrees/master-computer-science-clemson
+2025-08-28 13:51:58,167 INFO [coursera_scraper]  - course~NU1z0wsNEeqAyhJ_0dX92w | Importing Data in the Tidyverse | /learn/tidyverse-importing-data
+2025-08-28 13:51:58,167 INFO [coursera_scraper]  - s12n~a7l9DoviEeukIBKbkcXp2w | Programming in C++: A Hands-on Introduction | /specializations/hands-on-cpp
+2025-08-28 13:51:58,167 INFO [coursera_scraper]  - course~Anu7oplDEeWqkw5zNB248Q | Statistics for Genomic Data Science | /learn/statistical-genomics
+2025-08-28 13:51:58,167 INFO [coursera_scraper]  - course~R_xOnQBKEeyqpRL9ChOPjQ | Algebra and Differential Calculus for Data Science | /learn/algebra-and-differential-calculus-for-data-science
+2025-08-28 13:52:00,328 INFO [coursera_scraper] TEST MODE: Running one query: information-technology (domain_filter=False)
+2025-08-28 13:52:02,734 INFO [coursera_scraper] Fetched 500 items on page 0 for query=information-technology (next_cursor=1)
+2025-08-28 13:52:02,735 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:52:02,735 INFO [coursera_scraper] TEST MODE fetched 500 items for query=information-technology
+2025-08-28 13:52:02,737 INFO [coursera_scraper] DB now has 2060 courses (total). Showing up to 10 most recent:
+2025-08-28 13:52:02,737 INFO [coursera_scraper]  - course~KzTkolCEEeWxCwowHhzTpQ | Academic Information Seeking | /learn/academicinfoseek
+2025-08-28 13:52:02,737 INFO [coursera_scraper]  - course~BvhI5eJkEeWr4g7T_DyXNw | 计算机辅助翻译原理与实践 Principles and Practice of Computer-Aided Translation | /learn/fanyi-ruanjian
+2025-08-28 13:52:02,737 INFO [coursera_scraper]  - s12n~-WVnKrQRRoWsNQA3XkvmRw | Exam Prep: Certified Information Systems Auditor (CISA) | /specializations/exam-prep-certified-information-systems-auditor-cisa
+2025-08-28 13:52:02,737 INFO [coursera_scraper]  - course~yVSLGM9oEemUdBJnIEmuDA | Let’s Read! Learning Japanese through Science & Technology-2 | /learn/japanese-language-2
+2025-08-28 13:52:02,737 INFO [coursera_scraper]  - course~SiOsTxHDEe26hQ4jkCdYhQ | Security Operations | /learn/security-operations
+2025-08-28 13:52:02,737 INFO [coursera_scraper]  - course~mJnXDFzaEfCgow4vYQRkjQ | AWS Databases, Messaging, and Event Driven Architecture | /learn/aws-databases-messaging-architecture
+2025-08-28 13:52:02,737 INFO [coursera_scraper]  - course~IZHHNXR2EfC3ZBLUWiZPew | CCNP and CCIE Security Core SCOR 350-701(Exam Blueprint 1.1) | /learn/pearson-ccnp-and-ccie-security-core-scor-350-701-exam-blueprint-1-1-video-bnbj9
+2025-08-28 13:52:02,737 INFO [coursera_scraper]  - course~xBCmdzqcEfCxwxJQM9bC_Q | Applied Cryptography & Information Security | /learn/mq-csa-cryptography
+2025-08-28 13:52:02,737 INFO [coursera_scraper]  - course~bu4YSm4oEfCBPw7Ay81q_Q | CompTIA Linux+ XK0-005: Unit 7 | /learn/pearson-comptia-linux-xk0-005-complete-video-course-3rd-edition-video-trai-hffig
+2025-08-28 13:52:02,737 INFO [coursera_scraper]  - s12n~SzVE_nqnEemyQA4Z1lAc_A | Fintech: Foundations & Applications of Financial Technology | /specializations/wharton-fintech
+2025-08-28 13:52:04,911 INFO [coursera_scraper] TEST MODE: Running one query: arts-and-humanities (domain_filter=False)
+2025-08-28 13:52:07,230 INFO [coursera_scraper] Fetched 500 items on page 0 for query=arts-and-humanities (next_cursor=1)
+2025-08-28 13:52:07,230 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:52:07,231 INFO [coursera_scraper] TEST MODE fetched 500 items for query=arts-and-humanities
+2025-08-28 13:52:07,232 INFO [coursera_scraper] DB now has 2464 courses (total). Showing up to 10 most recent:
+2025-08-28 13:52:07,233 INFO [coursera_scraper]  - course~QEXoJRBmEeWhsgqB1eduww | A Life of Happiness and Fulfillment | /learn/happiness
+2025-08-28 13:52:07,233 INFO [coursera_scraper]  - course~Do8rFve4Ee2fnxIInyWU6Q | Microsoft PL-300 Exam Preparation and Practice | /learn/microsoft-pl-300-exam-preparation-and-practice
+2025-08-28 13:52:07,233 INFO [coursera_scraper]  - course~gWFmbrP9EeW-cQqGkhsQ8w | Sexing the Canvas: Art and Gender | /learn/gender-art
+2025-08-28 13:52:07,233 INFO [coursera_scraper]  - course~eUkpLqmwEe6oQA6J-7B2nw | Introduction to Cosmetic and Skincare Science | /learn/introduction-to-cosmetic-and-skin-care-science
+2025-08-28 13:52:07,233 INFO [coursera_scraper]  - course~84pGjiPgEeWKeQ6ae81EbQ | Private Equity and Venture Capital | /learn/private-equity
+2025-08-28 13:52:07,233 INFO [coursera_scraper]  - course~bNDy-Rf2Ee2GHgpzgfTJMw | AI Infrastructure and Operations Fundamentals | /learn/ai-infrastructure-operations-fundamentals
+2025-08-28 13:52:07,233 INFO [coursera_scraper]  - course~kE3kRVnlEe2gzxKTs6WidQ | Art and the Digital Transformation | /learn/artsformation
+2025-08-28 13:52:07,233 INFO [coursera_scraper]  - course~dZEaNbNjEeurEQ7HpnWdKw | AI Strategy and Governance | /learn/wharton-ai-strategy-governance
+2025-08-28 13:52:07,233 INFO [coursera_scraper]  - s12n~_u-5WC22EeandQ6BurPvEQ | Learn English: Advanced Grammar and Punctuation | /specializations/advanced-grammar-punctuation
+2025-08-28 13:52:07,233 INFO [coursera_scraper]  - course~7jEat7ioEeWfYA612mWHZw | Introduction to Systematic Review and Meta-Analysis | /learn/systematic-review
+2025-08-28 13:53:19,839 INFO [coursera_scraper] Starting fetch for query: computer-science (domain_filter=True)
+2025-08-28 13:53:20,181 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:53:20,183 INFO [coursera_scraper] Finished query 'computer-science' fetched 0 records
+2025-08-28 13:53:20,184 INFO [coursera_scraper] Starting fetch for query: business (domain_filter=True)
+2025-08-28 13:53:20,523 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:53:20,524 INFO [coursera_scraper] Finished query 'business' fetched 0 records
+2025-08-28 13:53:20,524 INFO [coursera_scraper] Starting fetch for query: data-science (domain_filter=True)
+2025-08-28 13:53:20,891 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:53:20,892 INFO [coursera_scraper] Finished query 'data-science' fetched 0 records
+2025-08-28 13:53:20,892 INFO [coursera_scraper] Starting fetch for query: it (domain_filter=True)
+2025-08-28 13:53:21,233 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:53:21,233 INFO [coursera_scraper] Finished query 'it' fetched 0 records
+2025-08-28 13:53:21,233 INFO [coursera_scraper] Starting fetch for query: arts-and-humanities (domain_filter=True)
+2025-08-28 13:53:21,559 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:53:21,560 INFO [coursera_scraper] Finished query 'arts-and-humanities' fetched 0 records
+2025-08-28 13:53:21,560 INFO [coursera_scraper] Starting fetch for query: health (domain_filter=True)
+2025-08-28 13:53:21,880 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:53:21,880 INFO [coursera_scraper] Finished query 'health' fetched 0 records
+2025-08-28 13:53:21,881 INFO [coursera_scraper] Starting fetch for query: math-and-logic (domain_filter=True)
+2025-08-28 13:53:22,192 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:53:22,192 INFO [coursera_scraper] Finished query 'math-and-logic' fetched 0 records
+2025-08-28 13:53:22,192 INFO [coursera_scraper] Starting fetch for query: personal-development (domain_filter=True)
+2025-08-28 13:53:22,498 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:53:22,499 INFO [coursera_scraper] Finished query 'personal-development' fetched 0 records
+2025-08-28 13:53:22,499 INFO [coursera_scraper] Starting fetch for query: physical-science-and-engineering (domain_filter=True)
+2025-08-28 13:53:22,798 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:53:22,799 INFO [coursera_scraper] Finished query 'physical-science-and-engineering' fetched 0 records
+2025-08-28 13:53:22,799 INFO [coursera_scraper] Starting fetch for query: social-sciences (domain_filter=True)
+2025-08-28 13:53:23,105 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:53:23,105 INFO [coursera_scraper] Finished query 'social-sciences' fetched 0 records
+2025-08-28 13:53:23,106 INFO [coursera_scraper] Starting fetch for query: language-learning (domain_filter=True)
+2025-08-28 13:53:23,415 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:53:23,416 INFO [coursera_scraper] Finished query 'language-learning' fetched 0 records
+2025-08-28 13:53:23,416 INFO [coursera_scraper] Total fetched across queries: 0
+2025-08-28 13:54:23,826 INFO [coursera_scraper] Starting fetch for query: computer-science (domain_filter=True)
+2025-08-28 13:58:01,145 INFO [coursera_scraper] Starting fetch for query: computer-science (domain_filter=True)
+2025-08-28 13:58:01,830 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:58:01,831 INFO [coursera_scraper] Finished query 'computer-science' fetched 0 records
+2025-08-28 13:58:01,831 INFO [coursera_scraper] Starting fetch for query: business (domain_filter=True)
+2025-08-28 13:58:02,171 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:58:02,172 INFO [coursera_scraper] Finished query 'business' fetched 0 records
+2025-08-28 13:58:02,172 INFO [coursera_scraper] Starting fetch for query: data-science (domain_filter=True)
+2025-08-28 13:58:02,546 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:58:02,546 INFO [coursera_scraper] Finished query 'data-science' fetched 0 records
+2025-08-28 13:58:02,546 INFO [coursera_scraper] Starting fetch for query: it (domain_filter=True)
+2025-08-28 13:58:02,878 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:58:02,879 INFO [coursera_scraper] Finished query 'it' fetched 0 records
+2025-08-28 13:58:02,879 INFO [coursera_scraper] Starting fetch for query: arts-and-humanities (domain_filter=True)
+2025-08-28 13:58:03,215 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:58:03,216 INFO [coursera_scraper] Finished query 'arts-and-humanities' fetched 0 records
+2025-08-28 13:58:03,216 INFO [coursera_scraper] Starting fetch for query: health (domain_filter=True)
+2025-08-28 13:58:03,568 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:58:03,568 INFO [coursera_scraper] Finished query 'health' fetched 0 records
+2025-08-28 13:58:03,568 INFO [coursera_scraper] Starting fetch for query: math-and-logic (domain_filter=True)
+2025-08-28 13:58:03,919 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:58:03,919 INFO [coursera_scraper] Finished query 'math-and-logic' fetched 0 records
+2025-08-28 13:58:03,919 INFO [coursera_scraper] Starting fetch for query: personal-development (domain_filter=True)
+2025-08-28 13:58:04,250 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:58:04,251 INFO [coursera_scraper] Finished query 'personal-development' fetched 0 records
+2025-08-28 13:58:04,251 INFO [coursera_scraper] Starting fetch for query: physical-science-and-engineering (domain_filter=True)
+2025-08-28 13:58:04,608 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:58:04,608 INFO [coursera_scraper] Finished query 'physical-science-and-engineering' fetched 0 records
+2025-08-28 13:58:04,608 INFO [coursera_scraper] Starting fetch for query: social-sciences (domain_filter=True)
+2025-08-28 13:58:04,983 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:58:04,984 INFO [coursera_scraper] Finished query 'social-sciences' fetched 0 records
+2025-08-28 13:58:04,984 INFO [coursera_scraper] Starting fetch for query: language-learning (domain_filter=True)
+2025-08-28 13:58:05,346 ERROR [coursera_scraper] GraphQL request failed for query= cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 92, in fetch_all_for_query
+    resp = send_search(payload, session=session)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 71, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 13:58:05,347 INFO [coursera_scraper] Finished query 'language-learning' fetched 0 records
+2025-08-28 13:58:05,347 INFO [coursera_scraper] Total fetched across queries: 0
+2025-08-28 13:58:20,051 INFO [coursera_scraper] TEST MODE: Running one query: business (domain_filter=False)
+2025-08-28 13:58:21,800 INFO [coursera_scraper] Fetched 500 items on page 0 for query=business (next_cursor=1)
+2025-08-28 13:58:21,800 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 13:58:21,801 INFO [coursera_scraper] TEST MODE fetched 500 items for query=business
+2025-08-28 13:58:21,802 INFO [coursera_scraper] DB now has 2464 courses (total). Showing up to 10 most recent:
+2025-08-28 13:58:21,802 INFO [coursera_scraper]  - course~QEXoJRBmEeWhsgqB1eduww | A Life of Happiness and Fulfillment | /learn/happiness
+2025-08-28 13:58:21,802 INFO [coursera_scraper]  - course~m7C0YyIQEeiscg7BUd3TjA | L'excellence opérationnelle en pratique  | /learn/excellence-operationnelle
+2025-08-28 13:58:21,802 INFO [coursera_scraper]  - course~xy43mSbyEe68bBLHU5PBpw | Introduction to Digital Transformation: Change & Disruption | /learn/introduction-to-digital-transformation-change-and-disruption
+2025-08-28 13:58:21,802 INFO [coursera_scraper]  - course~H4BoRfZ6EeW_Fg5kRHBRWw | Marketing Strategy Capstone Project | /learn/marketing-project
+2025-08-28 13:58:21,802 INFO [coursera_scraper]  - course~EfgRxJnSEeWjfxIrc5BW9Q | L'investissement à impact : les fondamentaux | /learn/investing-fondamentaux
+2025-08-28 13:58:21,802 INFO [coursera_scraper]  - s12n~AZXQuTGlTza_J0vyskqnlA | Design Thinking | /specializations/design-thinking
+2025-08-28 13:58:21,802 INFO [coursera_scraper]  - course~84pGjiPgEeWKeQ6ae81EbQ | Private Equity and Venture Capital | /learn/private-equity
+2025-08-28 13:58:21,802 INFO [coursera_scraper]  - course~uFdYfrMiEeWoKQ4rUD57pQ | Wharton Business and Financial Modeling Capstone | /learn/wharton-business-financial-modeling-capstone
+2025-08-28 13:58:21,802 INFO [coursera_scraper]  - course~x6nFXzpyEfC3HAr_0KfBDw | DeepSeek R1 for AI Marketing and Business Strategy | /learn/deepseek-r1-for-ai-marketing-and-business-strategy
+2025-08-28 13:58:21,802 INFO [coursera_scraper]  - course~_HtpP_VIEe2OqwqhrYNGhQ | Financial Planning | /learn/financial-planning-course-isb
+2025-08-28 14:02:54,777 INFO [coursera_scraper] Starting fetch for query: computer-science (domain_filter=True)
+2025-08-28 14:02:55,178 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domainId\", values: [\"computer-science\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domainId\", values: [\"computer-science\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:02:55,178 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domainId', 'values': ['computer-science']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:02:55,436 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain\", values: [\"computer-science\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain\", values: [\"computer-science\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:02:55,436 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain', 'values': ['computer-science']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:02:55,706 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain_slug\", values: [\"computer-science\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain_slug\", values: [\"computer-science\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:02:55,707 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain_slug', 'values': ['computer-science']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:02:56,216 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"category\", values: [\"computer-science\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"category\", values: [\"computer-science\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:02:56,217 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'category', 'values': ['computer-science']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:02:56,217 ERROR [coursera_scraper.graphql_client] All facet variants failed for domain_id=computer-science
+2025-08-28 14:02:56,217 ERROR [coursera_scraper] GraphQL request failed for domain_id=computer-science cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 102, in fetch_all_for_query
+    resp, used_fv = try_facet_variants(
+                    ~~~~~~~~~~~~~~~~~~^
+        limit=limit_per_page,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 170, in try_facet_variants
+    raise last_exc
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 160, in try_facet_variants
+    resp_json = send_search(payload, headers=headers, session=session, timeout=timeout)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 100, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:02:56,218 INFO [coursera_scraper] Finished query 'computer-science' fetched 0 records
+2025-08-28 14:02:56,218 INFO [coursera_scraper] Starting fetch for query: business (domain_filter=True)
+2025-08-28 14:02:56,573 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domainId\", values: [\"business\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domainId\", values: [\"business\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:02:56,573 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domainId', 'values': ['business']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:02:56,838 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain\", values: [\"business\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain\", values: [\"business\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:02:56,838 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain', 'values': ['business']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:02:57,078 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain_slug\", values: [\"business\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain_slug\", values: [\"business\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:02:57,078 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain_slug', 'values': ['business']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:02:57,348 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"category\", values: [\"business\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"category\", values: [\"business\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:02:57,348 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'category', 'values': ['business']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:02:57,349 ERROR [coursera_scraper.graphql_client] All facet variants failed for domain_id=business
+2025-08-28 14:02:57,349 ERROR [coursera_scraper] GraphQL request failed for domain_id=business cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 102, in fetch_all_for_query
+    resp, used_fv = try_facet_variants(
+                    ~~~~~~~~~~~~~~~~~~^
+        limit=limit_per_page,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 170, in try_facet_variants
+    raise last_exc
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 160, in try_facet_variants
+    resp_json = send_search(payload, headers=headers, session=session, timeout=timeout)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 100, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:02:57,349 INFO [coursera_scraper] Finished query 'business' fetched 0 records
+2025-08-28 14:02:57,349 INFO [coursera_scraper] Starting fetch for query: data-science (domain_filter=True)
+2025-08-28 14:02:57,693 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domainId\", values: [\"data-science\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domainId\", values: [\"data-science\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:02:57,693 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domainId', 'values': ['data-science']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:02:57,926 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain\", values: [\"data-science\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain\", values: [\"data-science\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:02:57,926 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain', 'values': ['data-science']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:02:58,168 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain_slug\", values: [\"data-science\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain_slug\", values: [\"data-science\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:02:58,168 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain_slug', 'values': ['data-science']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:02:58,394 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"category\", values: [\"data-science\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"category\", values: [\"data-science\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:02:58,394 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'category', 'values': ['data-science']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:02:58,394 ERROR [coursera_scraper.graphql_client] All facet variants failed for domain_id=data-science
+2025-08-28 14:02:58,394 ERROR [coursera_scraper] GraphQL request failed for domain_id=data-science cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 102, in fetch_all_for_query
+    resp, used_fv = try_facet_variants(
+                    ~~~~~~~~~~~~~~~~~~^
+        limit=limit_per_page,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 170, in try_facet_variants
+    raise last_exc
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 160, in try_facet_variants
+    resp_json = send_search(payload, headers=headers, session=session, timeout=timeout)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 100, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:02:58,395 INFO [coursera_scraper] Finished query 'data-science' fetched 0 records
+2025-08-28 14:02:58,395 INFO [coursera_scraper] Starting fetch for query: it (domain_filter=True)
+2025-08-28 14:02:58,734 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domainId\", values: [\"it\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domainId\", values: [\"it\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:02:58,734 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domainId', 'values': ['it']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:02:58,965 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain\", values: [\"it\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain\", values: [\"it\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:02:58,965 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain', 'values': ['it']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:02:59,201 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain_slug\", values: [\"it\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain_slug\", values: [\"it\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:02:59,201 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain_slug', 'values': ['it']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:02:59,452 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"category\", values: [\"it\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"category\", values: [\"it\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:02:59,453 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'category', 'values': ['it']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:02:59,453 ERROR [coursera_scraper.graphql_client] All facet variants failed for domain_id=it
+2025-08-28 14:02:59,453 ERROR [coursera_scraper] GraphQL request failed for domain_id=it cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 102, in fetch_all_for_query
+    resp, used_fv = try_facet_variants(
+                    ~~~~~~~~~~~~~~~~~~^
+        limit=limit_per_page,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 170, in try_facet_variants
+    raise last_exc
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 160, in try_facet_variants
+    resp_json = send_search(payload, headers=headers, session=session, timeout=timeout)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 100, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:02:59,454 INFO [coursera_scraper] Finished query 'it' fetched 0 records
+2025-08-28 14:02:59,454 INFO [coursera_scraper] Starting fetch for query: arts-and-humanities (domain_filter=True)
+2025-08-28 14:02:59,808 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domainId\", values: [\"arts-and-humanities\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domainId\", values: [\"arts-and-humanities\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:02:59,808 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domainId', 'values': ['arts-and-humanities']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:00,048 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain\", values: [\"arts-and-humanities\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain\", values: [\"arts-and-humanities\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:00,048 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain', 'values': ['arts-and-humanities']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:00,288 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain_slug\", values: [\"arts-and-humanities\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain_slug\", values: [\"arts-and-humanities\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:00,288 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain_slug', 'values': ['arts-and-humanities']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:00,529 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"category\", values: [\"arts-and-humanities\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"category\", values: [\"arts-and-humanities\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:00,529 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'category', 'values': ['arts-and-humanities']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:00,529 ERROR [coursera_scraper.graphql_client] All facet variants failed for domain_id=arts-and-humanities
+2025-08-28 14:03:00,529 ERROR [coursera_scraper] GraphQL request failed for domain_id=arts-and-humanities cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 102, in fetch_all_for_query
+    resp, used_fv = try_facet_variants(
+                    ~~~~~~~~~~~~~~~~~~^
+        limit=limit_per_page,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 170, in try_facet_variants
+    raise last_exc
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 160, in try_facet_variants
+    resp_json = send_search(payload, headers=headers, session=session, timeout=timeout)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 100, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:00,529 INFO [coursera_scraper] Finished query 'arts-and-humanities' fetched 0 records
+2025-08-28 14:03:00,529 INFO [coursera_scraper] Starting fetch for query: health (domain_filter=True)
+2025-08-28 14:03:00,942 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domainId\", values: [\"health\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domainId\", values: [\"health\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:00,942 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domainId', 'values': ['health']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:01,192 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain\", values: [\"health\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain\", values: [\"health\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:01,192 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain', 'values': ['health']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:01,463 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain_slug\", values: [\"health\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain_slug\", values: [\"health\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:01,463 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain_slug', 'values': ['health']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:01,736 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"category\", values: [\"health\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"category\", values: [\"health\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:01,736 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'category', 'values': ['health']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:01,736 ERROR [coursera_scraper.graphql_client] All facet variants failed for domain_id=health
+2025-08-28 14:03:01,736 ERROR [coursera_scraper] GraphQL request failed for domain_id=health cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 102, in fetch_all_for_query
+    resp, used_fv = try_facet_variants(
+                    ~~~~~~~~~~~~~~~~~~^
+        limit=limit_per_page,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 170, in try_facet_variants
+    raise last_exc
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 160, in try_facet_variants
+    resp_json = send_search(payload, headers=headers, session=session, timeout=timeout)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 100, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:01,737 INFO [coursera_scraper] Finished query 'health' fetched 0 records
+2025-08-28 14:03:01,737 INFO [coursera_scraper] Starting fetch for query: math-and-logic (domain_filter=True)
+2025-08-28 14:03:02,050 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domainId\", values: [\"math-and-logic\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domainId\", values: [\"math-and-logic\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:02,050 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domainId', 'values': ['math-and-logic']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:02,300 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain\", values: [\"math-and-logic\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain\", values: [\"math-and-logic\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:02,300 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain', 'values': ['math-and-logic']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:02,587 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain_slug\", values: [\"math-and-logic\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain_slug\", values: [\"math-and-logic\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:02,587 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain_slug', 'values': ['math-and-logic']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:02,838 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"category\", values: [\"math-and-logic\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"category\", values: [\"math-and-logic\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:02,838 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'category', 'values': ['math-and-logic']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:02,838 ERROR [coursera_scraper.graphql_client] All facet variants failed for domain_id=math-and-logic
+2025-08-28 14:03:02,838 ERROR [coursera_scraper] GraphQL request failed for domain_id=math-and-logic cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 102, in fetch_all_for_query
+    resp, used_fv = try_facet_variants(
+                    ~~~~~~~~~~~~~~~~~~^
+        limit=limit_per_page,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 170, in try_facet_variants
+    raise last_exc
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 160, in try_facet_variants
+    resp_json = send_search(payload, headers=headers, session=session, timeout=timeout)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 100, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:02,839 INFO [coursera_scraper] Finished query 'math-and-logic' fetched 0 records
+2025-08-28 14:03:02,839 INFO [coursera_scraper] Starting fetch for query: personal-development (domain_filter=True)
+2025-08-28 14:03:03,172 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domainId\", values: [\"personal-development\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domainId\", values: [\"personal-development\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:03,172 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domainId', 'values': ['personal-development']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:03,418 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain\", values: [\"personal-development\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain\", values: [\"personal-development\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:03,418 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain', 'values': ['personal-development']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:03,682 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain_slug\", values: [\"personal-development\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain_slug\", values: [\"personal-development\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:03,682 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain_slug', 'values': ['personal-development']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:03,948 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"category\", values: [\"personal-development\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"category\", values: [\"personal-development\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:03,949 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'category', 'values': ['personal-development']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:03,949 ERROR [coursera_scraper.graphql_client] All facet variants failed for domain_id=personal-development
+2025-08-28 14:03:03,949 ERROR [coursera_scraper] GraphQL request failed for domain_id=personal-development cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 102, in fetch_all_for_query
+    resp, used_fv = try_facet_variants(
+                    ~~~~~~~~~~~~~~~~~~^
+        limit=limit_per_page,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 170, in try_facet_variants
+    raise last_exc
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 160, in try_facet_variants
+    resp_json = send_search(payload, headers=headers, session=session, timeout=timeout)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 100, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:03,949 INFO [coursera_scraper] Finished query 'personal-development' fetched 0 records
+2025-08-28 14:03:03,950 INFO [coursera_scraper] Starting fetch for query: physical-science-and-engineering (domain_filter=True)
+2025-08-28 14:03:04,293 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domainId\", values: [\"physical-science-and-engineering\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domainId\", values: [\"physical-science-and-engineering\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:04,293 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domainId', 'values': ['physical-science-and-engineering']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:04,532 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain\", values: [\"physical-science-and-engineering\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain\", values: [\"physical-science-and-engineering\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:04,533 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain', 'values': ['physical-science-and-engineering']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:04,784 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain_slug\", values: [\"physical-science-and-engineering\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain_slug\", values: [\"physical-science-and-engineering\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:04,784 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain_slug', 'values': ['physical-science-and-engineering']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:05,039 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"category\", values: [\"physical-science-and-engineering\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"category\", values: [\"physical-science-and-engineering\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:05,039 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'category', 'values': ['physical-science-and-engineering']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:05,039 ERROR [coursera_scraper.graphql_client] All facet variants failed for domain_id=physical-science-and-engineering
+2025-08-28 14:03:05,039 ERROR [coursera_scraper] GraphQL request failed for domain_id=physical-science-and-engineering cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 102, in fetch_all_for_query
+    resp, used_fv = try_facet_variants(
+                    ~~~~~~~~~~~~~~~~~~^
+        limit=limit_per_page,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 170, in try_facet_variants
+    raise last_exc
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 160, in try_facet_variants
+    resp_json = send_search(payload, headers=headers, session=session, timeout=timeout)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 100, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:05,040 INFO [coursera_scraper] Finished query 'physical-science-and-engineering' fetched 0 records
+2025-08-28 14:03:05,040 INFO [coursera_scraper] Starting fetch for query: social-sciences (domain_filter=True)
+2025-08-28 14:03:05,370 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domainId\", values: [\"social-sciences\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domainId\", values: [\"social-sciences\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:05,370 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domainId', 'values': ['social-sciences']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:05,608 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain\", values: [\"social-sciences\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain\", values: [\"social-sciences\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:05,608 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain', 'values': ['social-sciences']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:05,846 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain_slug\", values: [\"social-sciences\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain_slug\", values: [\"social-sciences\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:05,846 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain_slug', 'values': ['social-sciences']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:06,068 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"category\", values: [\"social-sciences\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"category\", values: [\"social-sciences\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:06,069 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'category', 'values': ['social-sciences']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:06,069 ERROR [coursera_scraper.graphql_client] All facet variants failed for domain_id=social-sciences
+2025-08-28 14:03:06,069 ERROR [coursera_scraper] GraphQL request failed for domain_id=social-sciences cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 102, in fetch_all_for_query
+    resp, used_fv = try_facet_variants(
+                    ~~~~~~~~~~~~~~~~~~^
+        limit=limit_per_page,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 170, in try_facet_variants
+    raise last_exc
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 160, in try_facet_variants
+    resp_json = send_search(payload, headers=headers, session=session, timeout=timeout)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 100, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:06,069 INFO [coursera_scraper] Finished query 'social-sciences' fetched 0 records
+2025-08-28 14:03:06,069 INFO [coursera_scraper] Starting fetch for query: language-learning (domain_filter=True)
+2025-08-28 14:03:06,412 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domainId\", values: [\"language-learning\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domainId\", values: [\"language-learning\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:06,412 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domainId', 'values': ['language-learning']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:06,678 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain\", values: [\"language-learning\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain\", values: [\"language-learning\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:06,678 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain', 'values': ['language-learning']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:06,916 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain_slug\", values: [\"language-learning\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain_slug\", values: [\"language-learning\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:06,916 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain_slug', 'values': ['language-learning']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:07,167 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"category\", values: [\"language-learning\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"category\", values: [\"language-learning\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:03:07,167 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'category', 'values': ['language-learning']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:07,167 ERROR [coursera_scraper.graphql_client] All facet variants failed for domain_id=language-learning
+2025-08-28 14:03:07,167 ERROR [coursera_scraper] GraphQL request failed for domain_id=language-learning cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 102, in fetch_all_for_query
+    resp, used_fv = try_facet_variants(
+                    ~~~~~~~~~~~~~~~~~~^
+        limit=limit_per_page,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 170, in try_facet_variants
+    raise last_exc
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 160, in try_facet_variants
+    resp_json = send_search(payload, headers=headers, session=session, timeout=timeout)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 100, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:03:07,174 INFO [coursera_scraper] Finished query 'language-learning' fetched 0 records
+2025-08-28 14:03:07,174 INFO [coursera_scraper] Total fetched across queries: 0
+2025-08-28 14:04:19,773 INFO [coursera_scraper] TEST MODE: Running one query: business (domain_filter=False)
+2025-08-28 14:04:21,792 INFO [coursera_scraper] Fetched 500 items on page 0 for query=business (next_cursor=1)
+2025-08-28 14:04:21,792 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 14:04:21,793 INFO [coursera_scraper] TEST MODE fetched 500 items for query=business
+2025-08-28 14:04:21,796 INFO [coursera_scraper] DB now has 2464 courses (total). Showing up to 10 most recent:
+2025-08-28 14:04:21,796 INFO [coursera_scraper]  - course~QEXoJRBmEeWhsgqB1eduww | A Life of Happiness and Fulfillment | /learn/happiness
+2025-08-28 14:04:21,796 INFO [coursera_scraper]  - course~m7C0YyIQEeiscg7BUd3TjA | L'excellence opérationnelle en pratique  | /learn/excellence-operationnelle
+2025-08-28 14:04:21,796 INFO [coursera_scraper]  - course~xy43mSbyEe68bBLHU5PBpw | Introduction to Digital Transformation: Change & Disruption | /learn/introduction-to-digital-transformation-change-and-disruption
+2025-08-28 14:04:21,796 INFO [coursera_scraper]  - course~H4BoRfZ6EeW_Fg5kRHBRWw | Marketing Strategy Capstone Project | /learn/marketing-project
+2025-08-28 14:04:21,796 INFO [coursera_scraper]  - course~EfgRxJnSEeWjfxIrc5BW9Q | L'investissement à impact : les fondamentaux | /learn/investing-fondamentaux
+2025-08-28 14:04:21,796 INFO [coursera_scraper]  - s12n~AZXQuTGlTza_J0vyskqnlA | Design Thinking | /specializations/design-thinking
+2025-08-28 14:04:21,796 INFO [coursera_scraper]  - course~84pGjiPgEeWKeQ6ae81EbQ | Private Equity and Venture Capital | /learn/private-equity
+2025-08-28 14:04:21,796 INFO [coursera_scraper]  - course~uFdYfrMiEeWoKQ4rUD57pQ | Wharton Business and Financial Modeling Capstone | /learn/wharton-business-financial-modeling-capstone
+2025-08-28 14:04:21,797 INFO [coursera_scraper]  - course~x6nFXzpyEfC3HAr_0KfBDw | DeepSeek R1 for AI Marketing and Business Strategy | /learn/deepseek-r1-for-ai-marketing-and-business-strategy
+2025-08-28 14:04:21,797 INFO [coursera_scraper]  - course~_HtpP_VIEe2OqwqhrYNGhQ | Financial Planning | /learn/financial-planning-course-isb
+2025-08-28 14:04:42,315 INFO [coursera_scraper] TEST MODE: Running one query: business (domain_filter=True)
+2025-08-28 14:04:44,098 INFO [coursera_scraper] Fetched 500 items on page 0 for query=business (next_cursor=1)
+2025-08-28 14:04:44,099 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 14:04:44,100 INFO [coursera_scraper] TEST MODE fetched 500 items for query=business
+2025-08-28 14:04:44,102 INFO [coursera_scraper] DB now has 2464 courses (total). Showing up to 10 most recent:
+2025-08-28 14:04:44,102 INFO [coursera_scraper]  - course~QEXoJRBmEeWhsgqB1eduww | A Life of Happiness and Fulfillment | /learn/happiness
+2025-08-28 14:04:44,102 INFO [coursera_scraper]  - course~m7C0YyIQEeiscg7BUd3TjA | L'excellence opérationnelle en pratique  | /learn/excellence-operationnelle
+2025-08-28 14:04:44,102 INFO [coursera_scraper]  - course~xy43mSbyEe68bBLHU5PBpw | Introduction to Digital Transformation: Change & Disruption | /learn/introduction-to-digital-transformation-change-and-disruption
+2025-08-28 14:04:44,102 INFO [coursera_scraper]  - course~H4BoRfZ6EeW_Fg5kRHBRWw | Marketing Strategy Capstone Project | /learn/marketing-project
+2025-08-28 14:04:44,102 INFO [coursera_scraper]  - course~EfgRxJnSEeWjfxIrc5BW9Q | L'investissement à impact : les fondamentaux | /learn/investing-fondamentaux
+2025-08-28 14:04:44,102 INFO [coursera_scraper]  - s12n~AZXQuTGlTza_J0vyskqnlA | Design Thinking | /specializations/design-thinking
+2025-08-28 14:04:44,102 INFO [coursera_scraper]  - course~84pGjiPgEeWKeQ6ae81EbQ | Private Equity and Venture Capital | /learn/private-equity
+2025-08-28 14:04:44,102 INFO [coursera_scraper]  - course~uFdYfrMiEeWoKQ4rUD57pQ | Wharton Business and Financial Modeling Capstone | /learn/wharton-business-financial-modeling-capstone
+2025-08-28 14:04:44,102 INFO [coursera_scraper]  - course~x6nFXzpyEfC3HAr_0KfBDw | DeepSeek R1 for AI Marketing and Business Strategy | /learn/deepseek-r1-for-ai-marketing-and-business-strategy
+2025-08-28 14:04:44,102 INFO [coursera_scraper]  - course~_HtpP_VIEe2OqwqhrYNGhQ | Financial Planning | /learn/financial-planning-course-isb
+2025-08-28 14:11:34,391 INFO [coursera_scraper] TEST MODE: Running one query: business (domain_filter=True)
+2025-08-28 14:11:36,465 INFO [coursera_scraper] Fetched 500 items on page 0 for query=business (next_cursor=1)
+2025-08-28 14:11:36,465 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 14:11:36,466 INFO [coursera_scraper] TEST MODE fetched 500 items for query=business
+2025-08-28 14:11:36,467 INFO [coursera_scraper] DB now has 2464 courses (total). Showing up to 10 most recent:
+2025-08-28 14:11:36,467 INFO [coursera_scraper]  - course~QEXoJRBmEeWhsgqB1eduww | A Life of Happiness and Fulfillment | /learn/happiness
+2025-08-28 14:11:36,468 INFO [coursera_scraper]  - course~m7C0YyIQEeiscg7BUd3TjA | L'excellence opérationnelle en pratique  | /learn/excellence-operationnelle
+2025-08-28 14:11:36,468 INFO [coursera_scraper]  - course~xy43mSbyEe68bBLHU5PBpw | Introduction to Digital Transformation: Change & Disruption | /learn/introduction-to-digital-transformation-change-and-disruption
+2025-08-28 14:11:36,468 INFO [coursera_scraper]  - course~H4BoRfZ6EeW_Fg5kRHBRWw | Marketing Strategy Capstone Project | /learn/marketing-project
+2025-08-28 14:11:36,468 INFO [coursera_scraper]  - course~EfgRxJnSEeWjfxIrc5BW9Q | L'investissement à impact : les fondamentaux | /learn/investing-fondamentaux
+2025-08-28 14:11:36,468 INFO [coursera_scraper]  - s12n~AZXQuTGlTza_J0vyskqnlA | Design Thinking | /specializations/design-thinking
+2025-08-28 14:11:36,468 INFO [coursera_scraper]  - course~84pGjiPgEeWKeQ6ae81EbQ | Private Equity and Venture Capital | /learn/private-equity
+2025-08-28 14:11:36,468 INFO [coursera_scraper]  - course~uFdYfrMiEeWoKQ4rUD57pQ | Wharton Business and Financial Modeling Capstone | /learn/wharton-business-financial-modeling-capstone
+2025-08-28 14:11:36,468 INFO [coursera_scraper]  - course~x6nFXzpyEfC3HAr_0KfBDw | DeepSeek R1 for AI Marketing and Business Strategy | /learn/deepseek-r1-for-ai-marketing-and-business-strategy
+2025-08-28 14:11:36,468 INFO [coursera_scraper]  - course~_HtpP_VIEe2OqwqhrYNGhQ | Financial Planning | /learn/financial-planning-course-isb
+2025-08-28 14:11:45,373 INFO [coursera_scraper] Starting fetch for query: computer-science (domain_filter=True)
+2025-08-28 14:12:10,206 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domainId\", values: [\"computer-science\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domainId\", values: [\"computer-science\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:10,206 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domainId', 'values': ['computer-science']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:10,519 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain\", values: [\"computer-science\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain\", values: [\"computer-science\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:10,519 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain', 'values': ['computer-science']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:10,855 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain_slug\", values: [\"computer-science\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain_slug\", values: [\"computer-science\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:10,856 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain_slug', 'values': ['computer-science']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:11,169 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"category\", values: [\"computer-science\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"category\", values: [\"computer-science\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:11,169 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'category', 'values': ['computer-science']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:11,169 ERROR [coursera_scraper.graphql_client] All facet variants failed for domain_id=computer-science
+2025-08-28 14:12:11,169 ERROR [coursera_scraper] GraphQL request failed for domain_id=computer-science cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 102, in fetch_all_for_query
+    resp, used_fv = try_facet_variants(
+                    ~~~~~~~~~~~~~~~~~~^
+        limit=limit_per_page,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 170, in try_facet_variants
+    raise last_exc
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 160, in try_facet_variants
+    resp_json = send_search(payload, headers=headers, session=session, timeout=timeout)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 100, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:11,170 INFO [coursera_scraper] Finished query 'computer-science' fetched 0 records
+2025-08-28 14:12:11,170 INFO [coursera_scraper] Starting fetch for query: business (domain_filter=True)
+2025-08-28 14:12:11,646 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domainId\", values: [\"business\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domainId\", values: [\"business\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:11,646 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domainId', 'values': ['business']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:12,289 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain\", values: [\"business\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain\", values: [\"business\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:12,289 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain', 'values': ['business']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:12,576 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain_slug\", values: [\"business\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain_slug\", values: [\"business\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:12,577 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain_slug', 'values': ['business']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:12,859 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"category\", values: [\"business\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"category\", values: [\"business\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:12,860 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'category', 'values': ['business']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:12,860 ERROR [coursera_scraper.graphql_client] All facet variants failed for domain_id=business
+2025-08-28 14:12:12,860 ERROR [coursera_scraper] GraphQL request failed for domain_id=business cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 102, in fetch_all_for_query
+    resp, used_fv = try_facet_variants(
+                    ~~~~~~~~~~~~~~~~~~^
+        limit=limit_per_page,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 170, in try_facet_variants
+    raise last_exc
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 160, in try_facet_variants
+    resp_json = send_search(payload, headers=headers, session=session, timeout=timeout)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 100, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:12,861 INFO [coursera_scraper] Finished query 'business' fetched 0 records
+2025-08-28 14:12:12,861 INFO [coursera_scraper] Starting fetch for query: data-science (domain_filter=True)
+2025-08-28 14:12:13,258 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domainId\", values: [\"data-science\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domainId\", values: [\"data-science\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:13,258 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domainId', 'values': ['data-science']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:13,582 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain\", values: [\"data-science\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain\", values: [\"data-science\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:13,582 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain', 'values': ['data-science']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:13,897 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain_slug\", values: [\"data-science\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain_slug\", values: [\"data-science\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:13,897 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain_slug', 'values': ['data-science']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:14,216 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"category\", values: [\"data-science\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"category\", values: [\"data-science\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:14,216 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'category', 'values': ['data-science']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:14,216 ERROR [coursera_scraper.graphql_client] All facet variants failed for domain_id=data-science
+2025-08-28 14:12:14,216 ERROR [coursera_scraper] GraphQL request failed for domain_id=data-science cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 102, in fetch_all_for_query
+    resp, used_fv = try_facet_variants(
+                    ~~~~~~~~~~~~~~~~~~^
+        limit=limit_per_page,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 170, in try_facet_variants
+    raise last_exc
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 160, in try_facet_variants
+    resp_json = send_search(payload, headers=headers, session=session, timeout=timeout)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 100, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:14,218 INFO [coursera_scraper] Finished query 'data-science' fetched 0 records
+2025-08-28 14:12:14,218 INFO [coursera_scraper] Starting fetch for query: it (domain_filter=True)
+2025-08-28 14:12:14,617 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domainId\", values: [\"it\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domainId\", values: [\"it\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:14,617 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domainId', 'values': ['it']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:15,022 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain\", values: [\"it\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain\", values: [\"it\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:15,022 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain', 'values': ['it']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:15,336 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain_slug\", values: [\"it\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain_slug\", values: [\"it\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:15,337 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain_slug', 'values': ['it']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:15,711 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"category\", values: [\"it\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"category\", values: [\"it\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:15,711 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'category', 'values': ['it']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:15,711 ERROR [coursera_scraper.graphql_client] All facet variants failed for domain_id=it
+2025-08-28 14:12:15,711 ERROR [coursera_scraper] GraphQL request failed for domain_id=it cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 102, in fetch_all_for_query
+    resp, used_fv = try_facet_variants(
+                    ~~~~~~~~~~~~~~~~~~^
+        limit=limit_per_page,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 170, in try_facet_variants
+    raise last_exc
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 160, in try_facet_variants
+    resp_json = send_search(payload, headers=headers, session=session, timeout=timeout)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 100, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:15,712 INFO [coursera_scraper] Finished query 'it' fetched 0 records
+2025-08-28 14:12:15,712 INFO [coursera_scraper] Starting fetch for query: arts-and-humanities (domain_filter=True)
+2025-08-28 14:12:16,087 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domainId\", values: [\"arts-and-humanities\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domainId\", values: [\"arts-and-humanities\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:16,087 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domainId', 'values': ['arts-and-humanities']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:16,370 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain\", values: [\"arts-and-humanities\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain\", values: [\"arts-and-humanities\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:16,370 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain', 'values': ['arts-and-humanities']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:16,788 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain_slug\", values: [\"arts-and-humanities\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain_slug\", values: [\"arts-and-humanities\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:16,788 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain_slug', 'values': ['arts-and-humanities']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:17,072 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"category\", values: [\"arts-and-humanities\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"category\", values: [\"arts-and-humanities\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:17,072 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'category', 'values': ['arts-and-humanities']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:17,072 ERROR [coursera_scraper.graphql_client] All facet variants failed for domain_id=arts-and-humanities
+2025-08-28 14:12:17,072 ERROR [coursera_scraper] GraphQL request failed for domain_id=arts-and-humanities cursor=0: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+Traceback (most recent call last):
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/coursera_scraper.py", line 102, in fetch_all_for_query
+    resp, used_fv = try_facet_variants(
+                    ~~~~~~~~~~~~~~~~~~^
+        limit=limit_per_page,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 170, in try_facet_variants
+    raise last_exc
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 160, in try_facet_variants
+    resp_json = send_search(payload, headers=headers, session=session, timeout=timeout)
+  File "/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/scraper/graphql_client.py", line 100, in send_search
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/priyank/Downloads/venv/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:17,073 INFO [coursera_scraper] Finished query 'arts-and-humanities' fetched 0 records
+2025-08-28 14:12:17,073 INFO [coursera_scraper] Starting fetch for query: health (domain_filter=True)
+2025-08-28 14:12:17,476 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domainId\", values: [\"health\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domainId\", values: [\"health\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:17,476 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domainId', 'values': ['health']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:17,760 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain\", values: [\"health\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain\", values: [\"health\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:17,760 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain', 'values': ['health']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:12:18,211 ERROR [coursera_scraper.graphql_client] GraphQL returned status 400. Response body (preview):
+[{"errors":[{"message":"Variable \"$requests\" got invalid value { facet: \"domain_slug\", values: [\"health\"] } at \"requests[0].facetFilters[0]\"; String cannot represent a non string value: { facet: \"domain_slug\", values: [\"health\"] }","locations":[{"line":2,"column":14}],"extensions":{"code":"BAD_USER_INPUT"}}]}
+]
+2025-08-28 14:12:18,211 WARNING [coursera_scraper.graphql_client] Facet variant [{'facet': 'domain_slug', 'values': ['health']}] failed: 400 Client Error: Bad Request for url: https://www.coursera.org/graphql-gateway?opname=Search
+2025-08-28 14:14:24,371 INFO [coursera_scraper] TEST MODE: Running one query: health (domain_filter=True)
+2025-08-28 14:14:26,659 INFO [coursera_scraper] Fetched 500 items on page 0 for query=health (next_cursor=1)
+2025-08-28 14:14:26,659 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 14:14:26,660 INFO [coursera_scraper] TEST MODE fetched 500 items for query=health
+2025-08-28 14:14:26,661 INFO [coursera_scraper] DB now has 2855 courses (total). Showing up to 10 most recent:
+2025-08-28 14:14:26,661 INFO [coursera_scraper]  - course~c8sqc0Q1EeiCFArE3fR-sA | The Outcomes and Interventions of Health Informatics | /learn/the-outcomes-and-interventions-of-health-informatics
+2025-08-28 14:14:26,661 INFO [coursera_scraper]  - course~wYVFrFUOEeiXDgqeSsw0yA | Introduction to Statistics & Data Analysis in Public Health | /learn/introduction-statistics-data-analysis-public-health
+2025-08-28 14:14:26,661 INFO [coursera_scraper]  - course~GixeETxVEeW0tw4knrMo3Q | The Horse Course: Introduction to Basic Care and Management | /learn/horse-care
+2025-08-28 14:14:26,661 INFO [coursera_scraper]  - course~QEXoJRBmEeWhsgqB1eduww | A Life of Happiness and Fulfillment | /learn/happiness
+2025-08-28 14:14:26,661 INFO [coursera_scraper]  - course~lO5va7h_EeayqhK4SOTn7g | Whole genome sequencing of bacterial genomes - tools and applications | /learn/wgs-bacteria
+2025-08-28 14:14:26,661 INFO [coursera_scraper]  - course~-ufScs8fEeSS_CIACzcAUg | Ebola: Essential Knowledge for Health Professionals | /learn/ebola-essentials-for-health-professionals
+2025-08-28 14:14:26,661 INFO [coursera_scraper]  - course~n5lOaf83EeqlbQ4m_-mMqw | Introduction to Social Determinants of Health | /learn/introduction-to-social-determinants-of-health
+2025-08-28 14:14:26,661 INFO [coursera_scraper]  - course~ujDaYENhEeSfwCIACxeXRw | Synapses, Neurons and Brains  | /learn/synapses
+2025-08-28 14:14:26,661 INFO [coursera_scraper]  - s12n~v_llMSbIEeyO7w711D87uw | Medical Terminology | /specializations/medicalterminology
+2025-08-28 14:14:26,661 INFO [coursera_scraper]  - s12n~OcCIKgUPEeyK1w5vHGzehQ | Mindfulness and Well-being | /specializations/mindfulness-and-well-being
+2025-08-28 14:19:04,845 INFO [coursera_scraper] TEST MODE: Running one query: health (domain_filter=True)
+2025-08-28 14:19:14,432 INFO [coursera_scraper] Fetched 500 items on page 0 for query=health (next_cursor=1)
+2025-08-28 14:19:14,432 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 14:19:14,433 INFO [coursera_scraper] TEST MODE fetched 500 items for query=health
+2025-08-28 14:19:14,436 INFO [coursera_scraper] DB now has 2855 courses (total). Showing up to 10 most recent:
+2025-08-28 14:19:14,436 INFO [coursera_scraper]  - course~c8sqc0Q1EeiCFArE3fR-sA | The Outcomes and Interventions of Health Informatics | /learn/the-outcomes-and-interventions-of-health-informatics
+2025-08-28 14:19:14,436 INFO [coursera_scraper]  - course~wYVFrFUOEeiXDgqeSsw0yA | Introduction to Statistics & Data Analysis in Public Health | /learn/introduction-statistics-data-analysis-public-health
+2025-08-28 14:19:14,436 INFO [coursera_scraper]  - course~GixeETxVEeW0tw4knrMo3Q | The Horse Course: Introduction to Basic Care and Management | /learn/horse-care
+2025-08-28 14:19:14,436 INFO [coursera_scraper]  - course~QEXoJRBmEeWhsgqB1eduww | A Life of Happiness and Fulfillment | /learn/happiness
+2025-08-28 14:19:14,436 INFO [coursera_scraper]  - course~lO5va7h_EeayqhK4SOTn7g | Whole genome sequencing of bacterial genomes - tools and applications | /learn/wgs-bacteria
+2025-08-28 14:19:14,436 INFO [coursera_scraper]  - course~-ufScs8fEeSS_CIACzcAUg | Ebola: Essential Knowledge for Health Professionals | /learn/ebola-essentials-for-health-professionals
+2025-08-28 14:19:14,436 INFO [coursera_scraper]  - course~n5lOaf83EeqlbQ4m_-mMqw | Introduction to Social Determinants of Health | /learn/introduction-to-social-determinants-of-health
+2025-08-28 14:19:14,436 INFO [coursera_scraper]  - course~ujDaYENhEeSfwCIACxeXRw | Synapses, Neurons and Brains  | /learn/synapses
+2025-08-28 14:19:14,436 INFO [coursera_scraper]  - s12n~v_llMSbIEeyO7w711D87uw | Medical Terminology | /specializations/medicalterminology
+2025-08-28 14:19:14,436 INFO [coursera_scraper]  - s12n~OcCIKgUPEeyK1w5vHGzehQ | Mindfulness and Well-being | /specializations/mindfulness-and-well-being
+2025-08-28 14:19:32,898 INFO [coursera_scraper] Starting fetch for query: computer-science (domain_filter=True)
+2025-08-28 14:19:33,669 INFO [coursera_scraper.graphql_client] Facet variant worked: ['domainId:computer-science']
+2025-08-28 14:19:33,669 INFO [coursera_scraper] Using facet variant=['domainId:computer-science'] for domain_id=computer-science
+2025-08-28 14:19:33,678 INFO [coursera_scraper] No elements returned for query= cursor=0
+2025-08-28 14:19:33,679 INFO [coursera_scraper] Finished query 'computer-science' fetched 0 records
+2025-08-28 14:19:33,679 INFO [coursera_scraper] Starting fetch for query: business (domain_filter=True)
+2025-08-28 14:19:34,168 INFO [coursera_scraper.graphql_client] Facet variant worked: ['domainId:business']
+2025-08-28 14:19:34,168 INFO [coursera_scraper] Using facet variant=['domainId:business'] for domain_id=business
+2025-08-28 14:19:34,177 INFO [coursera_scraper] No elements returned for query= cursor=0
+2025-08-28 14:19:34,178 INFO [coursera_scraper] Finished query 'business' fetched 0 records
+2025-08-28 14:19:34,178 INFO [coursera_scraper] Starting fetch for query: data-science (domain_filter=True)
+2025-08-28 14:19:34,803 INFO [coursera_scraper.graphql_client] Facet variant worked: ['domainId:data-science']
+2025-08-28 14:19:34,803 INFO [coursera_scraper] Using facet variant=['domainId:data-science'] for domain_id=data-science
+2025-08-28 14:19:34,812 INFO [coursera_scraper] No elements returned for query= cursor=0
+2025-08-28 14:19:34,813 INFO [coursera_scraper] Finished query 'data-science' fetched 0 records
+2025-08-28 14:19:34,813 INFO [coursera_scraper] Starting fetch for query: it (domain_filter=True)
+2025-08-28 14:19:35,276 INFO [coursera_scraper.graphql_client] Facet variant worked: ['domainId:it']
+2025-08-28 14:19:35,276 INFO [coursera_scraper] Using facet variant=['domainId:it'] for domain_id=it
+2025-08-28 14:19:35,286 INFO [coursera_scraper] No elements returned for query= cursor=0
+2025-08-28 14:19:35,287 INFO [coursera_scraper] Finished query 'it' fetched 0 records
+2025-08-28 14:19:35,287 INFO [coursera_scraper] Starting fetch for query: arts-and-humanities (domain_filter=True)
+2025-08-28 14:19:35,765 INFO [coursera_scraper.graphql_client] Facet variant worked: ['domainId:arts-and-humanities']
+2025-08-28 14:19:35,765 INFO [coursera_scraper] Using facet variant=['domainId:arts-and-humanities'] for domain_id=arts-and-humanities
+2025-08-28 14:19:35,774 INFO [coursera_scraper] No elements returned for query= cursor=0
+2025-08-28 14:19:35,774 INFO [coursera_scraper] Finished query 'arts-and-humanities' fetched 0 records
+2025-08-28 14:19:35,774 INFO [coursera_scraper] Starting fetch for query: health (domain_filter=True)
+2025-08-28 14:19:36,315 INFO [coursera_scraper.graphql_client] Facet variant worked: ['domainId:health']
+2025-08-28 14:19:36,315 INFO [coursera_scraper] Using facet variant=['domainId:health'] for domain_id=health
+2025-08-28 14:19:36,325 INFO [coursera_scraper] No elements returned for query= cursor=0
+2025-08-28 14:19:36,325 INFO [coursera_scraper] Finished query 'health' fetched 0 records
+2025-08-28 14:19:36,325 INFO [coursera_scraper] Starting fetch for query: math-and-logic (domain_filter=True)
+2025-08-28 14:19:36,781 INFO [coursera_scraper.graphql_client] Facet variant worked: ['domainId:math-and-logic']
+2025-08-28 14:19:36,781 INFO [coursera_scraper] Using facet variant=['domainId:math-and-logic'] for domain_id=math-and-logic
+2025-08-28 14:19:36,790 INFO [coursera_scraper] No elements returned for query= cursor=0
+2025-08-28 14:19:36,790 INFO [coursera_scraper] Finished query 'math-and-logic' fetched 0 records
+2025-08-28 14:19:36,790 INFO [coursera_scraper] Starting fetch for query: personal-development (domain_filter=True)
+2025-08-28 14:19:37,307 INFO [coursera_scraper.graphql_client] Facet variant worked: ['domainId:personal-development']
+2025-08-28 14:19:37,307 INFO [coursera_scraper] Using facet variant=['domainId:personal-development'] for domain_id=personal-development
+2025-08-28 14:19:37,316 INFO [coursera_scraper] No elements returned for query= cursor=0
+2025-08-28 14:19:37,317 INFO [coursera_scraper] Finished query 'personal-development' fetched 0 records
+2025-08-28 14:19:37,317 INFO [coursera_scraper] Starting fetch for query: physical-science-and-engineering (domain_filter=True)
+2025-08-28 14:19:37,805 INFO [coursera_scraper.graphql_client] Facet variant worked: ['domainId:physical-science-and-engineering']
+2025-08-28 14:19:37,805 INFO [coursera_scraper] Using facet variant=['domainId:physical-science-and-engineering'] for domain_id=physical-science-and-engineering
+2025-08-28 14:19:37,814 INFO [coursera_scraper] No elements returned for query= cursor=0
+2025-08-28 14:19:37,814 INFO [coursera_scraper] Finished query 'physical-science-and-engineering' fetched 0 records
+2025-08-28 14:19:37,814 INFO [coursera_scraper] Starting fetch for query: social-sciences (domain_filter=True)
+2025-08-28 14:19:38,352 INFO [coursera_scraper.graphql_client] Facet variant worked: ['domainId:social-sciences']
+2025-08-28 14:19:38,352 INFO [coursera_scraper] Using facet variant=['domainId:social-sciences'] for domain_id=social-sciences
+2025-08-28 14:19:38,362 INFO [coursera_scraper] No elements returned for query= cursor=0
+2025-08-28 14:19:38,362 INFO [coursera_scraper] Finished query 'social-sciences' fetched 0 records
+2025-08-28 14:19:38,363 INFO [coursera_scraper] Starting fetch for query: language-learning (domain_filter=True)
+2025-08-28 14:19:38,867 INFO [coursera_scraper.graphql_client] Facet variant worked: ['domainId:language-learning']
+2025-08-28 14:19:38,867 INFO [coursera_scraper] Using facet variant=['domainId:language-learning'] for domain_id=language-learning
+2025-08-28 14:19:38,876 INFO [coursera_scraper] No elements returned for query= cursor=0
+2025-08-28 14:19:38,876 INFO [coursera_scraper] Finished query 'language-learning' fetched 0 records
+2025-08-28 14:19:38,877 INFO [coursera_scraper] Total fetched across queries: 0
+2025-08-28 14:19:50,397 INFO [coursera_scraper] TEST MODE: Running one query: health (domain_filter=True)
+2025-08-28 14:20:00,488 INFO [coursera_scraper] Fetched 500 items on page 0 for query=health (next_cursor=1)
+2025-08-28 14:20:00,488 INFO [coursera_scraper] Reached max_pages=1, stopping
+2025-08-28 14:20:00,489 INFO [coursera_scraper] TEST MODE fetched 500 items for query=health
+2025-08-28 14:20:00,491 INFO [coursera_scraper] DB now has 2855 courses (total). Showing up to 10 most recent:
+2025-08-28 14:20:00,491 INFO [coursera_scraper]  - course~c8sqc0Q1EeiCFArE3fR-sA | The Outcomes and Interventions of Health Informatics | /learn/the-outcomes-and-interventions-of-health-informatics
+2025-08-28 14:20:00,491 INFO [coursera_scraper]  - course~wYVFrFUOEeiXDgqeSsw0yA | Introduction to Statistics & Data Analysis in Public Health | /learn/introduction-statistics-data-analysis-public-health
+2025-08-28 14:20:00,491 INFO [coursera_scraper]  - course~GixeETxVEeW0tw4knrMo3Q | The Horse Course: Introduction to Basic Care and Management | /learn/horse-care
+2025-08-28 14:20:00,491 INFO [coursera_scraper]  - course~QEXoJRBmEeWhsgqB1eduww | A Life of Happiness and Fulfillment | /learn/happiness
+2025-08-28 14:20:00,491 INFO [coursera_scraper]  - course~lO5va7h_EeayqhK4SOTn7g | Whole genome sequencing of bacterial genomes - tools and applications | /learn/wgs-bacteria
+2025-08-28 14:20:00,491 INFO [coursera_scraper]  - course~-ufScs8fEeSS_CIACzcAUg | Ebola: Essential Knowledge for Health Professionals | /learn/ebola-essentials-for-health-professionals
+2025-08-28 14:20:00,491 INFO [coursera_scraper]  - course~n5lOaf83EeqlbQ4m_-mMqw | Introduction to Social Determinants of Health | /learn/introduction-to-social-determinants-of-health
+2025-08-28 14:20:00,491 INFO [coursera_scraper]  - course~ujDaYENhEeSfwCIACxeXRw | Synapses, Neurons and Brains  | /learn/synapses
+2025-08-28 14:20:00,491 INFO [coursera_scraper]  - s12n~v_llMSbIEeyO7w711D87uw | Medical Terminology | /specializations/medicalterminology
+2025-08-28 14:20:00,491 INFO [coursera_scraper]  - s12n~OcCIKgUPEeyK1w5vHGzehQ | Mindfulness and Well-being | /specializations/mindfulness-and-well-being
+2025-08-28 14:23:10,319 INFO [coursera_scraper] Starting fetch for query: computer-science (domain_filter=False)
+2025-08-28 14:23:13,552 INFO [coursera_scraper] Fetched 500 items on page 0 for query=computer-science (next_cursor=1)
+2025-08-28 14:23:16,991 INFO [coursera_scraper] Fetched 500 items on page 1 for query=computer-science (next_cursor=2)
+2025-08-28 14:23:20,438 INFO [coursera_scraper] Fetched 500 items on page 2 for query=computer-science (next_cursor=3)
+2025-08-28 14:23:23,897 INFO [coursera_scraper] Fetched 500 items on page 3 for query=computer-science (next_cursor=4)
+2025-08-28 14:23:27,346 INFO [coursera_scraper] Fetched 500 items on page 4 for query=computer-science (next_cursor=5)
+2025-08-28 14:23:30,780 INFO [coursera_scraper] Fetched 500 items on page 5 for query=computer-science (next_cursor=6)
+2025-08-28 14:23:34,163 INFO [coursera_scraper] Fetched 500 items on page 6 for query=computer-science (next_cursor=7)
+2025-08-28 14:23:37,527 INFO [coursera_scraper] Fetched 500 items on page 7 for query=computer-science (next_cursor=8)
+2025-08-28 14:23:40,873 INFO [coursera_scraper] Fetched 500 items on page 8 for query=computer-science (next_cursor=9)
+2025-08-28 14:23:44,236 INFO [coursera_scraper] Fetched 500 items on page 9 for query=computer-science (next_cursor=10)
+2025-08-28 14:23:47,595 INFO [coursera_scraper] Fetched 500 items on page 10 for query=computer-science (next_cursor=11)
+2025-08-28 14:23:50,878 INFO [coursera_scraper] Fetched 500 items on page 11 for query=computer-science (next_cursor=12)
+2025-08-28 14:23:54,224 INFO [coursera_scraper] Fetched 500 items on page 12 for query=computer-science (next_cursor=13)
+2025-08-28 14:23:57,759 INFO [coursera_scraper] Fetched 500 items on page 13 for query=computer-science (next_cursor=14)
+2025-08-28 14:24:01,211 INFO [coursera_scraper] Fetched 500 items on page 14 for query=computer-science (next_cursor=15)
+2025-08-28 14:24:04,523 INFO [coursera_scraper] Fetched 500 items on page 15 for query=computer-science (next_cursor=16)
+2025-08-28 14:24:07,791 INFO [coursera_scraper] Fetched 500 items on page 16 for query=computer-science (next_cursor=17)
+2025-08-28 14:24:11,248 INFO [coursera_scraper] Fetched 500 items on page 17 for query=computer-science (next_cursor=18)
+2025-08-28 14:24:14,157 INFO [coursera_scraper] Fetched 286 items on page 18 for query=computer-science (next_cursor=None)
+2025-08-28 14:24:14,157 INFO [coursera_scraper] No further cursor returned; finished pagination for query=computer-science
+2025-08-28 14:24:14,158 INFO [coursera_scraper] Finished query 'computer-science' fetched 9286 records
+2025-08-28 14:24:14,158 INFO [coursera_scraper] Starting fetch for query: business (domain_filter=False)
+2025-08-28 14:24:16,444 INFO [coursera_scraper] Fetched 500 items on page 0 for query=business (next_cursor=1)
+2025-08-28 14:24:20,283 INFO [coursera_scraper] Fetched 500 items on page 1 for query=business (next_cursor=2)
+2025-08-28 14:24:23,746 INFO [coursera_scraper] Fetched 500 items on page 2 for query=business (next_cursor=3)
+2025-08-28 14:24:30,967 INFO [coursera_scraper] Fetched 500 items on page 3 for query=business (next_cursor=4)
+2025-08-28 14:24:34,488 INFO [coursera_scraper] Fetched 500 items on page 4 for query=business (next_cursor=5)
+2025-08-28 14:24:37,687 INFO [coursera_scraper] Fetched 500 items on page 5 for query=business (next_cursor=6)
+2025-08-28 14:24:40,919 INFO [coursera_scraper] Fetched 500 items on page 6 for query=business (next_cursor=7)
+2025-08-28 14:24:44,275 INFO [coursera_scraper] Fetched 500 items on page 7 for query=business (next_cursor=8)
+2025-08-28 14:24:47,960 INFO [coursera_scraper] Fetched 500 items on page 8 for query=business (next_cursor=9)
+2025-08-28 14:24:51,969 INFO [coursera_scraper] Fetched 500 items on page 9 for query=business (next_cursor=10)
+2025-08-28 14:24:55,841 INFO [coursera_scraper] Fetched 500 items on page 10 for query=business (next_cursor=11)
+2025-08-28 14:24:59,214 INFO [coursera_scraper] Fetched 500 items on page 11 for query=business (next_cursor=12)
+2025-08-28 14:25:02,619 INFO [coursera_scraper] Fetched 500 items on page 12 for query=business (next_cursor=13)
+2025-08-28 14:25:04,476 INFO [coursera_scraper] Fetched 4 items on page 13 for query=business (next_cursor=None)
+2025-08-28 14:25:04,476 INFO [coursera_scraper] No further cursor returned; finished pagination for query=business
+2025-08-28 14:25:04,476 INFO [coursera_scraper] Finished query 'business' fetched 6504 records
+2025-08-28 14:25:04,476 INFO [coursera_scraper] Starting fetch for query: data-science (domain_filter=False)
+2025-08-28 14:25:06,566 INFO [coursera_scraper] Fetched 500 items on page 0 for query=data-science (next_cursor=1)
+2025-08-28 14:25:10,011 INFO [coursera_scraper] Fetched 500 items on page 1 for query=data-science (next_cursor=2)
+2025-08-28 14:25:13,375 INFO [coursera_scraper] Fetched 500 items on page 2 for query=data-science (next_cursor=3)
+2025-08-28 14:25:16,713 INFO [coursera_scraper] Fetched 500 items on page 3 for query=data-science (next_cursor=4)
+2025-08-28 14:25:19,996 INFO [coursera_scraper] Fetched 500 items on page 4 for query=data-science (next_cursor=5)
+2025-08-28 14:25:23,190 INFO [coursera_scraper] Fetched 500 items on page 5 for query=data-science (next_cursor=6)
+2025-08-28 14:25:26,598 INFO [coursera_scraper] Fetched 500 items on page 6 for query=data-science (next_cursor=7)
+2025-08-28 14:25:29,903 INFO [coursera_scraper] Fetched 500 items on page 7 for query=data-science (next_cursor=8)
+2025-08-28 14:25:33,658 INFO [coursera_scraper] Fetched 500 items on page 8 for query=data-science (next_cursor=9)
+2025-08-28 14:25:37,039 INFO [coursera_scraper] Fetched 500 items on page 9 for query=data-science (next_cursor=10)
+2025-08-28 14:25:40,383 INFO [coursera_scraper] Fetched 500 items on page 10 for query=data-science (next_cursor=11)
+2025-08-28 14:25:43,806 INFO [coursera_scraper] Fetched 500 items on page 11 for query=data-science (next_cursor=12)
+2025-08-28 14:25:47,004 INFO [coursera_scraper] Fetched 500 items on page 12 for query=data-science (next_cursor=13)
+2025-08-28 14:25:50,429 INFO [coursera_scraper] Fetched 500 items on page 13 for query=data-science (next_cursor=14)
+2025-08-28 14:25:53,796 INFO [coursera_scraper] Fetched 500 items on page 14 for query=data-science (next_cursor=15)
+2025-08-28 14:25:57,143 INFO [coursera_scraper] Fetched 500 items on page 15 for query=data-science (next_cursor=16)
+2025-08-28 14:26:00,451 INFO [coursera_scraper] Fetched 500 items on page 16 for query=data-science (next_cursor=17)
+2025-08-28 14:26:03,737 INFO [coursera_scraper] Fetched 500 items on page 17 for query=data-science (next_cursor=18)
+2025-08-28 14:26:07,122 INFO [coursera_scraper] Fetched 500 items on page 18 for query=data-science (next_cursor=19)
+2025-08-28 14:26:10,433 INFO [coursera_scraper] Fetched 500 items on page 19 for query=data-science (next_cursor=None)
+2025-08-28 14:26:10,433 INFO [coursera_scraper] No further cursor returned; finished pagination for query=data-science
+2025-08-28 14:26:10,433 INFO [coursera_scraper] Finished query 'data-science' fetched 10000 records
+2025-08-28 14:26:10,433 INFO [coursera_scraper] Starting fetch for query: it (domain_filter=False)
+2025-08-28 14:26:12,499 INFO [coursera_scraper] Fetched 500 items on page 0 for query=it (next_cursor=1)
+2025-08-28 14:26:15,862 INFO [coursera_scraper] Fetched 500 items on page 1 for query=it (next_cursor=2)
+2025-08-28 14:26:19,116 INFO [coursera_scraper] Fetched 500 items on page 2 for query=it (next_cursor=3)
+2025-08-28 14:26:22,282 INFO [coursera_scraper] Fetched 500 items on page 3 for query=it (next_cursor=4)
+2025-08-28 14:26:25,895 INFO [coursera_scraper] Fetched 500 items on page 4 for query=it (next_cursor=5)
+2025-08-28 14:26:29,252 INFO [coursera_scraper] Fetched 500 items on page 5 for query=it (next_cursor=6)
+2025-08-28 14:26:32,568 INFO [coursera_scraper] Fetched 500 items on page 6 for query=it (next_cursor=7)
+2025-08-28 14:26:35,799 INFO [coursera_scraper] Fetched 500 items on page 7 for query=it (next_cursor=8)
+2025-08-28 14:26:39,047 INFO [coursera_scraper] Fetched 500 items on page 8 for query=it (next_cursor=9)
+2025-08-28 14:26:42,511 INFO [coursera_scraper] Fetched 468 items on page 9 for query=it (next_cursor=None)
+2025-08-28 14:26:42,511 INFO [coursera_scraper] No further cursor returned; finished pagination for query=it
+2025-08-28 14:26:42,512 INFO [coursera_scraper] Finished query 'it' fetched 4968 records
+2025-08-28 14:26:42,512 INFO [coursera_scraper] Starting fetch for query: arts-and-humanities (domain_filter=False)
+2025-08-28 14:26:44,565 INFO [coursera_scraper] Fetched 500 items on page 0 for query=arts-and-humanities (next_cursor=1)
+2025-08-28 14:26:48,353 INFO [coursera_scraper] Fetched 500 items on page 1 for query=arts-and-humanities (next_cursor=2)
+2025-08-28 14:26:51,574 INFO [coursera_scraper] Fetched 500 items on page 2 for query=arts-and-humanities (next_cursor=3)
+2025-08-28 14:26:54,934 INFO [coursera_scraper] Fetched 500 items on page 3 for query=arts-and-humanities (next_cursor=4)
+2025-08-28 14:26:58,702 INFO [coursera_scraper] Fetched 500 items on page 4 for query=arts-and-humanities (next_cursor=5)
+2025-08-28 14:27:02,073 INFO [coursera_scraper] Fetched 500 items on page 5 for query=arts-and-humanities (next_cursor=6)
+2025-08-28 14:27:05,454 INFO [coursera_scraper] Fetched 500 items on page 6 for query=arts-and-humanities (next_cursor=7)
+2025-08-28 14:27:08,836 INFO [coursera_scraper] Fetched 500 items on page 7 for query=arts-and-humanities (next_cursor=8)
+2025-08-28 14:27:12,213 INFO [coursera_scraper] Fetched 500 items on page 8 for query=arts-and-humanities (next_cursor=9)
+2025-08-28 14:27:15,621 INFO [coursera_scraper] Fetched 500 items on page 9 for query=arts-and-humanities (next_cursor=10)
+2025-08-28 14:27:19,028 INFO [coursera_scraper] Fetched 500 items on page 10 for query=arts-and-humanities (next_cursor=11)
+2025-08-28 14:27:22,376 INFO [coursera_scraper] Fetched 500 items on page 11 for query=arts-and-humanities (next_cursor=12)
+2025-08-28 14:27:26,083 INFO [coursera_scraper] Fetched 500 items on page 12 for query=arts-and-humanities (next_cursor=13)
+2025-08-28 14:27:29,825 INFO [coursera_scraper] Fetched 500 items on page 13 for query=arts-and-humanities (next_cursor=14)
+2025-08-28 14:27:33,365 INFO [coursera_scraper] Fetched 500 items on page 14 for query=arts-and-humanities (next_cursor=15)
+2025-08-28 14:27:36,744 INFO [coursera_scraper] Fetched 500 items on page 15 for query=arts-and-humanities (next_cursor=16)
+2025-08-28 14:27:40,119 INFO [coursera_scraper] Fetched 500 items on page 16 for query=arts-and-humanities (next_cursor=17)
+2025-08-28 14:27:43,504 INFO [coursera_scraper] Fetched 500 items on page 17 for query=arts-and-humanities (next_cursor=18)
+2025-08-28 14:27:46,884 INFO [coursera_scraper] Fetched 500 items on page 18 for query=arts-and-humanities (next_cursor=19)
+2025-08-28 14:27:50,568 INFO [coursera_scraper] Fetched 500 items on page 19 for query=arts-and-humanities (next_cursor=None)
+2025-08-28 14:27:50,568 INFO [coursera_scraper] No further cursor returned; finished pagination for query=arts-and-humanities
+2025-08-28 14:27:50,569 INFO [coursera_scraper] Finished query 'arts-and-humanities' fetched 10000 records
+2025-08-28 14:27:50,569 INFO [coursera_scraper] Starting fetch for query: health (domain_filter=False)
+2025-08-28 14:27:52,611 INFO [coursera_scraper] Fetched 500 items on page 0 for query=health (next_cursor=1)
+2025-08-28 14:27:55,826 INFO [coursera_scraper] Fetched 500 items on page 1 for query=health (next_cursor=2)
+2025-08-28 14:27:59,635 INFO [coursera_scraper] Fetched 500 items on page 2 for query=health (next_cursor=3)
+2025-08-28 14:28:01,660 INFO [coursera_scraper] Fetched 62 items on page 3 for query=health (next_cursor=None)
+2025-08-28 14:28:01,660 INFO [coursera_scraper] No further cursor returned; finished pagination for query=health
+2025-08-28 14:28:01,661 INFO [coursera_scraper] Finished query 'health' fetched 1562 records
+2025-08-28 14:28:01,661 INFO [coursera_scraper] Starting fetch for query: math-and-logic (domain_filter=False)
+2025-08-28 14:28:04,096 INFO [coursera_scraper] Fetched 500 items on page 0 for query=math-and-logic (next_cursor=1)
+2025-08-28 14:28:07,487 INFO [coursera_scraper] Fetched 500 items on page 1 for query=math-and-logic (next_cursor=2)
+2025-08-28 14:28:10,831 INFO [coursera_scraper] Fetched 500 items on page 2 for query=math-and-logic (next_cursor=3)
+2025-08-28 14:28:14,382 INFO [coursera_scraper] Fetched 500 items on page 3 for query=math-and-logic (next_cursor=4)
+2025-08-28 14:28:17,774 INFO [coursera_scraper] Fetched 500 items on page 4 for query=math-and-logic (next_cursor=5)
+2025-08-28 14:28:21,022 INFO [coursera_scraper] Fetched 500 items on page 5 for query=math-and-logic (next_cursor=6)
+2025-08-28 14:28:24,684 INFO [coursera_scraper] Fetched 500 items on page 6 for query=math-and-logic (next_cursor=7)
+2025-08-28 14:28:28,455 INFO [coursera_scraper] Fetched 500 items on page 7 for query=math-and-logic (next_cursor=8)
+2025-08-28 14:28:31,792 INFO [coursera_scraper] Fetched 500 items on page 8 for query=math-and-logic (next_cursor=9)
+2025-08-28 14:28:35,285 INFO [coursera_scraper] Fetched 500 items on page 9 for query=math-and-logic (next_cursor=10)
+2025-08-28 14:28:38,617 INFO [coursera_scraper] Fetched 500 items on page 10 for query=math-and-logic (next_cursor=11)
+2025-08-28 14:28:41,955 INFO [coursera_scraper] Fetched 500 items on page 11 for query=math-and-logic (next_cursor=12)
+2025-08-28 14:28:45,315 INFO [coursera_scraper] Fetched 500 items on page 12 for query=math-and-logic (next_cursor=13)
+2025-08-28 14:28:48,689 INFO [coursera_scraper] Fetched 500 items on page 13 for query=math-and-logic (next_cursor=14)
+2025-08-28 14:28:52,860 INFO [coursera_scraper] Fetched 500 items on page 14 for query=math-and-logic (next_cursor=15)
+2025-08-28 14:28:56,244 INFO [coursera_scraper] Fetched 500 items on page 15 for query=math-and-logic (next_cursor=16)
+2025-08-28 14:28:59,666 INFO [coursera_scraper] Fetched 500 items on page 16 for query=math-and-logic (next_cursor=17)
+2025-08-28 14:29:03,043 INFO [coursera_scraper] Fetched 500 items on page 17 for query=math-and-logic (next_cursor=18)
+2025-08-28 14:29:06,737 INFO [coursera_scraper] Fetched 500 items on page 18 for query=math-and-logic (next_cursor=19)
+2025-08-28 14:29:10,580 INFO [coursera_scraper] Fetched 500 items on page 19 for query=math-and-logic (next_cursor=None)
+2025-08-28 14:29:10,580 INFO [coursera_scraper] No further cursor returned; finished pagination for query=math-and-logic
+2025-08-28 14:29:10,580 INFO [coursera_scraper] Finished query 'math-and-logic' fetched 10000 records
+2025-08-28 14:29:10,580 INFO [coursera_scraper] Starting fetch for query: personal-development (domain_filter=False)
+2025-08-28 14:29:12,871 INFO [coursera_scraper] Fetched 500 items on page 0 for query=personal-development (next_cursor=1)
+2025-08-28 14:29:16,215 INFO [coursera_scraper] Fetched 500 items on page 1 for query=personal-development (next_cursor=2)
+2025-08-28 14:29:19,578 INFO [coursera_scraper] Fetched 500 items on page 2 for query=personal-development (next_cursor=3)
+2025-08-28 14:29:22,892 INFO [coursera_scraper] Fetched 500 items on page 3 for query=personal-development (next_cursor=4)
+2025-08-28 14:29:26,229 INFO [coursera_scraper] Fetched 500 items on page 4 for query=personal-development (next_cursor=5)
+2025-08-28 14:29:30,014 INFO [coursera_scraper] Fetched 500 items on page 5 for query=personal-development (next_cursor=6)
+2025-08-28 14:29:33,362 INFO [coursera_scraper] Fetched 500 items on page 6 for query=personal-development (next_cursor=7)
+2025-08-28 14:29:36,654 INFO [coursera_scraper] Fetched 500 items on page 7 for query=personal-development (next_cursor=8)
+2025-08-28 14:29:39,819 INFO [coursera_scraper] Fetched 500 items on page 8 for query=personal-development (next_cursor=9)
+2025-08-28 14:29:43,150 INFO [coursera_scraper] Fetched 500 items on page 9 for query=personal-development (next_cursor=10)
+2025-08-28 14:29:46,521 INFO [coursera_scraper] Fetched 500 items on page 10 for query=personal-development (next_cursor=11)
+2025-08-28 14:29:49,850 INFO [coursera_scraper] Fetched 500 items on page 11 for query=personal-development (next_cursor=12)
+2025-08-28 14:29:53,174 INFO [coursera_scraper] Fetched 500 items on page 12 for query=personal-development (next_cursor=13)
+2025-08-28 14:29:56,512 INFO [coursera_scraper] Fetched 500 items on page 13 for query=personal-development (next_cursor=14)
+2025-08-28 14:29:59,405 INFO [coursera_scraper] Fetched 390 items on page 14 for query=personal-development (next_cursor=None)
+2025-08-28 14:29:59,405 INFO [coursera_scraper] No further cursor returned; finished pagination for query=personal-development
+2025-08-28 14:29:59,406 INFO [coursera_scraper] Finished query 'personal-development' fetched 7390 records
+2025-08-28 14:29:59,406 INFO [coursera_scraper] Starting fetch for query: physical-science-and-engineering (domain_filter=False)
+2025-08-28 14:30:02,026 INFO [coursera_scraper] Fetched 500 items on page 0 for query=physical-science-and-engineering (next_cursor=1)
+2025-08-28 14:30:05,467 INFO [coursera_scraper] Fetched 500 items on page 1 for query=physical-science-and-engineering (next_cursor=2)
+2025-08-28 14:30:08,848 INFO [coursera_scraper] Fetched 500 items on page 2 for query=physical-science-and-engineering (next_cursor=3)
+2025-08-28 14:30:12,262 INFO [coursera_scraper] Fetched 500 items on page 3 for query=physical-science-and-engineering (next_cursor=4)
+2025-08-28 14:30:15,649 INFO [coursera_scraper] Fetched 500 items on page 4 for query=physical-science-and-engineering (next_cursor=5)
+2025-08-28 14:30:18,940 INFO [coursera_scraper] Fetched 500 items on page 5 for query=physical-science-and-engineering (next_cursor=6)
+2025-08-28 14:30:22,404 INFO [coursera_scraper] Fetched 500 items on page 6 for query=physical-science-and-engineering (next_cursor=7)
+2025-08-28 14:30:26,128 INFO [coursera_scraper] Fetched 500 items on page 7 for query=physical-science-and-engineering (next_cursor=8)
+2025-08-28 14:30:29,506 INFO [coursera_scraper] Fetched 500 items on page 8 for query=physical-science-and-engineering (next_cursor=9)
+2025-08-28 14:30:32,716 INFO [coursera_scraper] Fetched 500 items on page 9 for query=physical-science-and-engineering (next_cursor=10)
+2025-08-28 14:30:36,349 INFO [coursera_scraper] Fetched 500 items on page 10 for query=physical-science-and-engineering (next_cursor=11)
+2025-08-28 14:30:39,631 INFO [coursera_scraper] Fetched 500 items on page 11 for query=physical-science-and-engineering (next_cursor=12)
+2025-08-28 14:30:42,889 INFO [coursera_scraper] Fetched 500 items on page 12 for query=physical-science-and-engineering (next_cursor=13)
+2025-08-28 14:30:46,426 INFO [coursera_scraper] Fetched 500 items on page 13 for query=physical-science-and-engineering (next_cursor=14)
+2025-08-28 14:30:49,838 INFO [coursera_scraper] Fetched 500 items on page 14 for query=physical-science-and-engineering (next_cursor=15)
+2025-08-28 14:30:53,613 INFO [coursera_scraper] Fetched 500 items on page 15 for query=physical-science-and-engineering (next_cursor=16)
+2025-08-28 14:30:56,963 INFO [coursera_scraper] Fetched 500 items on page 16 for query=physical-science-and-engineering (next_cursor=17)
+2025-08-28 14:31:00,663 INFO [coursera_scraper] Fetched 500 items on page 17 for query=physical-science-and-engineering (next_cursor=18)
+2025-08-28 14:31:03,914 INFO [coursera_scraper] Fetched 500 items on page 18 for query=physical-science-and-engineering (next_cursor=19)
+2025-08-28 14:31:07,439 INFO [coursera_scraper] Fetched 500 items on page 19 for query=physical-science-and-engineering (next_cursor=None)
+2025-08-28 14:31:07,439 INFO [coursera_scraper] No further cursor returned; finished pagination for query=physical-science-and-engineering
+2025-08-28 14:31:07,440 INFO [coursera_scraper] Finished query 'physical-science-and-engineering' fetched 10000 records
+2025-08-28 14:31:07,440 INFO [coursera_scraper] Starting fetch for query: social-sciences (domain_filter=False)
+2025-08-28 14:31:10,014 INFO [coursera_scraper] Fetched 500 items on page 0 for query=social-sciences (next_cursor=1)
+2025-08-28 14:31:13,274 INFO [coursera_scraper] Fetched 500 items on page 1 for query=social-sciences (next_cursor=2)
+2025-08-28 14:31:16,465 INFO [coursera_scraper] Fetched 500 items on page 2 for query=social-sciences (next_cursor=3)
+2025-08-28 14:31:20,463 INFO [coursera_scraper] Fetched 500 items on page 3 for query=social-sciences (next_cursor=4)
+2025-08-28 14:31:23,804 INFO [coursera_scraper] Fetched 500 items on page 4 for query=social-sciences (next_cursor=5)
+2025-08-28 14:31:27,186 INFO [coursera_scraper] Fetched 500 items on page 5 for query=social-sciences (next_cursor=6)
+2025-08-28 14:31:30,528 INFO [coursera_scraper] Fetched 500 items on page 6 for query=social-sciences (next_cursor=7)
+2025-08-28 14:31:32,687 INFO [coursera_scraper] Fetched 105 items on page 7 for query=social-sciences (next_cursor=None)
+2025-08-28 14:31:32,688 INFO [coursera_scraper] No further cursor returned; finished pagination for query=social-sciences
+2025-08-28 14:31:32,688 INFO [coursera_scraper] Finished query 'social-sciences' fetched 3605 records
+2025-08-28 14:31:32,688 INFO [coursera_scraper] Starting fetch for query: language-learning (domain_filter=False)
+2025-08-28 14:31:34,994 INFO [coursera_scraper] Fetched 500 items on page 0 for query=language-learning (next_cursor=1)
+2025-08-28 14:31:38,379 INFO [coursera_scraper] Fetched 500 items on page 1 for query=language-learning (next_cursor=2)
+2025-08-28 14:31:41,714 INFO [coursera_scraper] Fetched 500 items on page 2 for query=language-learning (next_cursor=3)
+2025-08-28 14:31:45,049 INFO [coursera_scraper] Fetched 500 items on page 3 for query=language-learning (next_cursor=4)
+2025-08-28 14:31:48,360 INFO [coursera_scraper] Fetched 500 items on page 4 for query=language-learning (next_cursor=5)
+2025-08-28 14:31:51,728 INFO [coursera_scraper] Fetched 500 items on page 5 for query=language-learning (next_cursor=6)
+2025-08-28 14:31:55,260 INFO [coursera_scraper] Fetched 500 items on page 6 for query=language-learning (next_cursor=7)
+2025-08-28 14:31:58,592 INFO [coursera_scraper] Fetched 500 items on page 7 for query=language-learning (next_cursor=8)
+2025-08-28 14:32:01,771 INFO [coursera_scraper] Fetched 500 items on page 8 for query=language-learning (next_cursor=9)
+2025-08-28 14:32:05,108 INFO [coursera_scraper] Fetched 500 items on page 9 for query=language-learning (next_cursor=10)
+2025-08-28 14:32:08,344 INFO [coursera_scraper] Fetched 500 items on page 10 for query=language-learning (next_cursor=11)
+2025-08-28 14:32:11,549 INFO [coursera_scraper] Fetched 500 items on page 11 for query=language-learning (next_cursor=12)
+2025-08-28 14:32:14,859 INFO [coursera_scraper] Fetched 500 items on page 12 for query=language-learning (next_cursor=13)
+2025-08-28 14:32:18,598 INFO [coursera_scraper] Fetched 500 items on page 13 for query=language-learning (next_cursor=14)
+2025-08-28 14:32:21,388 INFO [coursera_scraper] Fetched 317 items on page 14 for query=language-learning (next_cursor=None)
+2025-08-28 14:32:21,388 INFO [coursera_scraper] No further cursor returned; finished pagination for query=language-learning
+2025-08-28 14:32:21,389 INFO [coursera_scraper] Finished query 'language-learning' fetched 7317 records
+2025-08-28 14:32:21,389 INFO [coursera_scraper] Total fetched across queries: 80632
