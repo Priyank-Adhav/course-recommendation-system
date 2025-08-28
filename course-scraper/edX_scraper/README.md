@@ -55,6 +55,6 @@ CREATE TABLE IF NOT EXISTS owners (
 ```
 
 ## Note
-+ Description is embedded within HTML tags (<p>, <span>).
++ Description is embedded within HTML tags (\<p>, \<span>).
 + Courses with languages other than English exist. May need filtering.
 + 4825 total courses
