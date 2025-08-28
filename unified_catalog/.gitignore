@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configs / secrets
+*.env
+config.json
+secrets.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Other temp files
+*.tmp
+*.swp
+*.db-shm
+*.db-wal
+
+

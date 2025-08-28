@@ -1,0 +1,86 @@
+2025-08-28 22:07:29,196 INFO [unified_catalog] ETL start — sources=['coursera', 'edx', 'nptel'] dry_run=True target=/home/priyank/Downloads/course-recommendation-system/unified_catalog/unified_courses.db
+2025-08-28 22:07:29,199 WARNING [unified_catalog] Source DB missing for coursera: /home/priyank/Downloads/course-recommendation-system/coursera_scraper/coursera.db — skipping.
+2025-08-28 22:07:29,199 WARNING [unified_catalog] Source DB missing for edx: /home/priyank/Downloads/course-recommendation-system/edX_scraper/courses.db — skipping.
+2025-08-28 22:07:29,199 WARNING [unified_catalog] Source DB missing for nptel: /home/priyank/Downloads/course-recommendation-system/NPTEL_scraper/courses.db — skipping.
+2025-08-28 22:07:29,200 INFO [unified_catalog] ETL finished.
+2025-08-28 22:09:08,593 INFO [unified_catalog] ETL start — sources=['coursera', 'edx', 'nptel'] dry_run=True target=/home/priyank/Downloads/course-recommendation-system/unified_catalog/unified_courses.db
+2025-08-28 22:09:08,594 WARNING [unified_catalog] Source DB missing for coursera: /home/priyank/Downloads/course-recommendation-system/course_scraper/coursera_scraper/coursera.db — skipping.
+2025-08-28 22:09:08,594 WARNING [unified_catalog] Source DB missing for edx: /home/priyank/Downloads/course-recommendation-system/course_scraper/edX_scraper/courses.db — skipping.
+2025-08-28 22:09:08,594 WARNING [unified_catalog] Source DB missing for nptel: /home/priyank/Downloads/course-recommendation-system/course_scraper/NPTEL_scraper/courses.db — skipping.
+2025-08-28 22:09:08,594 INFO [unified_catalog] ETL finished.
+2025-08-28 22:10:06,645 INFO [unified_catalog] ETL start — sources=['coursera', 'edx', 'nptel'] dry_run=True target=/home/priyank/Downloads/course-recommendation-system/unified_catalog/unified_courses.db
+2025-08-28 22:10:06,645 INFO [unified_catalog] Processing source=coursera DB=/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/coursera.db
+2025-08-28 22:10:06,844 INFO [unified_catalog] [DRY RUN] coursera produced 16854 normalized records. Preview:
+  1) {'source': 'coursera', 'source_course_id': 's12n~qmHY9vgZEeiDYhLHKCj5Bg', 'title': 'Introduction to Computer Science and Programming', 'description': 'Get ready for computer science\nOffered by University of London, and Goldsmiths, University of London', 'url': '/specializations/introduction-computer-science-programming', 'provider': 'University of London, Goldsmiths, University of London', 'instructors': [], 'subject': None, 'level': 'beginner', 'language': None, 'duration_weeks': None, 'tags': [], 'skills': ['Computer Science', 'Debugging', 'Development Environment', 'Computer Systems', 'Web Applications', 'Arithmetic', 'Javascript', 'Computer Networking', 'Computational Thinking', 'Theoretical Computer Science', 'Human Computer Interaction', 'Program Development', 'Hardware Architecture', 'Computer Graphics', 'Operating Systems', 'Cybersecurity', 'Computer Programming', 'General Mathematics', 'Systems Of Measurement', 'Problem Solving'], 'rating': 4.231430490261922, 'ratings_count': 1489, 'popularity': None, 'image_url': None, 'extra': {'product_type': 'SPECIALIZATION', 'fetched_at': '2025-08-28T09:01:44.141873'}}
+  2) {'source': 'coursera', 'source_course_id': 'course~r34F4xWsEei8pwq2_i5x8A', 'title': 'Computer Science: Programming with a Purpose', 'description': 'Offered by Princeton University', 'url': '/learn/cs-programming-java', 'provider': 'Princeton University', 'instructors': [], 'subject': None, 'level': 'beginner', 'language': None, 'duration_weeks': None, 'tags': [], 'skills': ['Programming Principles', 'Computer Programming', 'Object Oriented Programming (OOP)', 'Performance Tuning', 'Data Structures', 'Java Programming', 'Java', 'Program Development', 'Computational Thinking', 'Computer Science', 'Algorithms', 'Animations', 'Debugging'], 'rating': 4.719325153374233, 'ratings_count': 1304, 'popularity': None, 'image_url': None, 'extra': {'product_type': 'COURSE', 'fetched_at': '2025-08-28T09:01:43.873960'}}
+  3) {'source': 'coursera', 'source_course_id': 'course~ejOz7RDUEei99hK0xs-tsg', 'title': 'Python for Data Science, AI & Development', 'description': 'Offered by IBM', 'url': '/learn/python-for-applied-data-science-ai', 'provider': 'IBM', 'instructors': [], 'subject': None, 'level': 'beginner', 'language': None, 'duration_weeks': None, 'tags': [], 'skills': ['Jupyter', 'Python Programming', 'Data Structures', 'Web Scraping', 'Data Manipulation', 'Programming Principles', 'Pandas (Python Package)', 'Computer Programming', 'Object Oriented Programming (OOP)', 'Restful API', 'NumPy', 'Application Programming Interface (API)', 'Data Analysis', 'Data Import/Export', 'File Management'], 'rating': 4.607508936391828, 'ratings_count': 42243, 'popularity': None, 'image_url': None, 'extra': {'product_type': 'COURSE', 'fetched_at': '2025-08-28T09:01:37.941871'}}
+2025-08-28 22:10:06,844 INFO [unified_catalog] Processing source=edx DB=/home/priyank/Downloads/course-recommendation-system/course-scraper/edX_scraper/courses.db
+2025-08-28 22:10:06,898 INFO [unified_catalog] [DRY RUN] edx produced 4825 normalized records. Preview:
+  1) {'source': 'edx', 'source_course_id': '88391405-e329-495d-bf72-5de13bbf1846', 'title': "CS50's Introduction to Cybersecurity", 'description': '<p>An introduction to cybersecurity for technical and non-technical audiences alike.</p>', 'url': 'https://www.edx.org/learn/cybersecurity/harvard-university-cs50-s-introduction-to-cybersecurity', 'provider': 'Harvard University', 'instructors': ['david-j-malan'], 'subject': 'Computer Science', 'level': 'beginner', 'language': 'English', 'duration_weeks': 5, 'tags': [], 'skills': ['Cyber Security', 'Usability'], 'rating': None, 'ratings_count': None, 'popularity': None, 'image_url': 'https://prod-discovery.edx-cdn.org/media/course/image/88391405-e329-495d-bf72-5de13bbf1846-be5135562618.png', 'extra': {'availability': 'Available now'}}
+  2) {'source': 'edx', 'source_course_id': 'f11c9289-596e-4c46-a9cb-318052f259ae', 'title': 'AI for Everyone: Master the Basics', 'description': '<p>Learn what Artificial Intelligence (AI) is by understanding its applications and key concepts including machine learning, deep learning and neural networks.</p>', 'url': 'https://www.edx.org/learn/artificial-intelligence/ibm-ai-for-everyone-master-the-basics', 'provider': 'IBM', 'instructors': ['rav-ahuja'], 'subject': 'Computer Science', 'level': 'beginner', 'language': 'English', 'duration_weeks': 4, 'tags': [], 'skills': ['Machine Learning', 'Deep Learning', 'Artificial Neural Networks', 'Artificial Intelligence', 'Computer Science'], 'rating': None, 'ratings_count': None, 'popularity': None, 'image_url': 'https://prod-discovery.edx-cdn.org/media/course/image/f11c9289-596e-4c46-a9cb-318052f259ae-0b7656599f64.jpeg', 'extra': {'availability': 'Available now'}}
+  3) {'source': 'edx', 'source_course_id': '4d67e5fe-1f51-4f7c-a523-d545cc87fc78', 'title': 'Remote Work Revolution for Everyone', 'description': '<p>In Remote Work Revolution for Everyone, you will learn to excel in the virtual-work landscape. You will learn how to build trust, increase productivity, use digital tools intelligently, and remain fully aligned with your remote team.</p>', 'url': 'https://www.edx.org/learn/remote-work/harvard-university-remote-work-revolution-for-everyone', 'provider': 'Harvard University', 'instructors': ['tsedal-neeley'], 'subject': 'Business & Management', 'level': 'beginner', 'language': 'English', 'duration_weeks': 3, 'tags': [], 'skills': ['Telecommuting', 'Customer Relationship Building'], 'rating': None, 'ratings_count': None, 'popularity': None, 'image_url': 'https://prod-discovery.edx-cdn.org/media/course/image/4d67e5fe-1f51-4f7c-a523-d545cc87fc78-4e11a9fc0776.jpeg', 'extra': {'availability': 'Available now'}}
+2025-08-28 22:10:06,898 INFO [unified_catalog] Processing source=nptel DB=/home/priyank/Downloads/course-recommendation-system/course-scraper/NPTEL_scraper/courses.db
+2025-08-28 22:10:07,605 INFO [unified_catalog] [DRY RUN] nptel produced 3227 normalized records. Preview:
+  1) {'source': 'nptel', 'source_course_id': '101101001', 'title': 'Introduction to Aerospace Propulsion', 'description': None, 'url': 'https://nptel.ac.in/courses/101101001', 'provider': 'IIT Bombay', 'instructors': ['Prof. A M Pradeep', 'Prof. Bhaskar Roy'], 'subject': '101', 'level': None, 'language': None, 'duration_weeks': None, 'tags': [], 'skills': [], 'rating': None, 'ratings_count': None, 'popularity': None, 'image_url': None, 'extra': {'content_type': 'Video', 'current_run': 0, 'self_paced': 0, 'last_updated': '2025-08-27T12:54:33.472659'}}
+  2) {'source': 'nptel', 'source_course_id': '101101002', 'title': 'Jet Aircraft Propulsion', 'description': None, 'url': 'https://nptel.ac.in/courses/101101002', 'provider': 'IIT Bombay', 'instructors': ['Prof. A M Pradeep', 'Prof. Bhaskar Roy'], 'subject': '101', 'level': None, 'language': None, 'duration_weeks': None, 'tags': [], 'skills': [], 'rating': None, 'ratings_count': None, 'popularity': None, 'image_url': None, 'extra': {'content_type': 'Video', 'current_run': 0, 'self_paced': 0, 'last_updated': '2025-08-27T12:43:04.118040'}}
+  3) {'source': 'nptel', 'source_course_id': '101101058', 'title': 'Turbomachinery Aerodynamics', 'description': None, 'url': 'https://nptel.ac.in/courses/101101058', 'provider': 'IIT Bombay', 'instructors': ['Prof. A M Pradeep', 'Prof. Bhaskar Roy'], 'subject': '101', 'level': None, 'language': None, 'duration_weeks': None, 'tags': [], 'skills': [], 'rating': None, 'ratings_count': None, 'popularity': None, 'image_url': None, 'extra': {'content_type': 'Video', 'current_run': 0, 'self_paced': 0, 'last_updated': '2025-08-27T12:43:06.421718'}}
+2025-08-28 22:10:07,605 INFO [unified_catalog] ETL finished.
+2025-08-28 22:11:31,615 INFO [unified_catalog] ETL start — sources=['coursera', 'edx', 'nptel'] dry_run=False target=/home/priyank/Downloads/course-recommendation-system/unified_catalog/unified_courses.db
+2025-08-28 22:11:31,615 INFO [unified_catalog] Processing source=coursera DB=/home/priyank/Downloads/course-recommendation-system/course-scraper/coursera_scraper/coursera.db
+2025-08-28 22:11:31,708 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:31,736 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:31,769 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:31,806 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:31,835 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:31,864 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:31,899 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:31,929 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:31,958 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:31,995 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,025 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,060 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,090 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,130 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,163 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,205 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,235 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,274 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,307 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,347 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,381 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,423 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,456 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,500 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,536 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,578 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,611 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,653 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,687 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,730 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,764 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,807 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,849 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,878 INFO [unified_catalog] Upserted 354 records
+2025-08-28 22:11:32,878 INFO [unified_catalog] Source coursera: inserted/updated 16854 records
+2025-08-28 22:11:32,878 INFO [unified_catalog] Processing source=edx DB=/home/priyank/Downloads/course-recommendation-system/course-scraper/edX_scraper/courses.db
+2025-08-28 22:11:32,961 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:32,989 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:33,022 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:33,049 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:33,081 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:33,109 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:33,144 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:33,172 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:33,207 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:33,231 INFO [unified_catalog] Upserted 325 records
+2025-08-28 22:11:33,231 INFO [unified_catalog] Source edx: inserted/updated 4825 records
+2025-08-28 22:11:33,232 INFO [unified_catalog] Processing source=nptel DB=/home/priyank/Downloads/course-recommendation-system/course-scraper/NPTEL_scraper/courses.db
+2025-08-28 22:11:34,319 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:34,360 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:34,404 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:34,451 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:34,492 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:34,526 INFO [unified_catalog] Upserted 500 records
+2025-08-28 22:11:34,562 INFO [unified_catalog] Upserted 227 records
+2025-08-28 22:11:34,562 INFO [unified_catalog] Source nptel: inserted/updated 3227 records
+2025-08-28 22:11:34,564 INFO [unified_catalog] ETL finished.
