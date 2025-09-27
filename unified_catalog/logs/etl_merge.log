@@ -84,3 +84,5 @@
 2025-08-28 22:11:34,562 INFO [unified_catalog] Upserted 227 records
 2025-08-28 22:11:34,562 INFO [unified_catalog] Source nptel: inserted/updated 3227 records
 2025-08-28 22:11:34,564 INFO [unified_catalog] ETL finished.
+2025-09-27 17:06:52,920 INFO [unified_catalog] Created course_features table with 23697 rows.
+2025-09-27 17:11:39,957 INFO [unified_catalog] Created course_features table with 23697 rows.

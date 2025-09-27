@@ -1,7 +1,7 @@
 import logging
 import sys
 from pathlib import Path
-from .config import LOG_FILE
+from config import LOG_FILE
 
 def setup_logger(name: str = "unified_catalog"):
     logger = logging.getLogger(name)
