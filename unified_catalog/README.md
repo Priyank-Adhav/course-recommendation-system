@@ -34,9 +34,6 @@ unified_catalog/
 ```bash
 python -m pip install -r unified_catalog/requirements.txt
 ```
-
-`requirements.txt` contains test packages (e.g. pytest) and any optional helpers. The ETL itself mostly uses the standard library.
-
 ---
 
 ## Basic usage
@@ -98,16 +95,9 @@ Loader ensures schema and uses UPSERT semantics so the ETL is idempotent.
 
 ## Notes & tips
 
-- If you want to run `python -m unified_catalog.etl` add an `__init__.py` into `unified_catalog/`.
 - The ETL is designed to be safe to re-run and will overwrite fields by upsert rules rather than duplicating.
 - `loader.bulk_upsert()` uses batches and transactions — tune `batch_size` in `config.py` for your hardware.
 - Logs are written to `unified_catalog/logs/etl_merge.log`.
-
----
-
-## Git / DB files
-
-The repo `.gitignore` purposely excludes SQLite WAL/SHM (`*.db-wal`, `*.db-shm`). If you want to commit the single `unified_courses.db`, keep the `.db` file tracked but leave WAL/SHM ignored. Warning: large DBs may bloat your Git history — consider using a release artifact or Git LFS.
 
 ---
 
