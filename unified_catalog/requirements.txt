@@ -1,0 +1,12 @@
+# Core
+sqlite-utils
+python-dotenv
+
+# Logging
+loguru
+
+# Data processing
+nltk
+
+# Testing
+pytest
