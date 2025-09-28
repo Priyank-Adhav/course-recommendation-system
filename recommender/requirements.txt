@@ -1,0 +1,6 @@
+faiss-cpu
+sentence-transformers
+numpy
+sqlite3-binary ; sys_platform == 'win32'  
+fastapi
+uvicorn
