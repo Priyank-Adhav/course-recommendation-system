@@ -1,31 +1,36 @@
 # Python cache
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
 
 # Virtual environments
 .venv/
 venv/
 env/
 
-# Local configs / secrets
+# Environment files
+.env
 *.env
-config.json
-secrets.json
 
-# Jupyter
-.ipynb_checkpoints/
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
 
-# OS-specific
+# Logs
+logs/
+*.log
+
+# OS / Editor
 .DS_Store
 Thumbs.db
-
-# VS Code
 .vscode/
-
-# Other temp files
-*.tmp
+.idea/
 *.swp
+*.swo
+
+# SQLite WAL files (keep decision about .db at repo level)
 *.db-shm
 *.db-wal
 

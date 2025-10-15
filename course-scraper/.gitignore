@@ -23,9 +23,13 @@ Thumbs.db
 # VS Code
 .vscode/
 
-# Other temp files
+# Temp files
 *.tmp
 *.swp
+
+# SQLite WAL files
+*.db-shm
+*.db-wal
 
 # Other files
 coursera_courses2.json
