@@ -8,6 +8,8 @@ import ResultsPage from "@/pages/ResultsPage"
 import UserResults from "@/pages/UserResults"
 import Login from "@/pages/Login"
 import Register from "@/pages/Register"
+import Recommendations from "@/pages/Recommendations"
+import RecommendationIntro from "@/pages/RecommendationIntro"
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
             <Route path="/my-results" element={<UserResults />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route path="/recommendations" element={<Recommendations />} />
+            <Route path="/recommendations/intro" element={<RecommendationIntro />} />
           </Routes>
         </main>
         <Footer />
