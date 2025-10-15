@@ -8,6 +8,7 @@ const links = [
   { to: "/", label: "Home" },
   { to: "/quizzes", label: "Quizzes" },
   { to: "/my-results", label: "My Results" },
+  { to: "/recommendations", label: "Recommendations" },
 ]
 
 export default function Navigation() {
