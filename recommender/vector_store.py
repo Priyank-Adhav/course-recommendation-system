@@ -68,7 +68,7 @@ class OptimizedVectorStore:
 
 
 def build_optimized_index():
-    print(f"🔹 Building optimized index with model: {EMBEDDING_MODEL}")
+    print(f"Building optimized index with model: {EMBEDDING_MODEL}")
     
     model = SentenceTransformer(EMBEDDING_MODEL)
     dim = model.get_sentence_embedding_dimension()
