@@ -4,6 +4,7 @@ from flask_cors import CORS
 from routes.quiz_service import quiz_service
 from routes.user_service import user_service
 from routes.auth_service import auth_service
+from routes.recommendation_service import recommendation_service
 import database
 
 def create_app():
@@ -19,6 +20,7 @@ def create_app():
     app.register_blueprint(quiz_service)
     app.register_blueprint(user_service)
     app.register_blueprint(auth_service, url_prefix="/auth") 
+    app.register_blueprint(recommendation_service, url_prefix="/api")
     
     return app
 
