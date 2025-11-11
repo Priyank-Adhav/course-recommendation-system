@@ -25,17 +25,24 @@ def recommend(query: str, top_k: int = 10):
         cid = str(course_ids[idx])
         if cid in course_cache:
             c = course_cache[cid]
+            url = c["url"] or ""
+
+            # Temporary Coursera URL patch
+            if url.startswith("/"):
+                url = f"https://www.coursera.org{url}"
+
             results.append({
                 "course_id": cid,
                 "title": c["title"],
-                "url": c["url"],
+                "url": url,
                 "provider": c["provider"],
                 "level": c["level"],
                 "score": float(score)
             })
-    
+
     print(f"Query '{query}' done in {time.time() - start_time:.3f}s")
     return results
+
 
 
 if __name__ == "__main__":
