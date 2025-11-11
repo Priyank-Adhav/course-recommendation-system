@@ -102,7 +102,6 @@ def get_questions(quiz_id):
     questions = models.get_questions_for_quiz(quiz_id)
     return jsonify([dict(q) for q in questions])
 
-
 # ---------------- SUBMIT ANSWERS ----------------
 @quiz_service.route("/submit", methods=["POST"])
 def submit_answers():
@@ -132,13 +131,16 @@ def submit_answers():
         except (ValueError, TypeError):
             pass
 
+    # Calculate percentage score
+    score_percent = (score / total * 100) if total > 0 else 0
+
     result_id = models.save_result(
         user_id=user_id,
         quiz_id=quiz_id,
         total_questions=total,
         correct_questions=score,
-        time_taken=data.get("time_taken", 0),
-        score=score
+        time_taken=data.get("time_taken", 0),  # ✅ Fixed field name
+        score=score_percent  # ✅ Now passing percentage
     )
 
     for qid, user_ans in answers.items():
