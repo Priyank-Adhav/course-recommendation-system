@@ -39,8 +39,7 @@ export default function Navigation() {
     <header className="sticky top-0 z-50 border-b bg-background/70 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4">
         <NavLink to="/" className="group inline-flex items-center gap-2 text-lg font-semibold">
-          <span className="bg-gradient-to-r from-cyan-500 to-blue-600 bg-clip-text text-transparent">QuizMaster</span>
-          <span className="h-2 w-2 rounded-full bg-cyan-500 transition-transform group-hover:scale-125" />
+          <span className="bg-gradient-to-r from-cyan-500 to-blue-600 bg-clip-text text-transparent">Quiz Master</span>
         </NavLink>
 
         <div className="hidden items-center gap-5 md:flex">

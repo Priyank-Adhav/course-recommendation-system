@@ -90,8 +90,8 @@ export default function HomePage() {
           <CardContent><Link to="/quizzes"><Button className="group">Start a quiz <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-0.5" /></Button></Link></CardContent>
         </Card>
       </section>
-
-      {/* Highlights */}
+{/* 
+      
       <section className="mt-10">
         <div className="mb-4">
           <h2 className="text-xl font-semibold">Why you’ll love it</h2>
@@ -113,7 +113,7 @@ export default function HomePage() {
             </Card>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* How it works */}
       <section className="mt-10">
